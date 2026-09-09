@@ -88,7 +88,8 @@ That directory is **not** committed: it is the owner's installation, copied.
 | figure | value | command | note | chapter |
 |---|---:|---|---|---|
 | binaries | 9, PE32 9, NE 0 | `python tools/pecensus.py rpgmaker2003-steam --by-magic` | `pecensus.txt` | [08](08-the-programs.md) |
-| NE refusal | `no NE signature at e_lfanew=256 (found b'PE')` | `python tools/ne.py rpgmaker2003-steam` | `ne.txt` | [08](08-the-programs.md) |
+| NE refusal, per file | `no NE signature at e_lfanew=256 (found b'PE')` | `python tools/ne.py rpgmaker2003-steam/rpg2003.exe` | `ne.txt` | [08](08-the-programs.md) |
+| the same tool on the tree | an uncaught `PermissionError`, **not** a refusal | `python tools/ne.py rpgmaker2003-steam` | `ne.txt` | [13](13-the-tools.md) |
 | version resources | 6 of 9, editor and runtime both **1.1.2.1** | `python tools/verres.py dump rpgmaker2003-steam` | `verres.txt` | [08](08-the-programs.md) |
 | false COFF stamps | **7 of 9 files, 5 of 7 distinct binaries** | `python tools/stampcheck.py rpgmaker2003-steam --expect-false 7` | `stampcheck.txt` | [11](11-the-clocks.md) |
 | what `pecensus.py` says | `impossible mtimes : 0 of 9` | `python tools/pecensus.py rpgmaker2003-steam --by-magic` | `pecensus.txt` | [11](11-the-clocks.md) |

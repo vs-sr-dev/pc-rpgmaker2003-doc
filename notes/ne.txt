@@ -1,13 +1,44 @@
-# NOTE: this capture contained absolute paths of the machine the work
-# was done on, inside a Python traceback. They have been replaced by
-# <repository>/ per rule 7. Nothing else is changed.
-Traceback (most recent call last):
-  File "<repository>/tools\ne.py", line 474, in <module>
-    sys.exit(main() or 0)
-             ~~~~^^
-  File "<repository>/tools\ne.py", line 413, in main
-    ne = NE(args.file)
-  File "<repository>/tools\ne.py", line 78, in __init__
-    self.data = open(path, "rb").read()
-                ~~~~^^^^^^^^^^^^
-PermissionError: [Errno 13] Permission denied: 'rpgmaker2003-steam'
+=== ne.py, both invocations, because the difference IS the finding
+
+The pre-briefing reported `ne.py refuses cleanly and says why:
+no NE signature at e_lfanew=256 (found b'PE')`. That is true when
+the tool is handed a FILE. It was not true of the invocation this
+session first ran, which handed it the tree, and the note that was
+published under this name held only the traceback. See docs/14,
+correction 27.
+
+--- pointed at a FILE, which is what it wants: a clean refusal that
+--- names both the offset and the signature it found instead
+$ python tools/ne.py rpgmaker2003-steam/rpg2003.exe
+  rpgmaker2003-steam/rpg2003.exe: no NE signature at e_lfanew=256 (found b'PE')
+  exit=1
+$ python tools/ne.py rpgmaker2003-steam/rpg_rt.exe.dat
+  rpgmaker2003-steam/rpg_rt.exe.dat: no NE signature at e_lfanew=256 (found b'PE')
+  exit=1
+$ python tools/ne.py rpgmaker2003-steam/setup.exe.dat
+  rpgmaker2003-steam/setup.exe.dat: no NE signature at e_lfanew=256 (found b'PE')
+  exit=1
+$ python tools/ne.py rpgmaker2003-steam/ultimate_eb.dll
+  rpgmaker2003-steam/ultimate_eb.dll: no NE signature at e_lfanew=128 (found b'PE')
+  exit=1
+$ python tools/ne.py rpgmaker2003-steam/UNLHA32.DLL
+  rpgmaker2003-steam/UNLHA32.DLL: no NE signature at e_lfanew=128 (found b'PE')
+  exit=1
+
+--- pointed at the TREE: an uncaught PermissionError, which is not a
+--- refusal. A reader that is handed a directory should say so.
+$ python tools/ne.py rpgmaker2003-steam
+  Traceback (most recent call last):
+    File "<repository>/tools\ne.py", line 474, in <module>
+      sys.exit(main() or 0)
+               ~~~~^^
+    File "<repository>/tools\ne.py", line 413, in main
+      ne = NE(args.file)
+    File "<repository>/tools\ne.py", line 78, in __init__
+      self.data = open(path, "rb").read()
+                  ~~~~^^^^^^^^^^^^
+  PermissionError: [Errno 13] Permission denied: 'rpgmaker2003-steam'
+  exit=1
+
+NE binaries in this object : 0 of 9. That conclusion is unchanged;
+what changed is which command establishes it.

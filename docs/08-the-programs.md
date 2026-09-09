@@ -30,9 +30,20 @@ binaries examined : 9     by format : PE32 9     NE : 0
 | `Sample\…\ultimate_rt_eb.dll` | 124,928 | 2.24 | 1970-01-01 18:12:16 | `MZ 90` |
 | `BaseFlushAppcompatCache.exe` | 47,790 | 6.00 | 2009-12-05 22:50:52 | `MZ 90` |
 
-All nine found **by magic**, including the three named `.dat`. `ne.py` refuses
-cleanly and says why: `no NE signature at e_lfanew=256 (found b'PE')`. Seven of
-the nine stamps are false and that is [11](11-the-clocks.md).
+All nine found **by magic**, including the three named `.dat`. **There are no
+NE binaries**, and `ne.py` establishes it one file at a time:
+
+```
+python tools/ne.py rpgmaker2003-steam/rpg2003.exe
+   no NE signature at e_lfanew=256 (found b'PE')      exit 1
+python tools/ne.py rpgmaker2003-steam/ultimate_eb.dll
+   no NE signature at e_lfanew=128 (found b'PE')      exit 1
+```
+
+**Handed the tree instead of a file it does not refuse, it crashes** — an
+uncaught `PermissionError` — and the first version of this repository quoted
+the clean message beside a note that held the traceback ([14](14-corrections.md)).
+Seven of the nine stamps are false and that is [11](11-the-clocks.md).
 
 **`mzcensus.py`, tenth appearance, finds three of nine** and misses 2,425,856
 bytes, because it filters on the `.EXE` extension. **`pecensus.py` truncates a

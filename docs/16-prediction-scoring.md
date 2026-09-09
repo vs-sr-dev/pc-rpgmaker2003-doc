@@ -8,7 +8,7 @@ verdicts, counted out of the tables on this page rather than added up by hand.*
 ```
 63 clauses     inherited 31     open 32 (method 5, content 27)
 
-inherited      31 clauses   predicted 28.61   obtained 29.50   delta  -0.89
+inherited      31 clauses   predicted 28.61   obtained 29.00   delta  -0.39
 open           32 clauses   predicted 23.31   obtained 30.00   delta  -6.69
   open method   5 clauses   predicted  4.45   obtained  5.00   delta  -0.55
   open content 27 clauses   predicted 18.86   obtained 25.00   delta  -6.14
@@ -21,8 +21,8 @@ and the three P11 bands:
 hit = 1, half = 0.5, miss = 0. The two totals are never added together.
 
 the verdicts, for `checkscore.py` to check the tables against:
-  hit           56
-  half           7
+  hit           55
+  half           8
   miss           0
   unresolved     0
 ```
@@ -36,7 +36,7 @@ and +7.50. **It is the largest negative term in five sessions.**
 
 ---
 
-## Inherited — 28 hits, 3 halves, 0 misses
+## Inherited — 27 hits, 4 halves, 0 misses
 
 | | verdict | note |
 |---|---|---|
@@ -47,7 +47,7 @@ and +7.50. **It is the largest negative term in five sessions.**
 | C05 | **hit** | seventeen rows, all figures exact, three of four `.dat` are PE32 |
 | C06 | **hit** | 729 / 26,479,895; 3 / 7,030,927; 0; 5 / 67,623; residue 0; all five opaque files named with their sizes |
 | C07 | **hit** | 432 of 1,041, seventeen rows, `.CHM` 7.9980, `.R3PROJ` 3.6250, `.EXE` 5.8084 with zero blocks above 7.5 |
-| C08 | **hit** | 9 / PE32 9 / NE 0, all by magic, every linker version and byte count, and `ne.py`'s message verbatim |
+| C08 | **half** | 9 / PE32 9 / NE 0 by magic and every linker version and byte count are exact — but `ne.py`'s message is what it prints when handed a **file**, and the clause and the note it cites both used the **tree**, where it raises an uncaught `PermissionError`. Found after publication ([14](14-corrections.md), correction 27) |
 | C09 | **half** | `impossible mtimes : 0 of 9` is exact and both powers of two are exact — but the clause said **five** of nine stamps are false and it is **seven files, five distinct binaries**. The clause inherited the pre-briefing's conflated denominator and repeated it ([14](14-corrections.md)) |
 | C10 | **hit** | `mple/ArcheiaPictureTutorial/ultimate_rt_eb.dll`, truncated from the left, first appearance |
 | C11 | **hit** | 6 of 9, editor and runtime both 1.1.2.1, `Degica` in exactly two `FileDescription` fields, `LegalCopyright` empty on every Kadokawa binary, `UNLHA32.DLL` exact |
@@ -72,13 +72,19 @@ and +7.50. **It is the largest negative term in five sessions.**
 | C30 | **hit** | 1,545 bytes, both registry shapes, `.r3project`, the DEP shim in both hives, `kvsignatures` at 256 hexadecimal digits |
 | C31 | **hit** | 34 terms, −18.7200, −0.5506, 22 negative, 1 zero, last ten −38.3300 at −3.8330, tail run 3, rank 7 of 34, and **all eight of the brief's claims checked and none wrong** |
 
-**The three halves have one shape.** Every one of them is a clause that
-inherited a figure from the pre-briefing and asserted it as its own. C09 took
-"five of nine", C19 took "50 + 3 + 38", C20 took "seventeen and no others".
-**In each case the surrounding measurement was exact and the inherited number
-was not.** The lesson is not "re-measure the inherited clauses" — that is what
-they are for — it is that an inherited clause should test *the figure* rather
-than *restate* it, and three of the thirty-one restated.
+**All four halves have one shape.** Every one is a clause that inherited something
+from the pre-briefing and asserted it as its own. C09 took "five of nine", C19
+took "50 + 3 + 38", C20 took "seventeen and no others", and **C08 took a
+message without taking the invocation that produces it**. In each case the
+surrounding measurement was exact and the borrowed part was not.
+
+**C08 is the sharpest of the four and it was found after publication**, while
+pointing the same box at the next object: `ne.py` prints its clean refusal for a
+file and crashes on a directory, and this repository published the message beside
+a note holding the traceback. The lesson is not "re-measure the inherited
+clauses" — that is what they are for — it is that an inherited clause should
+test *the figure and the command* rather than *restate* them, and four of the
+thirty-one restated.
 
 ---
 

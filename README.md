@@ -39,7 +39,7 @@ another repository's chapter.
 | the project | somebody's unfinished tutorial, **signed in the editor's own About box**, whose fifteen empty directories are the visible trace of references that resolved elsewhere |
 | the clocks | **seven false COFF stamps of nine** where the tool reports none, and a September question whose answer is neither of the two dates offered |
 | the personal data | one man's manual giving two addresses three years apart, a MAC address redacted by program, and **a leak two repositories had noticed and none had fixed — repaired here, in the neighbour, with a check that fails on the commit it replaces** |
-| the calibration | inherited **29.50 of 31** against 28.61 predicted; open **30.00 of 32** against 23.31, a term of **−6.69** — the largest negative in five sessions, and **produced on purpose by the prescription in force** |
+| the calibration | inherited **29.00 of 31** against 28.61 predicted; open **30.00 of 32** against 23.31, a term of **−6.69** — the largest negative in five sessions, and **produced on purpose by the prescription in force** |
 
 **The headline is a geometry that nothing states.** Three map files carry no
 width and no height. Their two layer chunks are 600 bytes each; read as

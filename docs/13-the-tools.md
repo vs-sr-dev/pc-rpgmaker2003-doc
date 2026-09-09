@@ -219,6 +219,7 @@ exit 0
 | `coverage.py` | three magics missing, and closes anyway | **first**, fixed |
 | `buildroot.py` | **`--root` and `--file` default to another object's paths** | **first** |
 | `pdbpaths.py` | looks only for CodeView RSDS records | first here |
+| `ne.py` | **crashes on a directory instead of refusing** | **first**, found after publication |
 | `sift.py` | eight-bit only — correct again here, and `utf16sift.py` reporting 0 is what says so | quiet |
 
 **`pecensus.py`'s truncation is worth its own line** because the fix is not
