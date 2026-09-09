@@ -234,6 +234,13 @@ So P13's falsification fires twice over:
   survivable when the content has no backslashes in it. Four sessions blamed the
   syntax when the variable was the payload.
 
+**And there is a third, worse thing.** P13's wording was *`Write` to a scratch
+file as the only route*, and this session also passed program text to
+`python -c` on a command line repeatedly — the same category, not named by the
+rule, and **not counted at the time**. The five heredocs have a number only
+because this chapter went back and counted them. **A rule you have to remember
+produces violations you do not notice**, which is the whole of P16 below.
+
 **What actually caught things in this session was not a rule.** It was
 `predcount.py` refusing a stale header, `pathcheck.py` firing on three real
 violations, `crossnames.py` disagreeing with a hand-sorted split, `lcfdiff.py`'s

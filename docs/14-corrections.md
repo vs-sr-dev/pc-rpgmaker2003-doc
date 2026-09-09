@@ -166,9 +166,19 @@ reflex, none of them caught by a rule that was written down and read out:
 
 **None ate a backslash and none produced a wrong number**, which is exactly what
 makes them worth recording: the failure mode P13 was written against did not
-occur, and the rule was broken five times regardless. What that means for P13 is
-[16](16-prediction-scoring.md)'s problem, and the honest summary is that
-declaring a habit impossible does not make it impossible.
+occur, and the rule was broken five times regardless.
+
+**And the count above is the flattering one.** P13's actual wording was *`Write`
+to a scratch file as the only route*, and this session also passed program text
+to `python -c` on a shell command line many times over — for a decimal check, a
+chunk inspection, a percentage, a substitution. That is the same category:
+content through a shell. **No count was kept of those at the time**, and that
+absence is not a rhetorical flourish — it is the finding. A rule you have to
+remember produces violations you do not notice, and the only reason the five
+heredocs have a number is that somebody went back and counted them after the
+fact. What that means for P13 is [16](16-prediction-scoring.md)'s problem, and
+the honest summary is that declaring a habit impossible does not make it
+impossible.
 
 ### 17. `toolsdiff.py` refused `--selftest` on argument parsing
 
