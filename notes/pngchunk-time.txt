@@ -1,0 +1,11 @@
+file          : Sample/ArcheiaPictureTutorial/Picture/INPUTDISPLAY.png
+chunk         : tIME at byte offset 33, length 7
+CRC declared  : c58ea27c
+CRC computed  : c58ea27c   VERIFIES
+registered in the PNG specification : yes
+decoded       : 2017-09-13 18:22:56 UTC
+
+files walked : 355
+chunks seen  : 1848
+CRC failures : 0
+occurrences of tIME : 1

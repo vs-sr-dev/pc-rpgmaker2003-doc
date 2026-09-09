@@ -1,0 +1,13 @@
+tracked files            : 657
+text files checked       : 629
+needles                  : Homebrew7, SteamLibrary, Users\utente, AppData
+hits excused as artefacts: 2
+VIOLATIONS               : 0
+
+-- POSITIVE CONTROL, which must fire ---------------------------
+   planted line : see D:\Homebrew7\pc-rpgmaker2003-doc\notes\x.txt for more
+   the check fires on it : True
+
+-- NEGATIVE CONTROL, which must stay quiet ---------------------
+   line : the build root D:\ha\02rpg2000\2003\ is a third party's
+   unexcused hits : 0

@@ -1,0 +1,8 @@
+mine   : tools
+theirs : ../pc-rpgmaker2000-doc/tools
+ignored on both sides : predbands.py, toolsdiff.py
+
+mine   : 528 .py     theirs : 528 .py
+only mine   : none
+only theirs : none
+common      : 528    differing   : 0

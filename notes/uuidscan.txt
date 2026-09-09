@@ -1,0 +1,33 @@
+version-1 UUIDs : 19 in 10 file(s)
+
+  file                                             at  the clock it carries (UTC)     machine
+  Sample/ArcheiaPi...l/Picture/RTPHERO_1.png     1293  2017-09-13 18:35:07.128936     M5c84
+  Sample/ArcheiaPi...l/Picture/RTPHERO_2.png     1293  2017-09-13 18:36:06.621970     M5c84
+  Sample/ArcheiaPi...l/Picture/RTPHERO_3.png     1293  2017-09-13 18:36:40.635060     M5c84
+  Sample/ArcheiaPi...l/Picture/RTPHERO_4.png     1293  2017-09-13 18:37:18.536536     M5c84
+  Sample/ArcheiaPi...l/Picture/RTPHERO_6.png     1188  (not a plausible date)         M2956
+  Sample/ArcheiaPi...l/Picture/RTPHERO_6.png     1293  2017-09-13 18:39:30.993840     M5c84
+  Sample/ArcheiaPi...l/Picture/RTPHERO_6.png     2042  (not a plausible date)         M2956
+  Sample/ArcheiaPi...l/Picture/RTPHERO_7.png     1293  2017-09-13 18:40:06.428658     M5c84
+  Sample/ArcheiaPi...l/Picture/RTPHERO_7.png     1392  (not a plausible date)         M85eb
+  Sample/ArcheiaPi...l/Picture/RTPHERO_7.png     1651  (not a plausible date)         M85eb
+  Sample/ArcheiaPi...l/Picture/RTPHERO_8.png     1293  2017-09-13 18:40:53.609472     M5c84
+  Sample/ArcheiaPi...l/Picture/RTPHERO_9.png     1290  2017-09-13 18:41:15.713974     M5c84
+  Sample/ArcheiaPi...ONUS]_POLAROID_BASE.psd     1248  2017-09-13 18:35:07.128936     M5c84
+  Sample/ArcheiaPi...ONUS]_POLAROID_BASE.psd     1469  (not a plausible date)         M3324
+  Sample/ArcheiaPi...ONUS]_POLAROID_BASE.psd     1574  2017-09-28 03:26:58.580334     Mf019
+  Sample/ArcheiaPi...ONUS]_POLAROID_BASE.psd     4129  (not a plausible date)         M3324
+  Sample/ArcheiaPi...ONUS]_POLAROID_BASE.psd     4671  2017-09-13 18:35:07.128936     M5c84
+  rpg2003.chm                                   11939  1997-03-15 12:41:51.615828     Mbbaa
+  rpg2003.chm                                   12038  1997-03-15 12:41:51.615828     Mbbaa
+
+  distinct node fields : 6
+  (the node field is the position RFC 4122 fills with the
+   generating machine's MAC address. It is NOT printed. The
+   label M#### above is a hash of it, so that two identifiers
+   from one machine can be seen to be from one machine without
+   the machine being named.)
+
+  carrying a plausible date : 13 of 19
+  earliest : 1997-03-15 12:41:51.615828 UTC
+  latest   : 2017-09-28 03:26:58.580334 UTC

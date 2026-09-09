@@ -1,0 +1,26 @@
+=== the 3 MZ executables ===
+file                    size  cblp   cp     img  slack  crlc   hdr  cs:ip  ss:sp  int3f
+BaseFlushAppcompatCache.exe   47790   144    3    1168  46622     0    64  0000:0000 0000:00b8      0
+Sample/ArcheiaPictureTutorial/RPG_RT.exe 1032704    80    2     592 1032112     0    64  0000:0000 0000:00b8      3
+rpg2003.exe          4387328    80    2     592 4386736     0    64  0000:0000 0000:00b8      9
+total .EXE bytes: 5467822
+
+=== e_cblp against the file length modulo 512 ===
+If these agree, the third byte of the file is arithmetic,
+not a signature, and there is no MZP marker in this folder.
+  BaseFlushAppcompatCache.exe e_cblp= 144  size mod 512= 174  DIFFER  byte2=0x90 
+  Sample/ArcheiaPictureTutorial/RPG_RT.exe e_cblp=  80  size mod 512=   0  DIFFER  byte2=0x50 ('P')
+  rpg2003.exe          e_cblp=  80  size mod 512=   0  DIFFER  byte2=0x50 ('P')
+  0 of 3 agree
+
+=== toolchain banners ===
+  BaseFlushAppcompatCache.exe none
+  Sample/ArcheiaPictureTutorial/RPG_RT.exe Borland runtime error table @0xC9458
+  rpg2003.exe          Borland runtime error table @0x188858
+
+=== no Borland overlay (.OVR) in this object ===
+  1000 Miglia had MM.OVR; this one has none, so there is no
+  overlay arithmetic to check.
+
+=== third-party software in this folder ===
+  files containing a third-party packer or library banner: 0

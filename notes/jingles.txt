@@ -1,0 +1,29 @@
+MIDI files : 141
+track-0 sequence names recovered : 140 of 141
+
+the two axes agree on 140 of 141 files
+   they disagree on J2003Horn.mid                name True  seq 'Seq-1'
+
+-- ALL : 141 files
+   a leading J in the FILE NAME                   with  18 (  3.750..  15.634)  without 123 ( 12.625.. 174.993)   -> OVERLAPPING
+         on the wrong side : 2003Panic.mid                12.625 s
+   a J in the SEQUENCE NAME                       with  17 (  4.245..  15.634)  without 124 (  3.750.. 174.993)   -> OVERLAPPING
+         on the wrong side : J2003Horn.mid                 3.750 s
+         on the wrong side : 2003Panic.mid                12.625 s
+
+-- INHERITED (its sha1 is in the other object) : 92 files
+   a leading J in the FILE NAME                   with  17 (  4.245..  15.634)  without  75 ( 29.565.. 174.993)   -> DISJOINT
+   a J in the SEQUENCE NAME                       with  17 (  4.245..  15.634)  without  75 ( 29.565.. 174.993)   -> DISJOINT
+
+-- NEW (its sha1 is not) : 49 files
+   a leading J in the FILE NAME                   with   1 (  3.750..   3.750)  without  48 ( 12.625.. 171.855)   -> DISJOINT
+   a J in the SEQUENCE NAME                       with   0 (  0.000..   0.000)  without  49 (  3.750.. 171.855)   -- one side empty
+
+-- the composers, counted -------------------------------------
+     62  (C)2000 by ASCII Corp./Y.Kitagami
+     58  (no copyright event)
+     21  作曲：椎葉 大翼 【Daisuke Shiiba】
+
+-- the J files, by composer -----------------------------------
+     15  (C)2000 by ASCII Corp./Y.Kitagami
+      3  (no copyright event)

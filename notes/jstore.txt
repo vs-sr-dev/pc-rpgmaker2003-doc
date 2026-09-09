@@ -1,0 +1,54 @@
+--- rpg_rt.ldb.dat
+index        : rpgmaker2003-steam/rpg_rt.ldb.dat
+bytes        : 388574
+lists        : 1
+GUIDs        : 18687
+arithmetic   : 5 x 1 + 16 x 18687 + 89577 = 388574
+residue      : 0
+filler runs  : 2 holding 89577 bytes, all zero : False
+GUIDs repeated inside this index : 1829
+--- Sample/ArcheiaPictureTutorial/RPG_RT.ldb
+index        : rpgmaker2003-steam/Sample/ArcheiaPictureTutorial/RPG_RT.ldb
+bytes        : 374229
+lists        : 1
+GUIDs        : 18687
+arithmetic   : 5 x 1 + 16 x 18687 + 75232 = 374229
+residue      : 0
+filler runs  : 2 holding 75232 bytes, all zero : False
+GUIDs repeated inside this index : 1843
+--- Sample/ArcheiaPictureTutorial/RPG_RT.lmt
+index        : rpgmaker2003-steam/Sample/ArcheiaPictureTutorial/RPG_RT.lmt
+bytes        : 335
+lists        : 0
+GUIDs        : 0
+arithmetic   : 5 x 0 + 16 x 0 + 335 = 335
+residue      : 0
+filler runs  : 1 holding 335 bytes, all zero : False
+GUIDs repeated inside this index : 0
+--- Sample/ArcheiaPictureTutorial/Map0001.lmu
+index        : rpgmaker2003-steam/Sample/ArcheiaPictureTutorial/Map0001.lmu
+bytes        : 2752
+lists        : 0
+GUIDs        : 0
+arithmetic   : 5 x 0 + 16 x 0 + 2752 = 2752
+residue      : 0
+filler runs  : 1 holding 2752 bytes, all zero : False
+GUIDs repeated inside this index : 0
+--- Sample/ArcheiaPictureTutorial/Map0002.lmu
+index        : rpgmaker2003-steam/Sample/ArcheiaPictureTutorial/Map0002.lmu
+bytes        : 7469
+lists        : 0
+GUIDs        : 0
+arithmetic   : 5 x 0 + 16 x 0 + 7469 = 7469
+residue      : 0
+filler runs  : 1 holding 7469 bytes, all zero : False
+GUIDs repeated inside this index : 0
+--- Sample/ArcheiaPictureTutorial/Map0003.lmu
+index        : rpgmaker2003-steam/Sample/ArcheiaPictureTutorial/Map0003.lmu
+bytes        : 2414
+lists        : 0
+GUIDs        : 0
+arithmetic   : 5 x 0 + 16 x 0 + 2414 = 2414
+residue      : 0
+filler runs  : 1 holding 2414 bytes, all zero : False
+GUIDs repeated inside this index : 0

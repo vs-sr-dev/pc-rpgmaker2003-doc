@@ -1,0 +1,23 @@
+=== rpg2003.exe   (4387328 bytes)
+    1768934  Enterbrain             run at 1768831, 490 chars:
+        '}} **** Since aforementioned software is directly integrated into code owned by a third-party company (Enterbrain Inc), paragraph 3.1 of the license applies. Therefore, for information regarding rights to modify and/or redistribute this software, please refer to the End-User License Agreement of the product (RPG Maker 2003) by the third-party company which encapsulates this software. **** [Please note that empty space in this area is reserved and will be used for future updates.] **** '
+=== rpg_rt.exe.dat   (1032704 bytes)
+    910310   Enterbrain             run at 910207, 490 chars:
+        '}} **** Since aforementioned software is directly integrated into code owned by a third-party company (Enterbrain Inc), paragraph 3.1 of the license applies. Therefore, for information regarding rights to modify and/or redistribute this software, please refer to the End-User License Agreement of the product (RPG Maker 2003) by the third-party company which encapsulates this software. **** [Please note that empty space in this area is reserved and will be used for future updates.] **** '
+=== ultimate_eb.dll   (274944 bytes)
+    56454    Enterbrain             run at 56351, 395 chars:
+        '}} **** Since aforementioned software is directly integrated into code owned by a third-party company (Enterbrain Inc), paragraph 3.1 of the license applies. Therefore, for information regarding rights to modify and/or redistribute this software, please refer to the End-User License Agreement of the product (RPG Maker 2003) by the third-party company which encapsulates this software. **** _^['
+    150953   Enterbrain             run at 150944, 27 chars:
+        'Software\\Enterbrain\\RPG2003'
+=== ultimate_rt_eb.dll.dat   (124928 bytes)
+    22310    Enterbrain             run at 22207, 392 chars:
+        '}} **** Since aforementioned software is directly integrated into code owned by a third-party company (Enterbrain Inc), paragraph 3.1 of the license applies. Therefore, for information regarding rights to modify and/or redistribute this software, please refer to the End-User License Agreement of the product (RPG Maker 2003) by the third-party company which encapsulates this software. **** '
+=== Sample/ArcheiaPictureTutorial/RPG_RT.exe   (1032704 bytes)
+    910310   Enterbrain             run at 910207, 490 chars:
+        '}} **** Since aforementioned software is directly integrated into code owned by a third-party company (Enterbrain Inc), paragraph 3.1 of the license applies. Therefore, for information regarding rights to modify and/or redistribute this software, please refer to the End-User License Agreement of the product (RPG Maker 2003) by the third-party company which encapsulates this software. **** [Please note that empty space in this area is reserved and will be used for future updates.] **** '
+=== Sample/ArcheiaPictureTutorial/ultimate_rt_eb.dll   (124928 bytes)
+    22310    Enterbrain             run at 22207, 392 chars:
+        '}} **** Since aforementioned software is directly integrated into code owned by a third-party company (Enterbrain Inc), paragraph 3.1 of the license applies. Therefore, for information regarding rights to modify and/or redistribute this software, please refer to the End-User License Agreement of the product (RPG Maker 2003) by the third-party company which encapsulates this software. **** '
+
+files carrying the string : 6
+occurrences               : 7

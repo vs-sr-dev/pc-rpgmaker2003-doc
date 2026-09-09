@@ -1,0 +1,100 @@
+mine   : notes/sha1-all.txt   737 rows, 731 distinct sha1
+theirs : ../pc-rpgmaker2000-doc/notes/sha1-all.txt   477 rows, 477 distinct sha1
+
+crossing     : 368 of 731
+NOT crossing : 363 of 731
+the two sum to my distinct hashes : True
+
+-- CROSSING, by extension (one row per distinct hash) ----
+   .wav       211 files      9661794 bytes
+   .mid        92 files      1431351 bytes
+   .png        63 files      1287752 bytes
+   .exe         1 files        47790 bytes
+   .url         1 files           52 bytes
+   TOTAL      368            12428739
+
+-- NOT CROSSING, by extension (one row per distinct hash) ----
+   .png       289 files      3878798 bytes
+   .mid        49 files      1514398 bytes
+   .wav         5 files       765030 bytes
+   .dat         4 files      2176990 bytes
+   .lmu         3 files        12635 bytes
+   .txt         2 files        13870 bytes
+   .dll         2 files       512512 bytes
+   .ini         1 files           98 bytes
+   .exe         1 files      4387328 bytes
+   .psd         1 files        54653 bytes
+   .chm         1 files      6268124 bytes
+   .lmt         1 files          335 bytes
+   .ldb         1 files       374229 bytes
+   .r3proj      1 files           16 bytes
+   .ico         1 files        23558 bytes
+   .vdf         1 files         1545 bytes
+   TOTAL      363            19984119
+
+-- the crossing hashes, by name -------------------------------
+   same base name in both objects : 277
+   renamed                        : 91
+      spaced           47
+      prefixed          3
+      retranslated     41
+   the three classes sum to the renamed total : True  (47 + 3 + 41 = 91)
+   same + renamed = crossing : True
+
+   -- spaced
+      Battle1                  -> Battle 1
+      Battle2                  -> Battle 2
+      Battle3                  -> Battle 3
+      Boss1                    -> Boss 1
+      Boss2                    -> Boss 2
+      Boss3                    -> Boss 3
+      ... 41 more
+
+   -- prefixed
+      Clock                    -> SEClock
+      Earthquake               -> SEEarthquake
+      Sea                      -> SESea
+
+   -- retranslated
+      Anger                    -> Wrath
+      BattleEnd1               -> JEnd of Battle 1
+      BattleEnd2               -> JEnd of Battle 2
+      BattleEnd3               -> JEnd of Battle 3
+      BattleEnd4               -> JEnd of Battle 4
+      BlackMarket              -> Black Market
+      Crisis                   -> In a Pinch
+      Devil                    -> Demon Lord
+      Energy                   -> Liveliness
+      Fanfare1                 -> JFanfare 1
+      Fanfare2                 -> JFanfare 2
+      Fanfare3                 -> JFanfare 3
+      Fanfare4                 -> JFanfare 4
+      Fanfare5                 -> JFanfare 5
+      Fanfare6                 -> JFanfare 6
+      Farewell1                -> Parting 1
+      Farewell2                -> Parting 2
+      Gag1                     -> JJoke 1
+      Gag2                     -> JJoke 2
+      Gameover1                -> Game Over 1
+      Gameover2                -> Game Over 2
+      Gameover3                -> Game Over 3
+      GhostTown1               -> Ghost Town 1
+      GhostTown2               -> Ghost Town 2
+      Inn1                     -> JInn 1
+      Inn2                     -> JInn 2
+      Items                    -> JItem
+      Marketplace              -> Lively Market
+      Mystery                  -> JMystery
+      Peace1                   -> Repose 1
+      Peace2                   -> Repose 2
+      Peace3                   -> Repose 3
+      RM2000 EN PRELIMINARY 13.09.2017 -> RM2003 EN PRELIMINARY 13.09.2017
+      Rain1                    -> SERain
+      Rain2                    -> SEDownpour
+      Search                   -> Exploration
+      Store1                   -> Shop 1
+      Store2                   -> Shop 2
+      Store3                   -> Shop 3
+      Suspicion                -> JDoubt
+      Treasure                 -> Secret Treasure
+

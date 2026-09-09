@@ -1,0 +1,36 @@
+files            : 737
+bytes on disk    : 33578445
+LZMA, per file   : 22422597
+ratio on disk / packed : 1.4975
+
+the shop declares BytesToDownload : 22100528
+             against BytesToStage : 33578445
+             a declared ratio of  : 1.5194
+
+  per-file LZMA total  : 22422597
+  declared             : 22100528
+  difference           : +322069 bytes = +1.4573 % of the declared
+
+  (a positive difference means the shop ships the tree in
+   FEWER bytes than compressing each file separately, which
+   is what cross-file matching buys. A negative one means the
+   shop's figure includes something this walk does not see.)
+
+  ext        files      on disk         LZMA    ratio
+  .wav         216     10426824      8491936   1.2279
+  .chm           1      6268124      6251785   1.0026
+  .exe           3      5467822      1330631   4.1092
+  .png         355      5174453      4848936   1.0671
+  .mid         141      2945749       378319   7.7864
+  .dat           4      2176990       742107   2.9335
+  .dll           3       637440       289762   2.1999
+  .ldb           1       374229        61214   6.1135
+  .psd           1        54653        13714   3.9852
+  .ico           1        23558         3633   6.4844
+  .txt           2        13870         5631   2.4632
+  .lmu           3        12635         3817   3.3102
+  .vdf           1         1545          676   2.2855
+  .lmt           1          335          206   1.6262
+  .url           2          104          112   0.9286
+  .ini           1           98           98   1.0000
+  .r3proj        1           16           20   0.8000

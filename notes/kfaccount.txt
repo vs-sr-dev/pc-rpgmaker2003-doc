@@ -1,0 +1,8 @@
+usage: kfaccount.py [-h] [--root ROOT] [--selftest] [--format] [--author]
+
+options:
+  -h, --help   show this help message and exit
+  --root ROOT
+  --selftest
+  --format
+  --author

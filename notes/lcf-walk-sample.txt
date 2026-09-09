@@ -1,0 +1,44 @@
+file                   : rpgmaker2003-steam/Sample/ArcheiaPictureTutorial/RPG_RT.ldb
+bytes                  : 374229
+header name            : 'LcfDataBase' (11 bytes, length-prefixed)
+top-level chunks       : 22
+tags                   : 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
+strictly ascending     : True
+declared sizes sum to  : 374151
+header + tag/size overhead + data = 374229
+WALK ENDS AT           : 374229 of 374229      RESIDUE 0
+
+-- every chunk, and the reading that closes it ----------------
+   tag  offset    bytes     shape   count   residue  first text in it
+   11   15        1302      LIST    1       0        Brian
+   12   1321      18779     LIST    134     0        Poison Attack
+   13   20103     12796     LIST    84      0        Potion
+   14   32902     12671     LIST    115     0        Slime
+   15   45576     6955      LIST    88      0        Grassland 1
+   16   52534     492       LIST    10      0        Grassland
+   17   53029     346       LIST    17      0        Sword
+   18   53378     1278      LIST    10      0        Death
+   19   54660     268167    LIST    140     0        Hit A
+   20   322830    3290      LIST    5       0        Basic
+   21   326123    1695      RECORD  125     0        Caught the enemy off-guard!
+   22   327821    439       RECORD  46      0        輯
+   23   328263    201       LIST    100     0        
+   24   328467    611       LIST    200     0        CHARACTER_POSE
+   25   329081    2414      LIST    20      0        
+   26   331497    0         SCALAR  1       0        
+   27   331499    0         SCALAR  1       0        
+   28   331501    0         SCALAR  1       0        
+   29   331504    159       RECORD  4       0        
+   30   331667    23487     LIST    18      0        Hero A
+   31   355156    0         SCALAR  1       0        
+   32   355160    19069     LIST    32      0        Hero
+
+   shapes : {'LIST': 15, 'RECORD': 3, 'SCALAR': 4}
+   chunks that close at residue 0 : 22 of 22
+   chunks where BOTH readings close, so the closure does
+   NOT decide the shape             : 0
+
+-- what the second level costs -------------------------------
+   records over all LIST chunks   : 974
+   fields over every chunk        : 6993
+   distinct field tags            : 134

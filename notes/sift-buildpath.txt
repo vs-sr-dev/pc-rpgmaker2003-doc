@@ -1,0 +1,23 @@
+root                : rpgmaker2003-steam
+blobs searched      : 737   (737 of 737 -- nothing was filtered out)
+bytes searched      : 33578445
+chance rate in this haystack, per needle width:
+    2 bytes      512.366409 expected occurrences
+    4 bytes        0.007818 expected occurrences
+    6 bytes        0.000000 expected occurrences
+    8 bytes        0.000000 expected occurrences
+
+pattern                                hits    blobs
+------------------------------------------------------
+drive-letter path                        17        3
+unix build path                           0        0
+CONTROL must-hit '"Install' (derived from the population)        2        1
+CONTROL must-miss 'zzqxjvwk'              0        0
+------------------------------------------------------
+positive control fired : YES (2 hits)
+negative control quiet : YES
+
+=== drive-letter path ===
+    BaseFlushAppcompatCache.exe                          x1     b'C:\\Program'
+    UNLHA32.DLL                                          x1     b'C:\\TMP\\UNLHA32.LOG'
+    rpg2003.exe                                          x15    b'D:\\ha\\02rpg2000\\2003\\RPG_RT\\AuroraSheet.pas | D:\\ha\\02rpg2000\\2003\\RPG_RT\\Aurora'

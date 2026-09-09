@@ -1,0 +1,93 @@
+A : rpg_rt.ldb.dat                           b'LcfDataBase'  388574 bytes
+B : RPG_RT.ldb                               b'LcfDataBase'  374229 bytes
+
+  chunk      A bytes      B bytes   verdict
+  11           18329         1302   DIFFERS
+  12           18779        18779   identical
+  13           12796        12796   identical
+  14           12671        12671   identical
+  15            6955         6955   identical
+  16             492          492   identical
+  17             346          346   identical
+  18            1278         1278   identical
+  19          268167       268167   identical
+  20            3290         3290   identical
+  21            1695         1695   identical
+  22             436          439   DIFFERS
+  23             201          201   identical
+  24             201          611   DIFFERS
+  25             141         2414   DIFFERS
+  26               0            0   identical
+  27               0            0   identical
+  28               0            0   identical
+  29             162          159   DIFFERS
+  30           23487        23487   identical
+  31               0            0   identical
+  32           19069        19069   identical
+
+  chunks in both        : 22
+  byte-identical        : 17
+  differing             : 5
+  only in A / only in B : 0 / 0
+  the four sum to the union of tags : True
+
+-- chunk 11 ----------------------------------------------
+   records : A 14, B 1, common 1, only A 13, only B 0, common but changed 1
+   record 1 :
+      field 1     A 'Zack'                          B 'Brian'
+      field 2     A 'None'                          B 'Survivor'
+   record 2 is only in A : name 'Albert'
+   record 3 is only in A : name 'Vance'
+   record 4 is only in A : name 'Craise'
+   record 5 is only in A : name 'Arthur'
+   record 6 is only in A : name 'Ardis'
+   record 7 is only in A : name 'Fey-Lin'
+-- chunk 22 ----------------------------------------------
+   a RECORD on both sides : A 47 fields, B 46 fields, differing 10
+      field 19    A 'SystemC'                       B 'SystemB'
+      field 21    A 4                               B (empty)
+      field 22    A <8 bytes>                       B 1
+      field 41    A <10 bytes>                      B <13 bytes>
+      field 42    A <12 bytes>                      B <15 bytes>
+      field 43    A <10 bytes>                      B <13 bytes>
+      field 44    A <10 bytes>                      B <13 bytes>
+      field 72    A 1                               B (empty)
+      field 91    A 19604                           B 31124
+      field 111   A (empty)                         B 0
+-- chunk 24 ----------------------------------------------
+   records : A 100, B 200, common 100, only A 0, only B 100, common but changed 9
+   record 1 :
+      field 1     A (empty)                         B 'CHARACTER_POSE'
+   record 2 :
+      field 1     A (empty)                         B 'CHARACTER_ZOOM'
+   record 6 :
+      field 1     A (empty)                         B 'INPUT_NUMBER_ORIG'
+   record 7 :
+      field 1     A (empty)                         B 'INPUT_NUMBER'
+   record 8 :
+      field 1     A (empty)                         B 'INPUT_ID_COUNTER'
+   record 9 :
+      field 1     A (empty)                         B 'INPUT_X'
+   record 10 :
+      field 1     A (empty)                         B 'INPUT_Y'
+   record 11 :
+      field 1     A (empty)                         B 'DIGIT'
+   record 100 :
+      field 1     A (empty)                         B 'EVENT_TRIGGER'
+   record 101 is only in B : name (empty)
+   record 102 is only in B : name (empty)
+   record 103 is only in B : name (empty)
+   record 104 is only in B : name (empty)
+   record 105 is only in B : name (empty)
+   record 106 is only in B : name (empty)
+-- chunk 25 ----------------------------------------------
+   records : A 10, B 20, common 10, only A 0, only B 10, common but changed 0
+   record 11 is only in B : name (empty)
+   record 12 is only in B : name (empty)
+   record 13 is only in B : name (empty)
+   record 14 is only in B : name (empty)
+   record 15 is only in B : name (empty)
+   record 16 is only in B : name (empty)
+-- chunk 29 ----------------------------------------------
+   a RECORD on both sides : A 5 fields, B 4 fields, differing 1
+      field 24    A 1                               B (empty)

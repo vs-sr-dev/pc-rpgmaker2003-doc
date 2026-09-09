@@ -1,0 +1,17 @@
+distinct sha1                     : 731
+per-file LZMA total               : 22422597
+LZMA total counting each hash once: 21968501
+saved by not paying twice         : 454096
+
+declared BytesToDownload          : 22100528
+per-file total minus declared     : +322069
+deduplicated total minus declared : -132027
+           as a share of declared : -0.5974 %
+
+the repeated hashes, 6 of them:
+   x2   1032704 raw    398135 packed   rpg_rt.exe.dat = Sample/ArcheiaPictureTutorial/RPG_RT.exe
+   x2    124928 raw     48425 packed   ultimate_rt_eb.dll.dat = Sample/ArcheiaPictureTutorial/ultimate_rt_eb.dll
+   x2      3045 raw      2923 packed   RTP/System/SystemC.png = Sample/ArcheiaPictureTutorial/System/SystemC.png
+   x2      2783 raw      2594 packed   RTP/System/SystemA.png = Sample/ArcheiaPictureTutorial/System/SystemA.png
+   x2      2075 raw      1963 packed   RTP/System/System.png = Sample/ArcheiaPictureTutorial/System/System.png
+   x2        52 raw        56 packed   RM2003 EN PRELIMINARY 13.09.2017.url = RPG Maker 2003.url

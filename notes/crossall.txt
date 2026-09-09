@@ -1,0 +1,1531 @@
+my distinct sha1            : 731
+  (identical files inside one object collapse into one key here;
+   the file count is the tree census's, not this tool's)
+empty-file sha1 among mine  : no
+collection root             : ..
+skipping                    : pc-rpgmaker2003-doc
+
+repositories swept          : 104
+list files swept            : 461
+hash tokens read            : 155888
+distinct sha1 in those lists: (counted below)
+
+========================================================================
+EMPTY-FILE SHA1 (the trap): 57 occurrences in 16 repositories
+   dc-dinocrisis-doc                        x4
+   pc-allodsonline-doc                      x2
+   pc-bloodandlace-doc                      x1
+   pc-brokensword4-doc                      x1
+   pc-canediterracotta-doc                  x1
+   pc-capcombeatemupbundle-doc              x1
+   pc-clic11-doc                            x9
+   pc-deadlypremonitiondc-doc               x3
+   pc-hugoshouseofhorrors-doc               x1
+   pc-ilmiocomputer0206                     x6
+   pc-karmaflow-doc                         x17
+   pc-kingsofthebeach-doc                   x4
+   pc-residentevil-doc                      x2
+   pc-wizardry-doc                          x3
+   pc-zerocomico-doc                        x1
+   vis-racetheclock-doc                     x1
+   -> excluded from the crossings below.
+
+========================================================================
+THE RATE AS A FUNCTION OF MINIMUM FILE LENGTH
+
+A crossing is a claim that two objects share a file. On a tree whose
+files are short, it is also a claim that two short byte strings
+happened to be equal, and those are not the same claim. This table is
+printed BEFORE any figure is quoted, and the figure quoted anywhere
+else has to name the threshold it was taken at.
+
+   min bytes    my hashes    crossings         rate
+           0          731          368     50.3420 %
+           1          731          368     50.3420 %
+           4          731          368     50.3420 %
+           8          730          368     50.4110 %
+          16          730          368     50.4110 %
+          32          729          368     50.4801 %
+          64          728          367     50.4121 %
+         128          727          367     50.4814 %
+         256          727          367     50.4814 %
+        1024          709          361     50.9168 %
+        4096          591          328     55.4992 %
+       65536           72           46     63.8889 %
+
+========================================================================
+CROSSINGS at a minimum length of 0 bytes: 368 of my 731 distinct hashes appear in another repository
+   (threshold 0 -- every hash, including files too short to be anybody's)
+
+sha1 fdc5f8802816318b9328f0767d22913fe588ac15   317998 bytes
+   mine : RTP/Sound/Sea1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e0f82fec7081e1e2cc8f6ead92e1486943e82bcc   285228 bytes
+   mine : RTP/Sound/Earthquake2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 5a66a6ccc0742799f759f2c1986c4238cb1b0968   234540 bytes
+   mine : RTP/Music/SESea.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 0e123c53db0656b185afe3ce8e385c715a91f391   220660 bytes
+   mine : RTP/Sound/Rain1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f35e3e75b0ae8385354cd7364e4f87b244d3a5b1   220660 bytes
+   mine : RTP/Sound/Rain2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 48030a75db0362f3e346e8536abdfd89731c5cd9   203435 bytes
+   mine : RTP/Panorama/Dimension Rift.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 343fdd6b7d235412fd9a56b712ac2cde5e1939fd   157740 bytes
+   mine : RTP/Sound/Earthquake1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 ee151f1baf17feefd5fb2ff7f67506e76f832a3d   135724 bytes
+   mine : RTP/Sound/Sea2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 352d266bbd6bc562d18f7cbc2e5c37712bbb5cfd   131862 bytes
+   mine : RTP/Sound/Monster1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f4e4871f2d797fafef22af91882fc336ec39ee68   130348 bytes
+   mine : RTP/Sound/Flash3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8e5e37f3612104d7e5e4bd45002e6e93deb3fd91   126508 bytes
+   mine : RTP/Music/SEEarthquake.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 095f650aed97be2606e9307eb48f6e5d9322027c   122636 bytes
+   mine : RTP/Sound/Bell.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9d970c59f2795e9ce971c32c8af064c9a82e3ece   106425 bytes
+   mine : RTP/Panorama/Cosmos1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f929eafb78a6c168b5abc790574fee9bd2c13894   103724 bytes
+   mine : RTP/Music/SEDownpour.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e500cee8b976f8c777e0fd2519c272c93487244f   97820 bytes
+   mine : RTP/Panorama/Dawn2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 a545ac2fc6740451d3e6dd9a7f682634eb9c9feb   94892 bytes
+   mine : RTP/Sound/Recovery5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 34e600ef4be488ac88f353ae3f1a663b01c04a16   94873 bytes
+   mine : RTP/Panorama/Sky2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9b83badafeef5431e256510bc6572a17d390ba10   86060 bytes
+   mine : RTP/Sound/Combat1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1474cb18f746b85806d1eba50320cfee522928a4   84736 bytes
+   mine : RTP/Sound/GlassShatter.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 89f42c99a3eb3ed189fe256413cf42eafbd46bf8   84524 bytes
+   mine : RTP/Sound/Thunder9.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 33ac3de45ebe8d1011fc80063ae846c7b3ceee66   84396 bytes
+   mine : RTP/Sound/Darkness5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 ea9e858c3e0e581d568aabe8e69a4729f2fbe927   83756 bytes
+   mine : RTP/Sound/Holy7.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 95ed3338ceb861a415d1292fffe44b80a9af3127   83277 bytes
+   mine : RTP/Panorama/Sunset2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 38134b62035351b7fbec28538418bccf12ca3be0   82400 bytes
+   mine : RTP/Sound/Confusion.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 de708315826afbe8be1dd783d3be72d57bb580d3   81196 bytes
+   mine : RTP/Sound/Holy2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 cb9e5b5d7baa842ca3970fe9ec69284f216f5c6a   79916 bytes
+   mine : RTP/Sound/Cow.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1faa1629b5af8d9811dfe94a3ffe9ce1431df1d4   78892 bytes
+   mine : RTP/Sound/Holy4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1eefa80d4568d7d72dafcaf1a87d6d2a1f3e5eaf   75564 bytes
+   mine : RTP/Sound/Ice7.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 80464f8cdc4f948e64ec9fd4dd2b0c5ca6ae3546   74540 bytes
+   mine : RTP/Sound/Holy6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c735572861d22dbb7ca94b5128f828ccd122491f   74093 bytes
+   mine : RTP/Music/Boss 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4e0b2a638e410bbba6ab0aee8894518d203c0d93   74028 bytes
+   mine : RTP/Sound/Ice10.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 6a66de27de1fc61e76913e5a5f754f1804fb9cd7   73772 bytes
+   mine : RTP/Sound/Wind8.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e565fb9ba97a0d8ecd2e8d8c76dcd38126cfba02   73004 bytes
+   mine : RTP/Sound/Ice8.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e261b436c3d5120c74af31ffae59476bbb3f73fb   72748 bytes
+   mine : RTP/Music/SERain.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8362232750228be92a1cf61313e604c9c885edd1   72748 bytes
+   mine : RTP/Sound/Flash2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 a7eb1e59168504f746a068838e6a6caa25af93f4   72636 bytes
+   mine : RTP/Music/Field 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7a196a835042354de7979b10d8f69faa8dbda00e   72236 bytes
+   mine : RTP/Sound/Holy1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 71a959df599b01b7530d785baba334261bd12db7   71724 bytes
+   mine : RTP/Sound/Darkness1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c92f3d05efecc300a286505237c0af5e9c4ac71a   71212 bytes
+   mine : RTP/Sound/Poison.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8caa11ba8746c0078c8fa986bf2d4afe0d44c5e0   71212 bytes
+   mine : RTP/Sound/Water6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 bcc576649232dd34d53e4ba7b6300628f298add1   71212 bytes
+   mine : RTP/Sound/Wind2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4857eb224709981bc9574784e10316747c21682d   70956 bytes
+   mine : RTP/Sound/Water5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 08d783529c3cba410747e5085caa8a6fb7a89a40   70700 bytes
+   mine : RTP/Sound/Tiger.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 578a85784e0334a8b864f4cb2c8fd59b88975e49   67628 bytes
+   mine : RTP/Sound/Sandstorm.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1b96596a33533dcfa75b3c7a0118dae5edc2f7f5   66860 bytes
+   mine : RTP/Sound/Monster2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 0a2af153b8c9a8873862f10cd8e91d619b60940b   66728 bytes
+   mine : RTP/Sound/Darkness2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 34c010935ac151844b619dba5f74363a5203276d   65068 bytes
+   mine : RTP/Sound/Combat2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9fe797bfb6931fe84698dbe9e5d61e637fdde4ea   64973 bytes
+   mine : RTP/Panorama/Night Sky2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 5363e1cc37373d9a9279a47cd5bf59ed3647a309   64044 bytes
+   mine : RTP/Sound/Earth9.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 aaedb7ce4b9bada985a94ed7aa593bdaec75279b   63916 bytes
+   mine : RTP/Sound/Wave2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 dc5cc32fafa442b09ab2d814ed32074d02597234   63666 bytes
+   mine : RTP/Music/Battle 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8c9b0a243ef4b230020a04a70d77f34a7a2a0e43   63148 bytes
+   mine : RTP/Sound/Ice4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 71a30731db75f2df786d3883a77cdf03ad22dc0e   61228 bytes
+   mine : RTP/Sound/Earth10.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 142eefdba5a996f33f2e86efcf63370151ac9c5d   60972 bytes
+   mine : RTP/Sound/Ice11.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 727e2c2c238fda650a4ed800d7cbde66fea27ea1   60844 bytes
+   mine : RTP/Sound/Blind.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8fa0cde8544bc57ba4b0cf8a7c7893c2cb62cf55   60492 bytes
+   mine : RTP/Sound/Horse.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 b3a76a961f445eaa16540aec647c4583af17d71c   59948 bytes
+   mine : RTP/Sound/Earth4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7e1833d1c68186b2222b16e7cd246aef9d22d6f9   58924 bytes
+   mine : RTP/Sound/Darkness3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 899b9f6cc9ec1f38093a4fc4654dfaf4510508f4   58924 bytes
+   mine : RTP/Sound/Holy8.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 64f19112d71e3be7673070c6e4188493f2255ad7   58156 bytes
+   mine : RTP/Sound/Glare.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d6dd12210f6fc1cc327d7841064ceae97ec0d3b5   57388 bytes
+   mine : RTP/Sound/Chime2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 249f05a4fe13ccacb765cf41b93160dfe3c5890c   56876 bytes
+   mine : RTP/Sound/Wind5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 6830210a23666b11c42b9ee7756859cbdd457a18   54956 bytes
+   mine : RTP/Sound/Thunder7.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 3dd0250d24e378e7ba850aaf00962ecec06cf7e8   54572 bytes
+   mine : RTP/Sound/Thunder6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 516594503f3681640eb043ac396c21dddb3c6efc   54572 bytes
+   mine : RTP/Sound/Wind10.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 30290a9ae999b3e7659642d5f79a54fc81bc7a3c   54558 bytes
+   mine : RTP/Sound/Teleport2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8e840432eefd501525c9eb33ca084033206245d4   54060 bytes
+   mine : RTP/Sound/Earth2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 894f2d13b634abc9d419fb2749d816c34770ce67   53548 bytes
+   mine : RTP/Sound/Chicken.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 00354590b344dc6aaa2571704ea7bfedfba4c400   52588 bytes
+   mine : RTP/Sound/Lion.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 98a6811cfc5dd9b54332deff83662ceec34f3520   51500 bytes
+   mine : RTP/Sound/Wind11.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e95b6fa4f202b18053e255feaabb8d53e29db148   51244 bytes
+   mine : RTP/Sound/Fog2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 50607def0283cb5e3e1238e787cc6240d5524e73   51044 bytes
+   mine : RTP/Sound/Absorb2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 138e33e22599223e93cf521bbf54d8fa8f980c2c   50860 bytes
+   mine : RTP/Sound/Wind6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 71e460ce967366dec3ae706e9274b5581859b72a   50732 bytes
+   mine : RTP/Sound/Water1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 18cc2010f880c1e5566d326e86afe57128ef03fb   50324 bytes
+   mine : RTP/Sound/Item2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1c2326ee245785a5aa4310f859557268bf875995   49964 bytes
+   mine : RTP/Sound/Raise3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4730601c940c00a8e9cc532e088732a190423858   49836 bytes
+   mine : RTP/Sound/Raise2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d23289a046b4f94cdff4609be02899807924e52c   49196 bytes
+   mine : RTP/Sound/Raise1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 0bee97a09810788ef482e550ae6e8ce780833472   48812 bytes
+   mine : RTP/Sound/Explosion3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4626d069113d447cea0f6d984e069fbe4c7a29a1   48812 bytes
+   mine : RTP/Sound/Explosion6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 2f5607fbce67d3af3f86842198e715eaf7515534   48428 bytes
+   mine : RTP/Sound/Explosion7.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 bed01e251b5fd9b5814a49d180664ddbf3efc4c7   48328 bytes
+   mine : RTP/Music/Opening 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f3076feb1e88529d9b490fae10084ddddfa8eaff   48142 bytes
+   mine : RTP/Sound/Roar.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f9ef2ec771e263da1a67e957ec04a91742748e6b   47916 bytes
+   mine : RTP/Sound/Thunder1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 981ae87ddce5847cee7c07e5ef21d93ec322bf4f   47916 bytes
+   mine : RTP/Sound/Water3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9ba229d3f979f01801c76fa7fe6cdff77e83f30a   47790 bytes
+   mine : BaseFlushAppcompatCache.exe
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f71ed12e737cebb07992d48ed8a8cd1f482bd6f9   47532 bytes
+   mine : RTP/Sound/Collapse1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 306d3d07b972125cfae2c2a7778537288fba4a79   47532 bytes
+   mine : RTP/Sound/Recovery4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 982e0d37bee019e493da746b47b4d1fdc191cad4   47532 bytes
+   mine : RTP/Sound/Recovery7.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 66f9606de24469c0d046be872a065e023ea703cd   47404 bytes
+   mine : RTP/Sound/Earth6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 769497b2070b1e0623e66eee867584199fcf07cb   46974 bytes
+   mine : RTP/Music/Hero 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 0013db1604de570ae105cd78a4f9245f96d64069   46124 bytes
+   mine : RTP/Sound/Darkness4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 185c7e635bf2ac8ee22b2b295b5d8891b120779f   46124 bytes
+   mine : RTP/Sound/Wind1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 3802c0c993d04218e8c9f1646986a14a3ff327f3   45612 bytes
+   mine : RTP/Sound/Water2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 71f6c2375e90f47e35b5d7151c21df61bcc378da   45356 bytes
+   mine : RTP/Sound/Ice6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 542b29780bae94e6f7f405cdcc45f9a020b4634f   44844 bytes
+   mine : RTP/Sound/Wave1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 96cf77a0f65ba8d35e57bd8f490d9be62b35d4b7   43922 bytes
+   mine : RTP/Music/SEClock.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4e6f80fbf955d465c89554746bf437d4589e5f84   43820 bytes
+   mine : RTP/Sound/Recovery6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 247b1ae0daf2dac4d969d59e17d0525aaa61d81d   43587 bytes
+   mine : RTP/Music/Lively Market.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 2044da35987f3afb61a261fd4ef4a1fcc7673c62   43564 bytes
+   mine : RTP/Sound/Thunder4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 eb36dac9a770d99c9ed3585748c879635dc4cba7   43470 bytes
+   mine : RTP/Sound/Cat.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4cafcd6525ffd7209ed08516bdb6aef845e620da   43308 bytes
+   mine : RTP/Sound/Pollen.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c4e14d6d2bcb257d08b748add4b6f82e282c2181   42796 bytes
+   mine : RTP/Sound/Thunder10.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 dbcd4395d0bfa051ec7719365312329fc4961e28   42796 bytes
+   mine : RTP/Sound/Wind3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1baf60c02e9056bac6998a992f76b8f7e2d7e5df   42540 bytes
+   mine : RTP/Sound/Earth5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d1ee6a368f3af2fcd10a376790e3425e1f5cf453   42348 bytes
+   mine : RTP/Sound/Explosion5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4d4fa0b11e304577de8c38b8eb8bacc68468ea59   42124 bytes
+   mine : RTP/Sound/Sheep.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 267b1c55341948f5ea6a79bd20728fb74ac4ddf7   42028 bytes
+   mine : RTP/Sound/Water4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 0fe0511d0063e09d3d3409c099e5a4ada23b79f6   41516 bytes
+   mine : RTP/Sound/Sleep.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 0cb67865271329cf491f4e95288cb240482b2b0e   41132 bytes
+   mine : RTP/Sound/Recovery1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 06060f61aea2496c99c3d6c93b9df2568e146668   40236 bytes
+   mine : RTP/Sound/Explosion2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1693289d668114a1524111c36267b6927bee6443   40236 bytes
+   mine : RTP/Sound/Shot3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 54939926f936364ffac96fd46af927fc53f04457   40108 bytes
+   mine : RTP/Sound/Ensnare.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 53ec065cdc4dfc2a16527ad1bd45833e9dc5f391   39468 bytes
+   mine : RTP/Sound/Fog1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 ca011b01e3e527f3eec3041e38792bb7e6c9aff7   38956 bytes
+   mine : RTP/Sound/Ice2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d99851f70cb57a2170d97240f5231c6250f95477   38188 bytes
+   mine : RTP/Sound/Recovery3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9e8a812cb90c658e54ff0be6981a8cc31b079941   37420 bytes
+   mine : RTP/Sound/Shot1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 49860e9f21aee6c0878d531542862288e120fb44   37396 bytes
+   mine : RTP/Sound/Teleport1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c3d61767d57385b5e19319111097e9a9e0b1e1ec   37164 bytes
+   mine : RTP/Sound/Debuff.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 135f012bcd7f253bd352291c83b8db234b979277   37164 bytes
+   mine : RTP/Sound/Paralyze3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1b7e867ca93b1d76eb2196199a87fc1255b12b5b   37164 bytes
+   mine : RTP/Sound/Song.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 267ba8cb9724c53b91180912ba0ee89038a53813   37144 bytes
+   mine : RTP/Panorama/Dawn1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8cda7b979204da5a4cf5de4af6143b1c47cbca1c   37100 bytes
+   mine : RTP/Sound/Breath.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d5785262b978ace9ba939298210451fa7b35949c   36908 bytes
+   mine : RTP/Sound/Fall1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8d958f4f1dd8a70314f2cd2dc86d4adbe982adbb   36652 bytes
+   mine : RTP/Sound/Holy5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 dcdc3a505e0bfe8c33a076fb04efc0966f782905   36460 bytes
+   mine : RTP/Sound/Wind9.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8ef47cbc96ab8599b36163c0e41bd83e9a7216c2   36140 bytes
+   mine : RTP/Sound/Earth1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 43592e5e4a3d9863623aa05521bf417c2616daf0   35628 bytes
+   mine : RTP/Sound/Thunder8.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f3d1906490fdd546a4082f299995388b15c704da   35372 bytes
+   mine : RTP/Sound/Explosion1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 58eb3ea7ee840ca63549809b62ff7da73227bea6   35244 bytes
+   mine : RTP/Sound/Recovery8.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4a48be6a8fbf53d30944d5f7fac8d14c7db68d6e   35116 bytes
+   mine : RTP/Sound/Thunder5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 a6ae10209b2fe178b1fffe017ded56826ae89993   34796 bytes
+   mine : RTP/Sound/Ice5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 935e20c01e8cdd6eb4872e60ca3c0940a670c357   34364 bytes
+   mine : RTP/Sound/Close2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 0c7538a9ba617a48016c7fbed1cfd68f88779bc4   33836 bytes
+   mine : RTP/Sound/Move.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4394ca5960ebfc26d89500cb85aede9f768da6ef   33580 bytes
+   mine : RTP/Sound/Fire7.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 12740e97321bed852d13373ca5db801e3f5a1bf8   33094 bytes
+   mine : RTP/Sound/Close1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 098ada6319f82359fc448cc534518af69dad68d7   32684 bytes
+   mine : RTP/Sound/Flash1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9f476acafe87977d89009193d318eadb4cd7d44e   32360 bytes
+   mine : RTP/Sound/Chime1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 b1b5546afbe42dc109f19438f5b5c7ff1ff55c21   32280 bytes
+   mine : RTP/Sound/Magic2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 46ac07993390a702aa4666d5b8f72fcc372c7456   32172 bytes
+   mine : RTP/Sound/Absorb1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 aed537e373d89bf8b72360bd4e7660e61bb76dc8   31980 bytes
+   mine : RTP/Sound/Explosion4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 a47b7b4aad6ddfddfc1d9a0239455082faf848ee   31916 bytes
+   mine : RTP/Sound/Fire6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 53707908f88c4d8cddcc1b5709552ff2ec890fac   31849 bytes
+   mine : RTP/Music/Battle 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7c9b1a1182077ae18f2996fc6cb1fc46c766d310   31596 bytes
+   mine : RTP/Sound/Fire8.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e6dc4b07d96b901d51cc602f1a49e39d43c98d93   31596 bytes
+   mine : RTP/Sound/Magic1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 6c73f370e0b8dec08f7b76499866077ffb5947e5   31528 bytes
+   mine : RTP/Sound/Item1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e2a02b7b1a44ecb80491a5507916cc4627bed94e   31244 bytes
+   mine : RTP/Sound/Thunder3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 33182bcc2467a67deabda42b7da1c299478a74a7   31209 bytes
+   mine : RTP/Panorama/Sky1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 05e8280faf35d609fd1e2db80b0867746fa739b8   31148 bytes
+   mine : RTP/Sound/Barrier.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 724ac38e6f98513ebe0b5a4d7916c90c3b2aa834   31110 bytes
+   mine : RTP/Music/Opening 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 79542c7469537de3f31143fa9e2ba232f6213421   31028 bytes
+   mine : RTP/Music/Liveliness.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 928570b52e34ad8d2a790aa51d101b0b4c9111a2   30751 bytes
+   mine : RTP/Music/Field 4.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 46f66c08ca6ce260038820410b49db1ca4cf7f23   30670 bytes
+   mine : RTP/Music/Field 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 33d779efb09f33a3184b3ec17ff33f0cda1db467   30260 bytes
+   mine : RTP/Sound/Ice3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 dd835da406dc1aa56d892d54709868a1cd8b4433   30010 bytes
+   mine : RTP/Sound/Sword2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8980760509057dabbc38c12a4afee4f342bbb835   29740 bytes
+   mine : RTP/Sound/Bow2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 01c858273e0962b99c2845e549aa7c3ee17d6733   29740 bytes
+   mine : RTP/Sound/Fire5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 21ee6db7c2e7665df87f2f7f53d654fc3dd7fd3b   29643 bytes
+   mine : RTP/Music/Town 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c0f45cc95d3aeb05ddab2aec9e86c2fee0f04133   29484 bytes
+   mine : RTP/Sound/Holy9.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 5f37b21e7808c499d5e18cdde8a7fd150ab2b53f   29228 bytes
+   mine : RTP/Sound/Fire2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 6578eca61b6b9e436d8e78c24674e328880c6281   28952 bytes
+   mine : Sample/ArcheiaPictureTutorial/FaceSet/Actor2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d43e5b5aec5a9164e0d364bb1386d5dd6ee5ee84   28227 bytes
+   mine : RTP/Panorama/Sunset1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 dfd848eba1d170ef28c12e771917c78022ae8e64   27692 bytes
+   mine : RTP/Sound/Fall2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f1958917fe2b5a7bd15ebb25278c1fa4c1ff6f23   27674 bytes
+   mine : Sample/ArcheiaPictureTutorial/FaceSet/Actor1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1c7159abcdb82d19d269caf2470eb236baf50776   27372 bytes
+   mine : RTP/Sound/Open2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 b86793b352fa5ab2faf71ad7015d4d375b1237f1   27367 bytes
+   mine : RTP/GameOver/Game Over.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e1d46917593dfea465393247af7d5112c83872f1   27308 bytes
+   mine : RTP/Sound/Ice9.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c77e50f23d2c067fa6c24db0b31c88296deb0b04   27225 bytes
+   mine : RTP/Music/Field 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7d7813b931213852e12f3379f2a2d8b5c4f32084   27094 bytes
+   mine : Sample/ArcheiaPictureTutorial/FaceSet/People1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 2f9886946c13e72a464be148cffd3828f88fdf4d   27084 bytes
+   mine : RTP/Music/Vehicle 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9b5780a5ed9f5be8ff566adf4971ba15676319d3   27052 bytes
+   mine : RTP/Sound/Fire4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9cd416c3869139cedf02b81bcf7f5c34e05828a2   26445 bytes
+   mine : RTP/Music/Ending 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7618a71902c401871afb866b8e3fa07beedb8069   26419 bytes
+   mine : RTP/Music/Mystery 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1e102151ab79f4a0a15894406c7f38ec47ad50f1   26296 bytes
+   mine : RTP/Music/Battle 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 ef9f80bda27e22e050a6acc3c956a3589af258d1   26284 bytes
+   mine : RTP/Sound/Buzzer2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1d339484687698b02991fb7b7855e9cf78f807c3   26086 bytes
+   mine : RTP/Music/Opening 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 b1ca63c22c74d4e8c507908d641734cee26ecdaa   25982 bytes
+   mine : Sample/ArcheiaPictureTutorial/FaceSet/People2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d80e88d8716e07069e343599e1db8497ed329120   25836 bytes
+   mine : RTP/Music/Boss 4.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9d6d94120eb7eb3d1847bc82820e7e7cf173ebac   25778 bytes
+   mine : RTP/Sound/Collapse2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 2aa5fe5d9cb7e50f636346479f4490beaedd7872   25345 bytes
+   mine : RTP/Music/Dungeon 5.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 579b1839cac8bb283ce89c5e18cec3e2f2a94cab   25260 bytes
+   mine : RTP/Sound/Silence.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 26335628911fee568e865b5cd27f966d30f512f4   25132 bytes
+   mine : RTP/Sound/Fire3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 2cbf2148435d3590ec34ee45f5dae5b53fc4cd0c   24635 bytes
+   mine : Sample/ArcheiaPictureTutorial/FaceSet/Monster.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 42b388fd2ee50f30b4914904e12d1ae0b9489704   24620 bytes
+   mine : RTP/Sound/Ice1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 db424320b93a5215f17149b25240b88621aabe60   24471 bytes
+   mine : RTP/Music/Boss 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7a60d7c187018e174068913ea7177c8e1fee1c8d   24376 bytes
+   mine : RTP/Panorama/Night Sky1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 094f05301e1fac07fe0771c2a98b195680955682   24171 bytes
+   mine : RTP/Music/Town 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c03cb5176a6e72c39be916bd225ff90ae11a9506   23980 bytes
+   mine : RTP/Sound/Holy3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f711d3de958fe96aa6dd98b7037ccb841b4fd647   23468 bytes
+   mine : RTP/Sound/Recovery2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4785dec1dbefc57bf4a391ef485c5625573b2f8e   23436 bytes
+   mine : RTP/Music/Ending 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 bc80757653436f0e11ca88cdf8de8916f4ed2372   23340 bytes
+   mine : RTP/Sound/Buff.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 cca88ab18e77df46c22398475369248a9642282a   23276 bytes
+   mine : RTP/Sound/Attack1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 6dc27a8f41a9be0c5f627a58a185d03341040bbb   23084 bytes
+   mine : RTP/Sound/Shot2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c7974e5db83f5d07d12011c5f492dcfd369ff492   22891 bytes
+   mine : RTP/Panorama/Planet3.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 b1f56d6dc7dc07301b524e996184b634ecb6829d   22700 bytes
+   mine : RTP/Sound/Earth8.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 596b677bfe3a74fda3b1cbc22d400f1f4ed1471f   22030 bytes
+   mine : RTP/Sound/Bite.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7883f40310d4f5b76348ea3716cfc1ad8f7892b5   21844 bytes
+   mine : RTP/Music/Dungeon 4.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 6bc32a2a9dce9961713c2193fc80d20d6d89b7ea   21797 bytes
+   mine : RTP/Music/Vehicle 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 77ad2a8b2394bf5ef12056bd3e9b08bd6667da54   21548 bytes
+   mine : RTP/Sound/Decision2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9fa64e443bd741159fbdf1ba895b572bc7d5b4f4   21420 bytes
+   mine : RTP/Sound/Bow1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f5365f3f8eba8f84762d1506149a3fd23d7f1c6b   20724 bytes
+   mine : RTP/Music/Vehicle 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 a022c110af9211a9d72dd569b9faea333a90f3c5   20551 bytes
+   mine : RTP/Music/Ship 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f6b1c97f2519d276de190323dff0f6335dff2bb4   20459 bytes
+   mine : RTP/Panorama/Planet1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e6045f41c165a0d1eff23bbaf750dcb05158d520   20396 bytes
+   mine : RTP/Sound/Escape.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 16ff13531c8fee258d2db6e9ce24d94f4cf8a6b6   20383 bytes
+   mine : RTP/Music/Demon Lord.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 3e9cca2a5a07b8ac15fa78287b40d33c0d993733   19756 bytes
+   mine : RTP/Sound/Fire1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 b5ac540dcceacf1909b21161988b4cecff44446f   19500 bytes
+   mine : RTP/Sound/Earth7.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 ed09818c83fccbb4799be25d4d3d1cdba2d51409   19181 bytes
+   mine : RTP/Music/Ending 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1976482f6a488c0d8e106c8dd1ad391ef2aae7a5   18922 bytes
+   mine : RTP/Sound/Darkness6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 93f9d109e920708e5ba27c9d5d08cf16105f33bd   18881 bytes
+   mine : RTP/Music/Wrath.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 58c6365d98d08c53bc193831b315752fcff899bf   18648 bytes
+   mine : RTP/Music/Dungeon 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4119e45da4b7c138b890105200cb0ebb76c2a008   18429 bytes
+   mine : RTP/Panorama/Planet2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 3d98f5bd6a42d57032bd86ee8cbbfddfb96b0cce   18360 bytes
+   mine : RTP/Music/Ship 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 922e6d9462a09440853977ec2c5309cbb7ab7bab   18256 bytes
+   mine : RTP/Music/Trial.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 576deb6de21eefff80f787045821673073efc17b   18156 bytes
+   mine : RTP/Sound/Earth3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 87e1cc74cab2902c2afc593777da9bf3782f63c9   18156 bytes
+   mine : RTP/Sound/Thunder2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 78228a6dce30e2a4f563b6d31f991ef7358c13b5   17442 bytes
+   mine : RTP/Sound/Sword3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 eb05f070851953dc588e729217580ef96f0988a7   17062 bytes
+   mine : RTP/Music/Tower 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 a20621015b2f72ac36a7fd491ec4f4dc7337770a   16876 bytes
+   mine : RTP/Sound/Evade1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 eaead3008fbab5f69de2b321e6118e71c1e769e9   16402 bytes
+   mine : RTP/Sound/Open1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c30c72abfa47d5b42ba54c3c499b9164d479439b   16400 bytes
+   mine : RTP/CharSet/Monster2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7e987e099a813699b220da7704aded4886bd58f2   16281 bytes
+   mine : RTP/Music/Shop 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8d90901219834797c48f0126061a21f7e5a82b43   16118 bytes
+   mine : RTP/Sound/Blow4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 6f51ef39c5f2e689eaa09d82c93bb139b5277af8   15998 bytes
+   mine : RTP/Music/In a Pinch.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 14da54a8b3d2cc16af8e95d8f95e45196ff962e0   15404 bytes
+   mine : RTP/Sound/Attack2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 2971873b17b96eaa814a29176ed9a23b14d271e2   15102 bytes
+   mine : RTP/Music/Fairy 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 ef90dee339bf5a3672a618c7127a9e92ed2d8969   14900 bytes
+   mine : RTP/Sound/Blow7.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 237a81b0422b061ae59c9e5c988b45e7c3fc2203   14884 bytes
+   mine : RTP/Sound/Paralyze1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 054bed89ce3bd22215fffc99eeca5180bc0ca53b   14344 bytes
+   mine : RTP/Sound/Dog.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c594b9f0939e5ec0e163738ee1fec6de592ed684   14166 bytes
+   mine : RTP/Music/Sorrow.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8476e0901c020e037a20a659e7a4c93e848e50ab   13813 bytes
+   mine : RTP/Music/Black Market.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 5c41106de347c85326b168a18ee3a4d0d0f9016b   13731 bytes
+   mine : RTP/Music/Repose 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 dd99e0184445eeb95cc22498770ae46a4bd4a66a   13612 bytes
+   mine : RTP/Sound/Paralyze2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4451339f26316dcf4ba6549f4e95e4502bee38fb   13548 bytes
+   mine : RTP/Sound/Buzzer1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d5b3aefcb74729b7c0fa92c3b4da395dc7842def   13508 bytes
+   mine : RTP/Music/Dungeon 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 cec782277f6f4c88d758c90aca531c05f493408d   13508 bytes
+   mine : RTP/Sound/Damage1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 fa0c31b4b9705341e7c796423772556f79e26dfc   13415 bytes
+   mine : RTP/Music/Shop 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 12c2072f75a22223e1ec691a6ed3b2bfbfb9551b   13398 bytes
+   mine : RTP/Sound/Blow6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 b5005ec64e81b56f380242d580aed3731838f380   13014 bytes
+   mine : RTP/Music/Victory.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e372789c39dac242fabac00abf3fa0add7c6ecf5   12908 bytes
+   mine : RTP/Sound/Jump2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 177a2fedd9bb8cfd518dcd419b8f91695bf5deb2   12861 bytes
+   mine : RTP/Battle/Fire2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4cfcdfb6960a9dc6059a60cbcfb050beb7f521b1   12160 bytes
+   mine : RTP/CharSet/Actor2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 cefd214ab2c5d30160c407b151fd712d6e56a32a   12112 bytes
+   mine : RTP/Sound/Slash1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 469ededc947199d91074bcbca0b801e3bece371d   11827 bytes
+   mine : RTP/CharSet/Actor3.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 660541fa363fd98aa3aa49dd375df6c313beaa7d   11803 bytes
+   mine : RTP/CharSet/Actor4.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 2e3d96534c72f4f95d8cb6226b6030db223b9a40   11640 bytes
+   mine : RTP/CharSet/Actor1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 5e1b6a478ce507542e2a59e5a1968aedf060c63c   11554 bytes
+   mine : RTP/Battle/Other.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7b6238cfe40f9f1f9413bb9aa11b3a2b1e4f81e7   11410 bytes
+   mine : RTP/Sound/Sword1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d18a3143568100f7b4c9d3293403e887128e0a4f   11389 bytes
+   mine : RTP/CharSet/People3.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 214de6cd48459628a8563b94185c3def4e3f5908   11372 bytes
+   mine : RTP/Sound/Buzzer3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f6956611ff599bef0c15257b4b4af294be473ae0   11372 bytes
+   mine : RTP/Sound/Wind4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 09952db5b2c8d9222ad4c1ff2fd53e989a1d5910   11339 bytes
+   mine : RTP/Music/Town 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 354020c8d0c7f71eb3b1d662dd6f9474936e71fe   11249 bytes
+   mine : RTP/CharSet/Monster1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 a0bb2e7aa911f242ac99e4130a506906d146b3a6   11200 bytes
+   mine : RTP/CharSet/Vehicles.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 88e62b2d3e2617246c6a73bbb9a93171e2b9b7bc   11180 bytes
+   mine : RTP/Sound/Decision1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 577a95ff6aeee784dd2f68233a2ab93c62b59e14   11088 bytes
+   mine : RTP/Battle/Water.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4b81fc63a03daceb68b517b6df216776b205d3e5   10847 bytes
+   mine : RTP/Music/Village 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d8446c2e11046552dc26b6d20d64ff3fef40d6e8   10799 bytes
+   mine : RTP/CharSet/People2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 5ea00a2b7d7d88d537fb55aac267cabc67d93548   10796 bytes
+   mine : RTP/Sound/Jump1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8b1f903e05329f5fda7b277c04af9be07b947df7   10655 bytes
+   mine : RTP/CharSet/People1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d02ef3c90f98de753485e28d86cda5ba730c71df   10644 bytes
+   mine : RTP/CharSet/People5.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 97f7c4a3d677aa726c9f51be5d9f4f1955596f3a   10568 bytes
+   mine : RTP/CharSet/People4.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d4eef9bd6d12a85cc2ef63d1f83795ad953c8a49   10382 bytes
+   mine : RTP/Music/Castle 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d469c4f87ae03aa48b2ae263f5213b101a43afc2   10333 bytes
+   mine : RTP/Battle/Dark.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 023b57cd10be658db9a3fdd843b92321514f9d06   10112 bytes
+   mine : RTP/Music/Ship 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 5becdcd1c5270d50ff42205439b8e68b1cff2058   10092 bytes
+   mine : RTP/Sound/Barrier1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 dd8d307ab546116c3a1787f9f0f3068bbdbd2ac0   9928 bytes
+   mine : RTP/Music/Hero 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 64d184096eb1265c5ec92681e3717c4d1b69fdc3   9841 bytes
+   mine : RTP/Music/Mystery 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 6f8f4ae916666a1bf1fed645856a65bac811c622   9807 bytes
+   mine : RTP/Music/Defeat.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 482749ab105be59b1b968f6b2f77fa98caf72bac   9776 bytes
+   mine : RTP/Music/Boss 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 ba0c83c792f4689fff2e9c73af1eff48f9271ebe   9771 bytes
+   mine : RTP/Music/Repose 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 a6e729c41fe5d9745b9559d881571920a40ec7c5   9682 bytes
+   mine : RTP/Sound/Slash3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 0b24a2ca17b18b04ec20cc2c01579af2271f43bf   9650 bytes
+   mine : RTP/Sound/Slash9.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7b58362dd620b2ceb7433224b002bef73d444e47   9348 bytes
+   mine : RTP/Music/Animal.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 da8b7b4b0c20ab7b3b92a7818ade709a95f5b261   9320 bytes
+   mine : RTP/Sound/Slash2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 46559270a136c5400696b7c5a052351bee739bba   9286 bytes
+   mine : RTP/Music/Village 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 669c085949089b58ee3b75a134b251671bbd89de   9098 bytes
+   mine : RTP/Sound/Damage2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 a10727168f418b4b48e226d0c34e8cc23ad09532   8842 bytes
+   mine : RTP/Sound/Slash7.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 3e7ea3ec76480bb5fb6ea31c32085f01990e69fb   8829 bytes
+   mine : RTP/Music/Mystery 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 2d088b525e727c32faffeae9eae45110375d8c8b   8812 bytes
+   mine : RTP/Sound/Barrier2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f882db18e204898450eb83417b52d9dd240075ba   8768 bytes
+   mine : RTP/Sound/Evade2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1d5c28a0fa1a9b8e2b6aa1f1405a3a249d4a74e8   8768 bytes
+   mine : RTP/Sound/Switch1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 74452255e8a689c531ec3b77706052e4beb3b823   8749 bytes
+   mine : RTP/Music/Village 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d9c614283f0855bc19e2c5695aa75c39629b5eac   8652 bytes
+   mine : RTP/Sound/Slash4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 0aea4d1a62e257416ae2e96614b2a7c8eaa44f05   8622 bytes
+   mine : RTP/Sound/Slash5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c8b0e80b8b611dbbb21f04e4ec83dc93717127c2   8400 bytes
+   mine : RTP/Sound/Slash6.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 68ccb384b90570a69fc34ffdcc5ff266c544960a   8249 bytes
+   mine : RTP/Music/Tower 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 cdc629f4564a0d6973c4fdd3fbed3f0a65c744c2   8120 bytes
+   mine : RTP/Music/Parting 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 372ceaa40f0e16e9a34e1f9ba2e1390d6c066e1d   8049 bytes
+   mine : RTP/Battle/Fire1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 4320dff21243a7fe2e9ad60c9e7b54e2a4257076   8009 bytes
+   mine : RTP/CharSet/Animal.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c0c7f6fd0af3d58d39c875c6a5e934b465ee8809   7976 bytes
+   mine : RTP/Sound/Knock.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 fab347cc594481bfd3e6491543217eb393f20b18   7592 bytes
+   mine : RTP/Sound/Slash11.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 153d80282acdc26abd9d5446f495f02177b2a24f   7590 bytes
+   mine : RTP/Sound/Key.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d15bb6b78923f1f3e7e07465e5eb72748060f75d   7505 bytes
+   mine : RTP/Music/Ghost Town 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9beac0e21b9306aa18f384093665cc2e924fe94a   7499 bytes
+   mine : RTP/Music/Shop 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e32cd8420e91289f8a089541ff4695cacfafb1ee   7482 bytes
+   mine : RTP/Sound/Slash8.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 afef604dd04bca45cf54f0b381f57fc566671eee   7396 bytes
+   mine : RTP/Music/Castle 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 3071ceca6aae4b00c7eb9f3bdc5178af38429957   7212 bytes
+   mine : RTP/Music/Repose 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 61274cfeb741160a1f6b55d92ee7f5729edb6995   7111 bytes
+   mine : RTP/Battle/Ice.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 2b366dbabe414ecb4657b982cd5bf4555c9d4886   7082 bytes
+   mine : RTP/Battle/Explosion.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f911779b43abac1cc3320eecc5026f1ce2932196   7066 bytes
+   mine : RTP/Music/Castle 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 70c9abf5ef19a87c32e810429330c9f193dd659d   7040 bytes
+   mine : RTP/Sound/Blow1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 370da9089c27c1679504b85aa2168d9ccc747b2e   7038 bytes
+   mine : RTP/Music/Game Over 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7d4d1c7e2957f49c3fdb31bddd6d2b504a9e6378   6859 bytes
+   mine : RTP/Music/Game Over 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c5000973f3fea5b10fe700ddb081266847442194   6820 bytes
+   mine : RTP/Sound/Slash10.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 3f05295d536bb64847b930a8ce50028c5e4ef120   6668 bytes
+   mine : RTP/Sound/Blow5.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 badc405760eb1b391b0aa4f7b892e07bb0f22b5c   6542 bytes
+   mine : RTP/Music/Fairy 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7d044e75c59544a5b52fd11e7ec39750fc2b6c63   6190 bytes
+   mine : RTP/Sound/Blow2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 58559fa3bb62370c6988b49e90a03fce1d7c6076   6012 bytes
+   mine : RTP/Sound/Blow3.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 486800da45259809bb945639326f322cec7fa39e   5821 bytes
+   mine : RTP/CharSet/Object1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d934738499790db9f451fc6a06204701a96f1ca5   5602 bytes
+   mine : RTP/Sound/Cancel2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 01d152e2c0ca481198dede246eeed431dc52b446   5575 bytes
+   mine : RTP/Music/Church.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 dc3b132cc48e220cda2a9d42e5930854665a91ff   5515 bytes
+   mine : RTP/Music/Tower 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7a8cff10ff069148b5fa1eaed087699e70eb5227   5394 bytes
+   mine : RTP/CharSet/Object2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 66468d55051e05d1e8a8e6c0c7e77f16c93ad76f   5330 bytes
+   mine : RTP/Sound/Wind7.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e50b48a17d842459d3599632975acad552215bb7   5237 bytes
+   mine : RTP/Music/Dungeon 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d4acaf39d282ec98f9a64a3244972fca482e60b3   5180 bytes
+   mine : RTP/Battle/Paralysis.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 79ef3c1acf22a54bd7c42a7789cf4025c3ea406d   5130 bytes
+   mine : RTP/Sound/Buzzer4.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 3169efa16b735ba04a37a0ab0dd1f3e989e854d6   5114 bytes
+   mine : RTP/Music/Thief.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8ddc5821a6b0c807dbf9ffe8f376e7834741629b   4939 bytes
+   mine : RTP/Music/Secret Treasure.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 693e48f23b4a4b2ad5b42b2dd682051b01e88220   4879 bytes
+   mine : RTP/Battle/Breath.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 db1f002dd855906b284dd31f31c09513782f98b9   4720 bytes
+   mine : RTP/Sound/Cancel1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 18ed543e8ead1b7045d81550fabef9cb4d779fd0   4409 bytes
+   mine : RTP/Music/Parting 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d2e7d26cd953b5f3fe00d723604b14db6ebfa08a   4336 bytes
+   mine : RTP/Battle/Blow.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 43674c92caf875816c9d6dc18acb51157bea5297   4247 bytes
+   mine : RTP/Music/Game Over 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 831b64fa4bdd19feed932af9c0917ccf22bcffbd   4191 bytes
+   mine : RTP/Battle/Buff.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 dd4428b4817dd0f5e9b1b759088c65377ec67a28   4165 bytes
+   mine : RTP/Battle/Debuff.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e6f1252674913659e62c56dcd7153deccd5cfb99   4140 bytes
+   mine : RTP/Sound/Clock.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 b581c66364a2072d3df6e4b516a853bd604ca9b1   3992 bytes
+   mine : RTP/Battle/Earth.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 20179b9dbf70b3908dafcfb81b34c2a87f8f57e2   3979 bytes
+   mine : RTP/Music/Ghost Town 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 ed179529f3eaac7497e964dcd4724abbad97d0c6   3944 bytes
+   mine : RTP/Battle/Thunder.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 fc39b16a2cbc5afdc13067204dd28bbc8683e858   3728 bytes
+   mine : RTP/Sound/Switch2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e40617fd6160bca70bdf0324fadd48e058525038   3661 bytes
+   mine : RTP/Music/Exploration.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 37e2e62a6f938750663100d0f33d6ec592064508   3618 bytes
+   mine : RTP/Sound/Cursor2.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 dfc6d4fedd5e54dcb890e64365114d23651f49a4   3585 bytes
+   mine : RTP/Battle/Holy.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 70a2de0bdb9d203db0d84c25d2a1b0d2c190ff4f   2918 bytes
+   mine : RTP/Music/JFanfare 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e7ae20424684c3be9cf246444d594a0b165fe8ac   2796 bytes
+   mine : RTP/Battle/Spear.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f8e24ce61b0c7bb482f9c0ad88a63bd177fe4201   2784 bytes
+   mine : RTP/Battle/Ressurection.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8393ed8d98bae992349bbd00953546f04e90ac90   2460 bytes
+   mine : RTP/Battle/Whip.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c9ce485ec8903ddc4f5f0c2d4e5a6c75fea00cde   2455 bytes
+   mine : RTP/Battle/Claw.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 6a5adfc138643e435b3e2b9fcecc757608324bc2   2412 bytes
+   mine : RTP/Battle/Wind.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 3978eb3d53561c2eb2bb3cb786664240c7629377   2334 bytes
+   mine : RTP/Battle/Sword2.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 98769a5a82e4a28510b127169923dde2c15fba1d   2319 bytes
+   mine : RTP/Music/JFanfare 6.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 8494288ca815b97cb1f9c1c777e6d9af41ee78c6   2282 bytes
+   mine : RTP/Music/JFanfare 4.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 5bcc1644b0b2dcf1f1c8c66b9245d7f4b545a825   2197 bytes
+   mine : RTP/Music/JFanfare 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 338179612e817a546faa1c6f6f05c3953a1b7b91   2075 bytes
+   mine : Sample/ArcheiaPictureTutorial/System/System.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 81c7acae7d9a98add206741cf0f165787d7642d3   2029 bytes
+   mine : RTP/Battle/Axe.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 2055438e00bdba083fca5e483ed03f355758d883   2007 bytes
+   mine : RTP/Battle/Recovery.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 ad3d0f2c79cb380be71a2f3ec304ad5756eaa24b   1989 bytes
+   mine : RTP/Battle/Bite.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 de79aa6cb530ef050cd1bc6e32080551f86489f8   1982 bytes
+   mine : RTP/Battle/Barrier.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d9100838522d417ef1eb3d6b60f7805138da0ee1   1953 bytes
+   mine : RTP/Music/JEnd of Battle 4.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e94cde8a18157b2fd2d1c4d475fad3fb06224c78   1866 bytes
+   mine : RTP/Battle/Sword1.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 5eedeb60700ebc429fdf33aec860118e022aa379   1726 bytes
+   mine : RTP/Battle/Treatment.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 226434623854610e5bb6caaab5b7f702b529dc45   1726 bytes
+   mine : RTP/Music/JFanfare 5.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 7aa8d4c377efcea1c9fad01924da1ba7b8575e1e   1687 bytes
+   mine : RTP/Battle/Arrow.png
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 14d7a5f8b2fd439a9484505d928f58d4bbc055e4   1642 bytes
+   mine : RTP/Music/JInn 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 98b839a1e377ce7518da476d6127ddbfe4596d19   1538 bytes
+   mine : RTP/Music/JEnd of Battle 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 9ea18c981fb27fbe1b47a5c029727500c8371fe7   1312 bytes
+   mine : RTP/Music/JEnd of Battle 3.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 b2ec126fc4873c7cfbd0a60c977a1d5bf5dde5a5   1276 bytes
+   mine : RTP/Music/JFanfare 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e82d3cc231bda016cd2230088044741489b31c45   1262 bytes
+   mine : RTP/Music/JEnd of Battle 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e28d13a033f6677ffd80fdf3e4949a5c2753517e   1039 bytes
+   mine : RTP/Music/JMystery.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 1919a629f48a6e26bbaa373d1c5fb51250c0ddd6   847 bytes
+   mine : RTP/Music/JJoke 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 c291fff049c511316812fefe8e9908f5f73b2ee4   835 bytes
+   mine : RTP/Music/JItem.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 f8fe2f649c6fa8964411de9fe09ce923bbbc409b   769 bytes
+   mine : RTP/Music/JJoke 1.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 62c35b40915938212f838beb6a58828f7042117b   736 bytes
+   mine : RTP/Music/JInn 2.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 d929e85e7efde7f63ed42f4fdfec936a0c6a9ba4   678 bytes
+   mine : RTP/Sound/Cursor1.wav
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 491f4d31325725e9d90425ec0be56cdf6b0406cb   659 bytes
+   mine : RTP/Music/JDoubt.mid
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+
+sha1 e1f501ef97c6b9e5f34ce78b814733c4468b75df   52 bytes
+   mine : RPG Maker 2003.url
+   also : pc-rpgmaker2000-doc                notes/sha1-all.txt
+

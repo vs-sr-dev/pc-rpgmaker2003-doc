@@ -1,0 +1,76 @@
+root                 : rpgmaker2003-steam
+files matching .png  : 355
+parsed as PNG        : 355
+refused              : 0
+bytes in parsed files: 5174453
+
+-- closure: signature + every declared chunk length + CRC ------
+   files closing at residue 0        : 355 of 355
+   chunks walked                     : 1848
+   chunks whose CRC-32 verifies      : 1848 of 1848
+   files with a failing CRC          : 0
+
+-- what IHDR declares ------------------------------------------
+   depth  colour type            interlace  files
+       8  3 palettised                0      355
+
+-- the palettes ------------------------------------------------
+   files carrying a PLTE chunk       : 355 of 355
+   DISTINCT palettes by sha1 of PLTE : 231
+   palette entry counts              : {256: 355}
+   ef929c402359676a  shared by 95 files
+   9f305cbbdb92ae4c  shared by 9 files
+   b507d0fa1cf213a1  shared by 8 files
+   151ce27ddeab41c8  shared by 3 files
+   f3f2e4da14f4a925  shared by 3 files
+
+-- geometry ----------------------------------------------------
+   distinct (width, height) pairs    : 127
+     144 x 384    64 files
+     320 x 240    43 files
+     480 x 480    29 files
+     480 x 192    15 files
+     288 x 256    15 files
+     480 x 256    10 files
+     192 x 192    10 files
+     640 x 480    10 files
+
+-- chunk types seen --------------------------------------------
+   IDAT 462  IHDR 355  PLTE 355  IEND 355  cHRM 138  gAMA 128  pHYs 27  iTXt 10  tRNS 6  sBIT 5  iCCP 4  tIME 1  tEXt 1  tpNg 1
+
+-- is any two the same image? ----------------------------------
+   The tree has one sha1 per file, so no two files are
+   byte-identical. This asks the weaker and more useful question:
+   do two files carry the SAME COMPRESSED PIXEL STREAM, which
+   would make them the same image in different wrapping?
+   distinct IDAT streams by sha1      : 349 over 355 files
+   files sharing an IDAT stream       : 12
+      a424a5050bb4 x2  RTP/ChipSet/Exterior.png, Sample/ArcheiaPictureTutorial/ChipSet/Exterior.png
+      9df4a2e565c7 x2  RTP/ChipSet/Ship.png, Sample/ArcheiaPictureTutorial/ChipSet/Ship.png
+      9eaf15d61200 x2  RTP/ChipSet/World.png, Sample/ArcheiaPictureTutorial/ChipSet/World.png
+      dea52a7b2004 x2  RTP/System/System.png, Sample/ArcheiaPictureTutorial/System/System.png
+      c55e88f9c853 x2  RTP/System/SystemA.png, Sample/ArcheiaPictureTutorial/System/SystemA.png
+   files sharing (w, h, depth, colour, palette) with another
+   file but NOT its pixels            : 125
+
+-- by directory ------------------------------------------------
+   dir              files        bytes palettes
+   RTP/Backdrop        34      1687238 34
+   RTP/Battle          54       342309 28
+   RTP/BattleCharSet    64       465830 1
+   RTP/BattleWeapon     1         5665 1
+   RTP/CharSet         15       159558 5
+   RTP/ChipSet          5       170322 5
+   RTP/FaceSet          5       140023 5
+   RTP/GameOver         1        27367 1
+   RTP/Monster        115       549449 115
+   RTP/Panorama        13       833538 13
+   RTP/System           4        10921 4
+   RTP/System2          3         4567 3
+   RTP/Title            4       269386 4
+   Sample/ArcheiaPictureTutorial/ChipSet     5       190715 5
+   Sample/ArcheiaPictureTutorial/FaceSet     5       134337 5
+   Sample/ArcheiaPictureTutorial/Picture    23       172969 8
+   Sample/ArcheiaPictureTutorial/System     4        10259 4
+
+full table : notes/pngcensus.tsv (355 rows)

@@ -1,0 +1,30 @@
+the project's directories : 19, of which empty 15, carrying files 4
+
+  directory        empty?    in RTP?   the project resolves references there
+  Backdrop         EMPTY     yes       yes, 9 name(s)
+  Battle           EMPTY     yes       yes, 26 name(s)
+  Battle2          EMPTY     no        no
+  BattleCharSet    EMPTY     yes       no
+  BattleWeapon     EMPTY     yes       yes, 1 name(s)
+  CharSet          EMPTY     yes       yes, 4 name(s)
+  ChipSet          files     yes       no
+  FaceSet          files     yes       no
+  Frame            EMPTY     no        no
+  GameOver         EMPTY     yes       yes, 1 name(s)
+  Monster          EMPTY     yes       yes, 115 name(s)
+  Movie            EMPTY     no        no
+  Music            EMPTY     yes       yes, 3 name(s)
+  Panorama         EMPTY     yes       no
+  Picture          files     no        no
+  Sound            EMPTY     yes       yes, 1 name(s)
+  System           files     yes       no
+  System2          EMPTY     yes       yes, 1 name(s)
+  Title            EMPTY     yes       yes, 1 name(s)
+
+empty project directories whose RTP twin the project actually uses : 10 of 15
+
+and the reverse: RTP directories that are themselves empty
+   RTP/Battle2
+   RTP/Frame
+   RTP/Movie
+   RTP/Picture

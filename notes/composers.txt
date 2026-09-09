@@ -1,0 +1,27 @@
+=== 62 files
+  raw bytes : 28 43 29 32 30 30 30 20 62 79 20 41 53 43 49 49 20 43 6f 72 70 2e 2f 59 2e 4b 69 74 61 67 61 6d 69
+  cp932     : (C)2000 by ASCII Corp./Y.Kitagami
+  eucjp     : (C)2000 by ASCII Corp./Y.Kitagami
+  examples  : Battle 1.mid, Battle 2.mid, Black Market.mid
+  per character:
+
+=== 21 files
+  raw bytes : 8d ec 8b c8 81 46 92 c5 97 74 20 91 e5 97 83 20 81 79 44 61 69 73 75 6b 65 20 53 68 69 69 62 61 81 7a
+  cp932     : 作曲：椎葉 大翼 【Daisuke Shiiba】
+  eucjp     : refuses (UnicodeDecodeError)
+  examples  : 2003Adventurers.mid, 2003Beginning of a War.mid, 2003Casino Indulgence.mid
+  per character:
+     作  U+4F5C  cp932 8dec
+     曲  U+66F2  cp932 8bc8
+     ：  U+FF1A  cp932 8146
+     椎  U+690E  cp932 92c5
+     葉  U+8449  cp932 9774
+     大  U+5927  cp932 91e5
+     翼  U+7FFC  cp932 9783
+     【  U+3010  cp932 8179
+     】  U+3011  cp932 817a
+
+輔 U+8F14 encodes to cp932 95e3
+翼 U+7FFC encodes to cp932 9783
+祐 U+7950 encodes to cp932 9753
+助 U+52A9 encodes to cp932 8f95

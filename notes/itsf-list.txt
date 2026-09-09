@@ -1,0 +1,47 @@
+file                     : rpgmaker2003-steam/rpg2003.chm
+bytes                    : 6268124
+declared total inside    : 6268124
+residue against the disc : 0
+
+chunk size               : 4096
+chunk count declared     : 4  (at +0x2C of ITSP)
+chunks walked            : 4
+chunk tags in order      : PMGL PMGL PMGL PMGI
+PMGL tags counted        : 3
+PMGI tags counted        : 1
+first/last PMGL declared : 0 / 2
+PMGL chunks that implies : 3
+root index chunk declared: 3
+refusals                 : 0
+
+listing entries          : 530
+index entries            : 3
+
+-- entries by content section --------------------------------
+   section 0      12 entries        6251536 declared bytes
+   section 1     518 entries        8564596 declared bytes
+
+-- the two populations ---------------------------------------
+   names beginning '::'  (the container's own machinery) : 7
+   names beginning '/'   (the help project's own files)  : 523
+
+-- every '::' entry, which is where the 11 ::DataSpace hits go --
+   ::DataSpace/NameList                                       sect 0 off          0 len         60
+   ::DataSpace/Storage/MSCompressed/Content                   sect 0 off       6562 len    6244974
+   ::DataSpace/Storage/MSCompressed/ControlData               sect 0 off        106 len         28
+   ::DataSpace/Storage/MSCompressed/SpanInfo                  sect 0 off         98 len          8
+   ::DataSpace/Storage/MSCompressed/Transform/List            sect 0 off         60 len         38
+   ::DataSpace/Storage/MSCompressed/Transform/{7FC28940-9D31-11D0-9B27-00A0C91E9C7C}/InstanceData/ sect 0 off          0 len          0
+   ::DataSpace/Storage/MSCompressed/Transform/{7FC28940-9D31-11D0-9B27-00A0C91E9C7C}/InstanceData/ResetTable sect 0 off        134 len       2152
+
+-- the help project's files, by extension --------------------
+   .png          289 files        6015061 declared bytes
+   .htm          204 files        2172795 declared bytes
+   (none)         22 files         203987 declared bytes
+   .js             4 files         113878 declared bytes
+   .css            2 files           4628 declared bytes
+   .hhc            1 files          28798 declared bytes
+   .hhk            1 files          29725 declared bytes
+   TOTAL         523 files        8568872 declared bytes
+
+   entries declaring zero length (directories) : 5

@@ -1,0 +1,18 @@
+root      : rpgmaker2003-steam
+signature : 4d 5a 50 00  (4 bytes)
+
+files searched                       : 737
+files BEGINNING with the signature   : 4 of 737
+   rpg2003.exe
+   rpg_rt.exe.dat
+   setup.exe.dat
+   Sample/ArcheiaPictureTutorial/RPG_RT.exe
+occurrences ANYWHERE                 : 5, in 4 files
+   setup.exe.dat                                            2
+   rpg2003.exe                                              1
+   rpg_rt.exe.dat                                           1
+   Sample/ArcheiaPictureTutorial/RPG_RT.exe                 1
+
+A signature that begins no file and appears inside many is not a
+near miss.  It is a coincidence, and the two counts are printed
+apart so that neither can be quoted as the other.

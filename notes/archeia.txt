@@ -1,0 +1,31 @@
+=== rpg2003.exe  (4387328 bytes)
+   Archeia        2 hit(s) [3342741, 3342877]
+        @3342733   'Jasmin "Archeia" Toral'
+        @3342869   'Jasmin "Archeia" Toral'
+   archeia        0 hit(s) []
+   ARCHEIA        0 hit(s) []
+
+=== Sample/ArcheiaPictureTutorial/RPG_RT.ldb  (374229 bytes)
+   Zahl           4 hit(s) [330897, 330980, 330987, 331208]
+        @330863    '?// will find files with the name Zahl (German word for number).'
+        @330932    'A// You will also notice they have numbers like Zahl0, Zahl1, etc.'
+        @330932    'A// You will also notice they have numbers like Zahl0, Zahl1, etc.'
+        @331208    'Zahl0'
+
+=== Sample/ArcheiaPictureTutorial/Map0002.lmu  (7469 bytes)
+   RTPHERO        2 hit(s) [3873, 4638]
+        @3873      'RTPHEROES[3, 3]'
+        @4638      'RTPHERO_1'
+   POLAROID       2 hit(s) [1670, 1846]
+        @1670      'POLAROID'
+        @1846      'POLAROID'
+   INPUTDISPLAY   1 hit(s) [6101]
+        @6101      'INPUTDISPLAY'
+
+=== Sample/ArcheiaPictureTutorial/Map0001.lmu  (2752 bytes)
+   magiccircle    1 hit(s) [1714]
+        @1714      'magiccircle'
+
+=== 'archeia' case-insensitively over all 737 files
+   rpg2003.exe                                          2
+   total occurrences : 2

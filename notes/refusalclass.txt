@@ -1,0 +1,17 @@
+readers in the report        : 67
+refused with a non-zero exit : 42
+exited 0 anyway              : 25
+
+  class        count   what it means
+  argparse        23   the command line, not the object -- no byte was read
+  oserror          9   the path was wrong for it
+  format           9   it read bytes and said no
+  exception        1   it fell over
+  TOTAL           42
+  the four classes sum to the refusal total : True
+
+  format     : buildorder.py, hashdb.py, is32.py, isaccount.py, isz.py, runexpect.py, tpsave.py, tptab.py, zaccount.py
+  exception  : bundlebudget.py
+  oserror    : acaccount.py, authenticode.py, buildroot.py, gogmanifest.py, itsf.py, jsdata.py, jstore.py, nrbf.py, peimpexp.py
+
+  argparse share of the refusals : 23 of 42 = 54.7619 %

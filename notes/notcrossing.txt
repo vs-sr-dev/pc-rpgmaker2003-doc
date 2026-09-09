@@ -1,0 +1,89 @@
+=== NOT CROSSING, by directory
+   .                                     11     13360369
+   RTP/Music                             54      2279428
+   RTP/Backdrop                          34      1687238
+   RTP/Monster                          115       549449
+   RTP/BattleCharSet                     64       465830
+   Sample/ArcheiaPictureTutorial          7       387313
+   RTP/Title                              4       269386
+   Sample/ArcheiaPictureTutorial/Picture    24       227622
+   RTP/Battle                            26       211432
+   Sample/ArcheiaPictureTutorial/ChipSet     5       190715
+   RTP/ChipSet                            5       170322
+   RTP/FaceSet                            5       140023
+   RTP                                    1        23558
+   RTP/System                             3         8846
+   RTP/BattleWeapon                       1         5665
+   RTP/System2                            3         4567
+   Sample/ArcheiaPictureTutorial/System     1         2356
+   TOTAL                                363     19984119
+
+=== CROSSING, by directory
+   RTP/Sound                            206      9080352
+   RTP/Music                             97      2012793
+   RTP/Panorama                          13       833538
+   RTP/CharSet                           15       159558
+   Sample/ArcheiaPictureTutorial/FaceSet     5       134337
+   RTP/Battle                            28       130877
+   .                                      2        47842
+   RTP/GameOver                           1        27367
+   RTP/System                             1         2075
+   TOTAL                                368     12428739
+
+=== the five WAV that do not cross
+   RTP/Music/SE2003Jungle.wav                         151306
+   RTP/Music/SE2003Wind.wav                           215262
+   RTP/Music/SE2003Bird.wav                           187472
+   RTP/Music/SE2003Bustle.wav                         191606
+   RTP/Music/SE2003Alarm.wav                           19384
+
+=== the 49 MIDI that do not cross
+   2003Beginning of a War.mid                          25542
+   2003Exploring Ruins.mid                             27671
+   2003Village in the Valley.mid                        8984
+   2003Dream Forest.mid                                 6693
+   2003Tavern.mid                                      70921
+   2003Fairy Forest.mid                                61424
+   2003Cyber City.mid                                  42643
+   2003Repeated Wars.mid                               51720
+   2003DarkAltar.mid                                    7951
+   2003Dreaminess.mid                                   5173
+   2003SunnyVillage.mid                                19196
+   2003Church.mid                                       3252
+   2003City Bustle.mid                                 25530
+   2003Little Army's March.mid                          7601
+   2003Healing Spring.mid                              11504
+   2003Deserted Mansion.mid                            10635
+   2003Adventurers.mid                                 42592
+   2003Machine Fortress.mid                            16074
+   2003Palace Party.mid                                18242
+   2003Snow Town.mid                                    4734
+   2003Panic.mid                                        6080
+   2003Battle with an Evil God.mid                     23641
+   2003Ancient City.mid                                10916
+   2003Dream of Striking It Rich.mid                    7222
+   J2003Horn.mid                                         640
+   2003Waltz of Blessings.mid                          83690
+   2003Free For All.mid                                12886
+   2003Maximum Battle.mid                              28635
+   2003Cathedral.mid                                    5220
+   2003Otherworldly Corridor.mid                       22257
+   2003Colosseum.mid                                   50297
+   2003Tension.mid                                     25639
+   2003Village of Savages.mid                          20261
+   2003Casino Indulgence.mid                           94402
+   2003Ice Labyrinth.mid                               39351
+   2003Creeping Darkness.mid                           16942
+   2003In the Eternal Flow of Time.mid                 12027
+   2003Deep Memory.mid                                  7566
+   2003Wings to the Sky.mid                            91543
+   2003Silence.mid                                     16641
+   2003Steady Breeze.mid                               23779
+   2003Hero's Return.mid                              114307
+   2003Sorrow.mid                                      99072
+   2003Far Eastern Land.mid                            76631
+   2003Subterranean Maze.mid                           71427
+   2003Young Memories.mid                               2267
+   2003Empire.mid                                      48359
+   2003Final Battleground.mid                          12647
+   2003Lonesome Journey.mid                            21971

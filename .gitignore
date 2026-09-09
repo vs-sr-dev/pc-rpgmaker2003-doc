@@ -1,0 +1,6 @@
+rpgmaker2003-steam/
+_pre/
+_work/
+prompt.txt
+__pycache__/
+*.pyc

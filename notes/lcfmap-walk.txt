@@ -1,0 +1,74 @@
+===== Map0001.lmu
+file        : Map0001.lmu
+bytes       : 2752
+header name : 'LcfMapUnit', ending at 11
+top level   : FIELDS terminated by a tag of 0
+fields      : 10
+tags        : 1 11 50 60 61 62 71 72 81 90
+ascending   : True
+   tag   1  at     11  size      1
+   tag  11  at     14  size      1
+   tag  50  at     17  size      1
+   tag  60  at     20  size     36
+   tag  61  at     58  size     36
+   tag  62  at     96  size     36
+   tag  71  at    134  size    600
+   tag  72  at    737  size    600
+   tag  81  at   1340  size   1405
+   tag  90  at   2748  size      1
+events      : 10, the event list closing at residue 0
+WALK ENDS AT: 2752 of 2752      RESIDUE 0
+exit=0
+===== Map0002.lmu
+file        : Map0002.lmu
+bytes       : 7469
+header name : 'LcfMapUnit', ending at 11
+top level   : FIELDS terminated by a tag of 0
+fields      : 10
+tags        : 1 11 50 60 61 62 71 72 81 90
+ascending   : True
+   tag   1  at     11  size      1
+   tag  11  at     14  size      1
+   tag  50  at     17  size      1
+   tag  60  at     20  size     36
+   tag  61  at     58  size     36
+   tag  62  at     96  size     36
+   tag  71  at    134  size    600
+   tag  72  at    737  size    600
+   tag  81  at   1340  size   6121
+   tag  90  at   7464  size      2
+events      : 19, the event list closing at residue 0
+WALK ENDS AT: 7469 of 7469      RESIDUE 0
+exit=0
+===== Map0003.lmu
+file        : Map0003.lmu
+bytes       : 2414
+header name : 'LcfMapUnit', ending at 11
+top level   : FIELDS terminated by a tag of 0
+fields      : 10
+tags        : 11 42 50 60 61 62 71 72 81 90
+ascending   : True
+   tag  11  at     11  size      1
+   tag  42  at     14  size      1
+   tag  50  at     17  size      1
+   tag  60  at     20  size     36
+   tag  61  at     58  size     36
+   tag  62  at     96  size     36
+   tag  71  at    134  size    600
+   tag  72  at    737  size    600
+   tag  81  at   1340  size   1066
+   tag  90  at   2409  size      2
+events      : 6, the event list closing at residue 0
+WALK ENDS AT: 2414 of 2414      RESIDUE 0
+exit=0
+===== RPG_RT.lmt
+file        : RPG_RT.lmt
+bytes       : 335
+header name : 'LcfMapTree', ending at 11
+top level   : a LIST of 4, then a trailing block
+   entry 0 : 12 fields   name Picture Tutorial
+   entry 1 : 12 fields   name Basement
+   entry 2 : 12 fields   name Brian's House
+   entry 3 : 14 fields   name World Map
+trailing    : order [0, 3, 2, 1]   ambiguous True
+WALK ENDS AT: 335 of 335      RESIDUE 0

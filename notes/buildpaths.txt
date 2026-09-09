@@ -1,0 +1,97 @@
+### buildroot.py, three invocations, all failing on a hard-coded path from another object
+--- --file <path>
+           ~~~~^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'karmaflow-steam\\rpgmaker2003-steam/rpg2003.exe'
+--- --root <root>
+           ~~~~^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'rpgmaker2003-steam\\Binaries\\Win64\\KFGame.exe'
+--- --root and --file together, with the needle this object actually has
+file    : rpg2003.exe   4387328 bytes
+
+plain substring counts, which need no regular expression:
+   basecamp games            0
+   basecamp                  0
+   karmaflow                 0
+   UnrealEd                  0
+   Array.h                   0
+
+drive-letter paths, NUL-terminated : 58, distinct 39
+of those under d:\ha\             : 15, distinct 10 case-folded, 10 as written
+
+the twelve commonest:
+   x4      d:\ha\02rpg2000\2003\rpg_rt\mapeditutils.pas
+   x2      d:\ha\02rpg2000\2003\rpg_rt\aurorasheet.pas
+   x2      d:\ha\02rpg2000\2003\ed_player2.pas
+   x1      d:\ha\02rpg2000\2003\rpg_rt\ld_event.pas
+   x1      d:\ha\02rpg2000\2003\rpg_rt\gr_chipset.pas
+   x1      d:\ha\02rpg2000\2003\mapeditor.pas
+   x1      d:\ha\02rpg2000\2003\ed_player.pas
+
+### pdbpaths.py --root
+binaries examined            : 6
+carrying a CodeView RSDS path: 0
+of those, redacted           : 0
+
+
+drive letters : {}
+
+### peimpexp.py --exports on ultimate_eb.dll
+   .reloc     VA 0x0004F000  vsize     6312  raw 0x00041800  rsize     6656
+
+EXPORTS : module name 'ultimate_eb.dll', 24 functions, 24 by name
+   forwarded to another DLL : 0 of 24 named
+   CherryInitialize         @1       RVA 0x00009A60
+   FindClassHInstanceEx     @2       RVA 0x0000B430
+   GetPicEventText          @3       RVA 0x0000BE80
+   GetScriptListBGColor     @4       RVA 0x0000B130
+   GetSpritesheetDashBoxText @5       RVA 0x0000BA20
+   HOOK_GETEVENTCOMMANDSTRING@12 @6       RVA 0x00005FB0
+   HandleShutdown           @7       RVA 0x0000CA20
+   Hook_ExtTextOutA         @8       RVA 0x0000DE10
+   Hook_GetEventCommandString @9       RVA 0x0000DE20
+   Hook_GetTempPathA        @10      RVA 0x0000B280
+   Hook_OnCreateProject     @11      RVA 0x0000DE30
+   Hook_OnFreeProject       @12      RVA 0x0000DE50
+   Hook_OnLoadProject       @13      RVA 0x0000DE40
+   Hook_WinHelpA            @14      RVA 0x0000AF40
+   MaterialBaseGetRealFolderName @15      RVA 0x0000B090
+   OnControlResize          @16      RVA 0x0000D500
+   OnCustomFormDoShow       @17      RVA 0x0000DCD0
+   OnCustomFormUpdateShowing @18      RVA 0x0000D9F0
+   OnRenameProject          @19      RVA 0x0000B200
+   ShowInExplorer           @20      RVA 0x0000B350
+   ShowPicMagicNameHandler  @21      RVA 0x0000BCF0
+   ShowScriptPasteWarning   @22      RVA 0x0000B300
+   TFormCherrySpritesheet_AnimationAreaPaint @23      RVA 0x0000B8D0
+   TFormEDSystem2_ButtonExpertClick @24      RVA 0x0000DDE0
+
+### peimpexp.py --imports on ultimate_eb.dll
+   .reloc     VA 0x0004F000  vsize     6312  raw 0x00041800  rsize     6656
+
+IMPORTS : 7 DLLs, 207 names
+   ADVAPI32.dll         10
+      CryptAcquireContextA
+      CryptGenRandom
+      CryptReleaseContext
+      RegCloseKey
+      RegCreateKeyExA
+      RegDeleteKeyA
+      RegDeleteValueA
+      RegOpenKeyExA
+      RegQueryValueExA
+      RegSetValueExA
+   GDI32.dll            7
+      AddFontMemResourceEx
+      CreateFontA
+      ExtTextOutA
+      GetBkColor
+      GetTextExtentPoint32A
+      SetBkMode
+      SetTextColor
+   KERNEL32.dll         64
+      Beep
+      CloseHandle
+      CopyFileA
+      CreateMutexA
+      DeleteCriticalSection
+      EnterCriticalSection

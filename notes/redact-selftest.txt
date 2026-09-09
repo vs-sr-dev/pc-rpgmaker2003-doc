@@ -1,0 +1,16 @@
+  an address is replaced and the count is 1            ok     ICQ UIN #2444691       E-mail: [e-mail redacted: see docs on the personal data]
+  the ICQ number beside it survives                    ok     
+  a project URL is NOT touched                         ok     
+  a company support line is NOT touched                ok     
+  the alias list is NOT touched                        ok     
+  the author's name is NOT touched                     ok     
+  a version string is NOT touched                      ok     
+  a path with an @-free colon is NOT touched           ok     
+  a@b.invalid is caught                                ok     
+  first.last+tag@sub.domain.example is caught          ok     
+  SOMEONE@EXAMPLE.INVALID is caught                    ok     
+  no address in this tool's own source is routable     ok     5 specimens, all reserved
+  a file with no address reports zero rather than one  ok     
+  high bytes either side of an address are preserved   ok     
+
+14 checks, 0 failures

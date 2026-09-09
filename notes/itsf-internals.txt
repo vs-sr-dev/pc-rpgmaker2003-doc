@@ -1,0 +1,113 @@
+file                 : rpgmaker2003-steam/rpg2003.chm
+content section 0 at : 16588, and it is UNCOMPRESSED
+entries in section 0 : 12
+
+--- ::DataSpace/NameList, which declares its own length ------
+  entry declares      : 60 bytes at +0
+  u16 at +0           : 30, a length in 16-bit words = 60 bytes
+  residue against the entry's declared length : 0
+  u16 at +2, entries  : 2
+  section 0           : 'Uncompressed' (12 characters)
+  section 1           : 'MSCompressed' (12 characters)
+  residue after the walk : 0 of 60
+
+--- ::DataSpace/Storage/MSCompressed/ControlData --------------
+  28 bytes at +106, as 7 u32 : (6, 1129863756, 2, 2, 2, 1, 0)
+  u32 at +0            : 6, the count of u32 that follow
+  bytes 4..8           : b'LZXC'   <- the LZXC tag, at absolute 16698
+  version              : 2
+  reset interval       : 2
+  window size          : 2
+  cache size           : 1
+  trailing u32         : 0
+
+--- ::DataSpace/Storage/MSCompressed/ResetTable --------------
+  2152 bytes at +134
+  version              : 2
+  block count          : 264
+  entry size           : 8
+  table offset         : 40
+  uncompressed length  : 8623119
+  compressed length    : 6244974
+  LZX block size       : 32768
+  40 + 264 x 8 = 2152 against a declared 2152   residue 0
+  first five entries   : [0, 3292, 6770, 10764, 13072]
+  last entry           : 6243442
+  monotone increasing  : True
+  every entry inside the compressed stream : True
+  264 blocks x 32768 = 8650752, so the last block holds 5135 bytes
+
+--- the closures that cross two structures -------------------
+  the Content entry declares 6244974 bytes at +6562
+  16588 + 6562 + 6244974 = 6268124 against 6268124 bytes on disc   residue 0
+  ResetTable's compressed length 6244974 against the Content entry's 6244974   residue 0
+  SpanInfo declares 8623119
+  ResetTable's uncompressed length is 8623119   residue 0
+  the furthest reach of the 518 section-1 entries is 8623119   residue 0
+  their declared lengths sum to 8564596, which is 58523 less than the span
+
+--- does the directory TILE the decompressed stream? ----------
+  The sum above is not the question; the layout is. Walked in
+  offset order, every gap and every overlap is printed.
+  entries        : 518
+  overlaps       : 0
+  gaps           : 1, totalling 58523 bytes
+     58523 bytes at 0, before /32b5cc5.htm
+  furthest reach : 8623119 against a declared span of 8623119   residue 0
+
+--- /#SYSTEM, which is in section 0 and therefore readable ---
+  4276 bytes at +2286 (absolute 18874)
+  version              : 3
+  entries walked       : 12
+  residue after the walk : 0 of 4276
+
+  code 10  a u32 clock                          1505591653 -> 2017-09-16 19:54:13 UTC
+  code 9   compiler version                     'HHA Version 4.74.8702'
+  code 4   binary: LCID, flags and a FILETIME   LCID 0x0409, FILETIME at +20 = 0x01D32F25875D5693
+                                           -> 2017-09-16 19:53:55.521294 UTC
+
+  AND THIS IS WHAT DATES THE ITSF HEADER.
+  The u32 at +0x10 of the ITSF header is 0x875E7D84.
+  It is not a Unix time and it is not a date on its own.
+  Paired with the high dword 0x01D32F25 of the FILETIME above
+  -- which is in a different structure written by the same
+  pass -- it reads 2017-09-16 19:53:55.528845 UTC,
+  which is +0.0076 s from that FILETIME. A field whose low
+  half lands within milliseconds of a timestamp found
+  elsewhere in the same file is a timestamp; the high half
+  is supplied here and that is stated, not hidden.
+
+  code 2   default topic                        'rmindex.htm'
+  code 3   title                                'RPG Maker 2003'
+  code 16  default font                         'Arial,10,0'
+  code 6   compiled file name                   'rpg2003_en'
+  code 5   default window                       'Main'
+  code 7   binary index                         u32 = 1001898487
+  code 12  u32                                  u32 = 0
+  code 13  a copy of /#IDXHDR                   4096 bytes, beginning b'T#SMu\xf8\xd2d'
+  code 15  u32                                  u32 = 0
+
+--- every clock this container carries -----------------------
+  /#SYSTEM code 10, a u32 Unix time          2017-09-16 19:54:13 UTC
+  /#SYSTEM code 4, a FILETIME at +20         2017-09-16 19:53:55.521294 UTC
+  the ITSF header's u32 at +0x10, paired     2017-09-16 19:53:55.528845 UTC
+
+--- the 11 ::DataSpace occurrences, placed -------------------
+  `sigcount.py` counts the literal bytes. This says where they are
+  and whether the chunk they sit in is using them.
+     11679  chunk 2 (PMGL) at +3283   in the used area
+     11703  chunk 2 (PMGL) at +3307   in the used area
+     11751  chunk 2 (PMGL) at +3355   in the used area
+     11799  chunk 2 (PMGL) at +3403   in the used area
+     11844  chunk 2 (PMGL) at +3448   in the used area
+     11895  chunk 2 (PMGL) at +3499   in the used area
+     11994  chunk 2 (PMGL) at +3598   in the used area
+  in a used area : 7      in an unused tail : 0      total : 7
+  directory entries whose name begins '::' : 7
+
+  The three in the tail sit at the SAME chunk offsets as three
+  live ones in the chunk before, and so does the quickref table
+  beside them: the packer reused one 4096-byte buffer, wrote a
+  shorter chunk into it and did not clear the rest. A signature
+  count cannot know that, and this is why it reports more
+  occurrences than the directory has entries.

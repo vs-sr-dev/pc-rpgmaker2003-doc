@@ -1,0 +1,34 @@
+  every extension falls in exactly one bucket                          ok     
+  an unknown extension is not counted as published                     ok     ('neither', 'not identified in this session')
+  INS is derived at the member layer and neither at the product layer  ok     
+  a name with a path separator takes the last component                ok     
+  a dotfile is not given an extension                                  ok     (none)
+  a name with no dot is not given an extension                         ok     
+  HLP is NOT counted as published                                      ok     
+  the Z archive is derived and not published                           ok     
+  a PE is SPECIFIED                                                    ok     
+  an MZP stub is SPECIFIED too, because MZ is the signature            ok     
+  a PNG is SPECIFIED                                                   ok     
+  a RIFF that is not WAVE is not counted as WAVE                       ok     
+  a RIFF WAVE is SPECIFIED                                             ok     
+  an ITSF container is DECODED, not specified                          ok     
+  an LCF database is DECODED, not specified                            ok     
+  a file merely CONTAINING LcfDataBase is not one                      ok     
+  an LcfMapUnit is DECODED                                             ok     
+  an LcfMapTree is DECODED                                             ok     
+  the two map variants are told apart                                  ok     
+  a wrong length prefix on LcfMapUnit is not one                       ok     
+  a PSD is SPECIFIED, because Adobe published the format               ok     
+  a PSD is named as Adobe's                                            ok     
+  plain text is SPECIFIED                                              ok     
+  Shift-JIS text is SPECIFIED, not opaque                              ok     
+  and it is named as Shift-JIS rather than as ASCII                    ok     
+  a byte string cp932 REFUSES is not called text                       ok     
+  a head cut mid-sequence is still recognised as text                  ok     
+  but a bad sequence in the MIDDLE is not forgiven                     ok     
+  pure ASCII does not reach the Shift-JIS probe                        ok     
+  a random binary is OPAQUE                                            ok     
+  an empty file is OPAQUE and does not crash                           ok     
+  the classifier emits only bucket names the report knows              ok     
+
+32 checks, 0 failures

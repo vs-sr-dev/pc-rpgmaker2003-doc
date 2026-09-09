@@ -1,0 +1,43 @@
+# third-party components in this object
+#
+# Format: sha1, bytes, path, vendor, component, evidence offset.
+# Every row's vendor is named IN THE FILE at the offset given.
+#
+# object : rpgmaker2003-steam
+
+## whole files that ARE a third party's
+
+e1f338ef9ae2e0d289f61956ece608ee56b16358     237568  UNLHA32.DLL                                     Micco                  LZH compression library      @103321  '(C)Micco 1995-2000'
+9ba229d3f979f01801c76fa7fe6cdff77e83f30a      47790  BaseFlushAppcompatCache.exe                     Nullsoft               NSIS installer runtime       @33800  'NullsoftInst'
+
+## files naming the publisher 'KADOKAWA' as well, which CARRY a third
+## party's code rather than being one
+
+4dc4d17cca2d5c074f5db66e4c057eacca609400    4387328  rpg2003.exe                                     (KADOKAWA @642861)
+                                                     David "Cherry" Trapp   the Ultimate patch           @1766465  'David "Cherry" Trapp'
+                                                     Borland                Borland Delphi runtime       @135748  'Software\\Borland\\Delphi\\6.0'
+302d8f15356d2cc0e9606b388a904a2a50a7a01e    1032704  rpg_rt.exe.dat                                  (KADOKAWA @474557)
+                                                     David "Cherry" Trapp   the Ultimate patch           @907841  'David "Cherry" Trapp'
+                                                     Borland                Borland Delphi runtime       @129408  'Software\\Borland\\Delphi\\6.0'
+302d8f15356d2cc0e9606b388a904a2a50a7a01e    1032704  Sample/ArcheiaPictureTutorial/RPG_RT.exe        (KADOKAWA @474557)
+                                                     David "Cherry" Trapp   the Ultimate patch           @907841  'David "Cherry" Trapp'
+                                                     Borland                Borland Delphi runtime       @129408  'Software\\Borland\\Delphi\\6.0'
+535f9a5fc1cff2c87613f82b3682a7282f2de321     630784  setup.exe.dat                                   (KADOKAWA @405668)
+                                                     Borland                Borland Delphi runtime       @128844  'Software\\Borland\\Delphi\\6.0'
+b85df8b0a12de29b6b2a1b65766f37996b7542ee     274944  ultimate_eb.dll                                 (KADOKAWA @148365)
+                                                     David "Cherry" Trapp   the Ultimate patch           @53985  'David "Cherry" Trapp'
+                                                     Microsoft              Microsoft HTML Help runtime  @150876  'hhctrl.ocx'
+1a3eb60b07eaf1fbc20ae609826f30bbb6d6188d     124928  ultimate_rt_eb.dll.dat                          (KADOKAWA @83489)
+                                                     David "Cherry" Trapp   the Ultimate patch           @19841  'David "Cherry" Trapp'
+1a3eb60b07eaf1fbc20ae609826f30bbb6d6188d     124928  Sample/ArcheiaPictureTutorial/ultimate_rt_eb.dll  (KADOKAWA @83489)
+                                                     David "Cherry" Trapp   the Ultimate patch           @19841  'David "Cherry" Trapp'
+
+components : 2    carriers : 7    total files : 9
+
+## what this list does NOT establish
+#
+# A marker in a file says the file contains that string. It does
+# not say the component is unmodified, and two products carrying
+# one vendor's marker at different sha1 are carrying two builds,
+# not one library. That is exactly why the vendor column exists:
+# the hashes will not cross and the vendor will.

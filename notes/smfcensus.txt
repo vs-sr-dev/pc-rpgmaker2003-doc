@@ -1,0 +1,77 @@
+root                      : rpgmaker2003-steam
+files matching .mid/.midi : 141
+parsed as Standard MIDI   : 141
+refused                   : 0
+bytes in parsed files     : 2945749
+
+-- closure: 14 + every declared MTrk length --------------------
+   files closing at residue 0            : 141 of 141
+   files whose walked track count equals
+   the count MThd declares               : 141 of 141
+   tracks walked                         : 1963
+   events walked                         : 797748
+
+-- what MThd declares -----------------------------------------
+   format  tracks  division  files
+        1       3       480      2
+        1       5       120      1
+        1       6        96      7
+        1       6       120      1
+        1       6       480      2
+        1       7        96      4
+        1       7       120      6
+        1       7       480      1
+        1       8        96      5
+        1       8       120      2
+        1       8       480      1
+        1       9       480      1
+        1      10       120      3
+        1      10       480      3
+        1      11       120      3
+        1      11       480      3
+        1      12        96      2
+        1      12       480      3
+        1      13        96     43
+        1      13       120      1
+        1      13       480      5
+        1      14        96      1
+        1      14       120      1
+        1      14       480      2
+        1      15       120      1
+        1      15       384      1
+        1      15       480      2
+        1      16       480      1
+        1      17       120      1
+        1      17       480      1
+        1      18       120      1
+        1      18       480      1
+        1      20       384      3
+        1      21       384      1
+        1      22       384      5
+        1      23       384      6
+        1      24       384      1
+        1      25       384      2
+        1      26       384      3
+        1      27       384      3
+        1      29       384      4
+        1      39       384      1
+   distinct formats   : {1: 141}
+   distinct divisions : {120: 21, 480: 28, 384: 30, 96: 62}
+
+-- the tempo map and the playing time -------------------------
+   files with a usable division          : 141 of 141
+   total playing time                    : 10435.682 s (173.93 min)
+   set-tempo events per file             : {1: 102, 2: 21, 3: 4, 7: 3, 8: 1, 9: 1, 10: 1, 12: 1, 13: 1, 17: 1, 37: 1, 83: 1, 145: 1, 272: 1, 387: 1}
+   longest  : RTP/Music/Opening 1.mid        174.993 s
+   shortest : RTP/Music/J2003Horn.mid        3.750 s
+
+-- text-bearing meta events -----------------------------------
+   files carrying at least one           : 141 of 141
+   by meta type : {'name': 1317, 'copyright': 83, 'marker': 58, 'text': 3}
+   distinct strings                      : 569
+
+-- by directory -----------------------------------------------
+   dir              files        bytes      seconds
+   RTP/Music          141      2945749    10435.682
+
+full table : notes/smfcensus.tsv (141 rows)

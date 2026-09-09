@@ -1,0 +1,28 @@
+binaries with a COFF TimeDateStamp : 9
+
+  file                                                bytes      stamp as a time (UTC)      T1 T2 T3
+  rpg2003.exe                                       4387328  708992537 1992-06-19 22:22:17  .  Y  .
+  rpg_rt.exe.dat                                    1032704  708992537 1992-06-19 22:22:17  .  Y  .
+  Sample/ArcheiaPictureTutorial/RPG_RT.exe          1032704  708992537 1992-06-19 22:22:17  .  Y  .
+  setup.exe.dat                                      630784  708992537 1992-06-19 22:22:17  .  Y  .
+  ultimate_eb.dll                                    274944    2097152 1970-01-25 06:32:32  .  .  Y
+  UNLHA32.DLL                                        237568  951877853 2000-03-01 02:30:53  .  .  .
+  ultimate_rt_eb.dll.dat                             124928      65536 1970-01-01 18:12:16  .  .  Y
+  Sample/ArcheiaPicture...ial/ultimate_rt_eb.dll     124928      65536 1970-01-01 18:12:16  .  .  Y
+  BaseFlushAppcompatCache.exe                         47790 1260053452 2009-12-05 22:50:52  .  .  .
+
+  T1 IMPOSSIBLE (mtime precedes link time)      : 0 of 9
+  T2 COLLIDING  (a stamp shared across sizes)   : 4 of 9
+  T3 ROUND      (a round binary quantity)       : 3 of 9
+  FALSE by at least one test                    : 7 of 9
+  the same, counted by DISTINCT BINARY not by file : 5 of 7
+
+  ROUND : ultimate_eb.dll                          stamp 0x00200000 = 2097152, a power of two (2^22) and before 1980
+  ROUND : ultimate_rt_eb.dll.dat                   stamp 0x00010000 = 65536, a power of two (2^17) and before 1980
+  ROUND : Sample/ArcheiaPictureTutorial/ultimate_rt_eb.dll stamp 0x00010000 = 65536, a power of two (2^17) and before 1980
+
+-- and what the tests do NOT say ------------------------------
+  A stamp that passes all three is not thereby true. These tests
+  catch three ways of being obviously false and no way of being
+  quietly false, and a linker that writes a plausible wrong date
+  defeats all of them.

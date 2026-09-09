@@ -1,0 +1,504 @@
+########## ultimate_eb.dll --exports
+rpgmaker2003-steam/ultimate_eb.dll : PE32, image base 0x2DD00000, 11 sections
+   .text      VA 0x00001000  vsize   133548  raw 0x00000400  rsize   133632
+   .data      VA 0x00022000  vsize    17984  raw 0x00020E00  rsize    18432
+   .rdata     VA 0x00027000  vsize    16048  raw 0x00025600  rsize    16384
+   .eh_fram   VA 0x0002B000  vsize     4952  raw 0x00029600  rsize     5120
+   .bss       VA 0x0002D000  vsize    29696  raw 0x00000000  rsize        0
+   .edata     VA 0x00035000  vsize      821  raw 0x0002AA00  rsize     1024
+   .idata     VA 0x00036000  vsize     6008  raw 0x0002AE00  rsize     6144
+   .CRT       VA 0x00038000  vsize       44  raw 0x0002C600  rsize      512
+   .tls       VA 0x00039000  vsize       32  raw 0x0002C800  rsize      512
+   .rsrc      VA 0x0003A000  vsize    85460  raw 0x0002CA00  rsize    85504
+   .reloc     VA 0x0004F000  vsize     6312  raw 0x00041800  rsize     6656
+
+EXPORTS : module name 'ultimate_eb.dll', 24 functions, 24 by name
+   forwarded to another DLL : 0 of 24 named
+   CherryInitialize         @1       RVA 0x00009A60
+   FindClassHInstanceEx     @2       RVA 0x0000B430
+   GetPicEventText          @3       RVA 0x0000BE80
+   GetScriptListBGColor     @4       RVA 0x0000B130
+   GetSpritesheetDashBoxText @5       RVA 0x0000BA20
+   HOOK_GETEVENTCOMMANDSTRING@12 @6       RVA 0x00005FB0
+   HandleShutdown           @7       RVA 0x0000CA20
+   Hook_ExtTextOutA         @8       RVA 0x0000DE10
+   Hook_GetEventCommandString @9       RVA 0x0000DE20
+   Hook_GetTempPathA        @10      RVA 0x0000B280
+   Hook_OnCreateProject     @11      RVA 0x0000DE30
+   Hook_OnFreeProject       @12      RVA 0x0000DE50
+   Hook_OnLoadProject       @13      RVA 0x0000DE40
+   Hook_WinHelpA            @14      RVA 0x0000AF40
+   MaterialBaseGetRealFolderName @15      RVA 0x0000B090
+   OnControlResize          @16      RVA 0x0000D500
+   OnCustomFormDoShow       @17      RVA 0x0000DCD0
+   OnCustomFormUpdateShowing @18      RVA 0x0000D9F0
+   OnRenameProject          @19      RVA 0x0000B200
+   ShowInExplorer           @20      RVA 0x0000B350
+   ShowPicMagicNameHandler  @21      RVA 0x0000BCF0
+   ShowScriptPasteWarning   @22      RVA 0x0000B300
+   TFormCherrySpritesheet_AnimationAreaPaint @23      RVA 0x0000B8D0
+   TFormEDSystem2_ButtonExpertClick @24      RVA 0x0000DDE0
+
+########## ultimate_eb.dll --imports
+rpgmaker2003-steam/ultimate_eb.dll : PE32, image base 0x2DD00000, 11 sections
+   .text      VA 0x00001000  vsize   133548  raw 0x00000400  rsize   133632
+   .data      VA 0x00022000  vsize    17984  raw 0x00020E00  rsize    18432
+   .rdata     VA 0x00027000  vsize    16048  raw 0x00025600  rsize    16384
+   .eh_fram   VA 0x0002B000  vsize     4952  raw 0x00029600  rsize     5120
+   .bss       VA 0x0002D000  vsize    29696  raw 0x00000000  rsize        0
+   .edata     VA 0x00035000  vsize      821  raw 0x0002AA00  rsize     1024
+   .idata     VA 0x00036000  vsize     6008  raw 0x0002AE00  rsize     6144
+   .CRT       VA 0x00038000  vsize       44  raw 0x0002C600  rsize      512
+   .tls       VA 0x00039000  vsize       32  raw 0x0002C800  rsize      512
+   .rsrc      VA 0x0003A000  vsize    85460  raw 0x0002CA00  rsize    85504
+   .reloc     VA 0x0004F000  vsize     6312  raw 0x00041800  rsize     6656
+
+IMPORTS : 7 DLLs, 207 names
+   ADVAPI32.dll         10
+      CryptAcquireContextA
+      CryptGenRandom
+      CryptReleaseContext
+      RegCloseKey
+      RegCreateKeyExA
+      RegDeleteKeyA
+      RegDeleteValueA
+      RegOpenKeyExA
+      RegQueryValueExA
+      RegSetValueExA
+   GDI32.dll            7
+      AddFontMemResourceEx
+      CreateFontA
+      ExtTextOutA
+      GetBkColor
+      GetTextExtentPoint32A
+      SetBkMode
+      SetTextColor
+   KERNEL32.dll         64
+      Beep
+      CloseHandle
+      CopyFileA
+      CreateMutexA
+      DeleteCriticalSection
+      EnterCriticalSection
+      ExitProcess
+      ExpandEnvironmentStringsA
+      FillConsoleOutputAttribute
+      FillConsoleOutputCharacterA
+      FindResourceA
+      FormatMessageA
+      FreeResource
+      GetCommandLineA
+      GetConsoleCP
+      GetConsoleMode
+      GetConsoleScreenBufferInfo
+      GetCurrentDirectoryA
+      GetCurrentProcess
+      GetCurrentProcessId
+      GetCurrentThreadId
+      GetFullPathNameA
+      GetLargestConsoleWindowSize
+      GetLastError
+      GetLocaleInfoA
+      GetModuleFileNameA
+      GetModuleHandleA
+      GetPrivateProfileStringA
+      GetProcAddress
+      GetStdHandle
+      GetSystemTimeAsFileTime
+      GetTickCount
+      GlobalGetAtomNameA
+      InitializeCriticalSection
+      LeaveCriticalSection
+      LoadLibraryA
+      LoadResource
+      LocalFree
+      LockFile
+      LockResource
+      MultiByteToWideChar
+      OpenMutexA
+      OutputDebugStringA
+      QueryPerformanceCounter
+      QueryPerformanceFrequency
+      ReleaseMutex
+      ScrollConsoleScreenBufferA
+      SetConsoleCursorPosition
+      SetConsoleMode
+      SetConsoleWindowInfo
+      SetUnhandledExceptionFilter
+      SizeofResource
+      Sleep
+      TerminateProcess
+      TlsGetValue
+      UnhandledExceptionFilter
+      UnlockFile
+      VirtualProtect
+      VirtualQuery
+      WideCharToMultiByte
+      WriteConsoleOutputA
+      WriteFile
+      WritePrivateProfileStringA
+      lstrlenA
+   msvcrt.dll           78
+      __dllonexit
+      __doserrno
+      __pioinfo
+      __setusermatherr
+      _amsg_exit
+      _controlfp
+      _errno
+      _filelengthi64
+      _fileno
+      _findclose
+      _findfirst
+      _findnext
+      _get_osfhandle
+      _i64toa
+      _initterm
+      _iob
+      _itoa
+      _lock
+      _lseeki64
+      _onexit
+      _putenv
+      _strdup
+      _stricmp
+      _strnicmp
+      _ui64toa
+      _ultoa
+      _unlock
+      _write
+      abort
+      atexit
+      atoi
+      calloc
+      ceil
+      exit
+      fclose
+      feof
+      fflush
+      fgetpos
+      fgets
+      floor
+      fopen
+      fprintf
+      fputs
+      fread
+      free
+      freopen
+      fsetpos
+      fwrite
+      getenv
+      islower
+      isspace
+      isupper
+      localeconv
+      log10
+      malloc
+      mbstowcs
+      memcpy
+      memmove
+      memset
+      modf
+      rand
+      realloc
+      remove
+      rename
+      setlocale
+      setvbuf
+      sprintf
+      srand
+      strcmp
+      strlen
+      strncmp
+      strrchr
+      strtoul
+      tolower
+      toupper
+      vfprintf
+      wcslen
+      wcstoul
+   SHELL32.dll          2
+      SHGetFolderPathA
+      ShellExecuteA
+   USER32.dll           43
+      ClientToScreen
+      CreateWindowExA
+      DefWindowProcA
+      DialogBoxParamA
+      EnableMenuItem
+      EndDialog
+      EnumChildWindows
+      GetActiveWindow
+      GetAncestor
+      GetAsyncKeyState
+      GetClassNameA
+      GetClientRect
+      GetDesktopWindow
+      GetDlgItem
+      GetDlgItemTextA
+      GetParent
+      GetPropA
+      GetSysColor
+      GetSystemMenu
+      GetWindow
+      GetWindowLongA
+      GetWindowRect
+      GetWindowTextA
+      GetWindowThreadProcessId
+      InflateRect
+      InvalidateRect
+      IsDlgButtonChecked
+      IsWindow
+      IsWindowVisible
+      IsZoomed
+      MessageBoxA
+      MoveWindow
+      PostMessageA
+      RedrawWindow
+      RemovePropA
+      ScreenToClient
+      SendDlgItemMessageA
+      SetClassLongA
+      SetDlgItemTextA
+      SetFocus
+      SetPropA
+      SetWindowTextA
+      ShowWindow
+   VERSION.dll          3
+      GetFileVersionInfoA
+      GetFileVersionInfoSizeA
+      VerQueryValueA
+
+########## ultimate_rt_eb.dll.dat --exports
+rpgmaker2003-steam/ultimate_rt_eb.dll.dat : PE32, image base 0x2DD00000, 11 sections
+   .text      VA 0x00001000  vsize    82324  raw 0x00000400  rsize    82432
+   .data      VA 0x00016000  vsize      932  raw 0x00014600  rsize     1024
+   .rdata     VA 0x00017000  vsize    13964  raw 0x00014A00  rsize    14336
+   .eh_fram   VA 0x0001B000  vsize     3140  raw 0x00018200  rsize     3584
+   .bss       VA 0x0001C000  vsize    38452  raw 0x00000000  rsize        0
+   .edata     VA 0x00026000  vsize      328  raw 0x00019000  rsize      512
+   .idata     VA 0x00027000  vsize     5432  raw 0x00019200  rsize     5632
+   .CRT       VA 0x00029000  vsize       44  raw 0x0001A800  rsize      512
+   .tls       VA 0x0002A000  vsize       32  raw 0x0001AA00  rsize      512
+   .rsrc      VA 0x0002B000  vsize    11476  raw 0x0001AC00  rsize    11776
+   .reloc     VA 0x0002E000  vsize     3364  raw 0x0001DA00  rsize     3584
+
+EXPORTS : module name 'ultimate_rt_eb.dll', 10 functions, 10 by name
+   forwarded to another DLL : 0 of 10 named
+   ATBHandlerMain           @1       RVA 0x00005460
+   CherryInitialize         @2       RVA 0x00004C20
+   CustomGameWndProc        @3       RVA 0x00005670
+   CustomStretchBlt         @4       RVA 0x00005170
+   DataInitialized          @5       RVA 0x000057C0
+   F5Handler                @6       RVA 0x000054D0
+   GetFullscreenRect        @7       RVA 0x00004E50
+   HandleNameRepl           @8       RVA 0x000057D0
+   SetMoviePosition         @9       RVA 0x000050B0
+   StartupFullscreenDecision @10      RVA 0x000055C0
+
+########## ultimate_rt_eb.dll.dat --imports
+rpgmaker2003-steam/ultimate_rt_eb.dll.dat : PE32, image base 0x2DD00000, 11 sections
+   .text      VA 0x00001000  vsize    82324  raw 0x00000400  rsize    82432
+   .data      VA 0x00016000  vsize      932  raw 0x00014600  rsize     1024
+   .rdata     VA 0x00017000  vsize    13964  raw 0x00014A00  rsize    14336
+   .eh_fram   VA 0x0001B000  vsize     3140  raw 0x00018200  rsize     3584
+   .bss       VA 0x0001C000  vsize    38452  raw 0x00000000  rsize        0
+   .edata     VA 0x00026000  vsize      328  raw 0x00019000  rsize      512
+   .idata     VA 0x00027000  vsize     5432  raw 0x00019200  rsize     5632
+   .CRT       VA 0x00029000  vsize       44  raw 0x0001A800  rsize      512
+   .tls       VA 0x0002A000  vsize       32  raw 0x0001AA00  rsize      512
+   .rsrc      VA 0x0002B000  vsize    11476  raw 0x0001AC00  rsize    11776
+   .reloc     VA 0x0002E000  vsize     3364  raw 0x0001DA00  rsize     3584
+
+IMPORTS : 8 DLLs, 183 names
+   ADVAPI32.dll         7
+      CryptAcquireContextA
+      CryptGenRandom
+      CryptReleaseContext
+      RegCloseKey
+      RegCreateKeyExA
+      RegQueryValueExA
+      RegSetValueExA
+   GDI32.dll            9
+      AddFontMemResourceEx
+      CreateFontA
+      SelectObject
+      SetBkColor
+      SetBkMode
+      SetStretchBltMode
+      SetTextColor
+      StretchBlt
+      TextOutA
+   KERNEL32.dll         62
+      Beep
+      CloseHandle
+      DeleteCriticalSection
+      EnterCriticalSection
+      FillConsoleOutputAttribute
+      FillConsoleOutputCharacterA
+      FindResourceA
+      FreeResource
+      GetCommandLineA
+      GetConsoleCP
+      GetConsoleMode
+      GetConsoleScreenBufferInfo
+      GetCurrentProcess
+      GetCurrentProcessId
+      GetCurrentThreadId
+      GetFullPathNameA
+      GetLargestConsoleWindowSize
+      GetLastError
+      GetLocaleInfoA
+      GetModuleFileNameA
+      GetModuleHandleA
+      GetPrivateProfileStringA
+      GetProcAddress
+      GetStdHandle
+      GetSystemTimeAsFileTime
+      GetTickCount
+      GlobalAlloc
+      GlobalLock
+      GlobalSize
+      GlobalUnlock
+      InitializeCriticalSection
+      LeaveCriticalSection
+      LoadResource
+      LockFile
+      LockResource
+      MultiByteToWideChar
+      PeekConsoleInputA
+      QueryPerformanceCounter
+      QueryPerformanceFrequency
+      ReadConsoleInputA
+      ScrollConsoleScreenBufferA
+      SetConsoleCtrlHandler
+      SetConsoleCursorPosition
+      SetConsoleMode
+      SetConsoleWindowInfo
+      SetUnhandledExceptionFilter
+      SizeofResource
+      Sleep
+      TerminateProcess
+      TlsAlloc
+      TlsFree
+      TlsGetValue
+      TlsSetValue
+      UnhandledExceptionFilter
+      UnlockFile
+      VirtualProtect
+      VirtualQuery
+      WaitForSingleObject
+      WideCharToMultiByte
+      WriteConsoleInputA
+      WriteConsoleOutputA
+      WriteFile
+   msvcrt.dll           68
+      __dllonexit
+      __doserrno
+      __pioinfo
+      __setusermatherr
+      _amsg_exit
+      _beginthreadex
+      _controlfp
+      _errno
+      _filelengthi64
+      _fileno
+      _get_osfhandle
+      _initterm
+      _iob
+      _itoa
+      _lock
+      _lseeki64
+      _onexit
+      _strdup
+      _stricmp
+      _strnicmp
+      _ultoa
+      _unlock
+      _write
+      abort
+      atexit
+      atoi
+      calloc
+      ceil
+      exit
+      fclose
+      feof
+      fflush
+      fgetpos
+      fgets
+      floor
+      fopen
+      fprintf
+      fputs
+      fread
+      free
+      freopen
+      fsetpos
+      fwrite
+      islower
+      isupper
+      log10
+      malloc
+      mbstowcs
+      memcpy
+      memmove
+      memset
+      modf
+      rand
+      realloc
+      remove
+      setlocale
+      setvbuf
+      sprintf
+      srand
+      strcmp
+      strlen
+      strncmp
+      strrchr
+      strtoul
+      tolower
+      toupper
+      vfprintf
+      wcslen
+   ole32.dll            3
+      CoCreateInstance
+      CoInitialize
+      CoUninitialize
+   USER32.dll           25
+      CallWindowProcA
+      CheckDlgButton
+      CloseClipboard
+      DialogBoxParamA
+      EmptyClipboard
+      EnableWindow
+      EndDialog
+      GetAsyncKeyState
+      GetClipboardData
+      GetDlgItem
+      GetForegroundWindow
+      GetSystemMenu
+      InsertMenuA
+      IsDlgButtonChecked
+      MapVirtualKeyA
+      MessageBoxA
+      OpenClipboard
+      SendDlgItemMessageA
+      SendMessageA
+      SetClipboardData
+      SetTimer
+      SetWindowPos
+      SetWindowTextA
+      VkKeyScanA
+      keybd_event
+   VERSION.dll          3
+      GetFileVersionInfoA
+      GetFileVersionInfoSizeA
+      VerQueryValueA
+   WINMM.DLL            6
+      mixerClose
+      mixerGetControlDetailsA
+      mixerGetLineControlsA
+      mixerGetLineInfoA
+      mixerOpen
+      mixerSetControlDetails

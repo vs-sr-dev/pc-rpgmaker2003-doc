@@ -1,0 +1,74 @@
+database        : rpgmaker2003-steam\rpg_rt.ldb.dat (388574 bytes)
+RTP directories : 16
+   RTP/.               1 files
+   RTP/Backdrop       34 files
+   RTP/Battle         54 files
+   RTP/BattleCharSet   64 files
+   RTP/BattleWeapon    1 files
+   RTP/CharSet        15 files
+   RTP/ChipSet         5 files
+   RTP/FaceSet         5 files
+   RTP/GameOver        1 files
+   RTP/Monster       115 files
+   RTP/Music         151 files
+   RTP/Panorama       13 files
+   RTP/Sound         206 files
+   RTP/System          4 files
+   RTP/System2         3 files
+   RTP/Title           4 files
+
+A (chunk, field) is taken as a RESOURCE REFERENCE when at least
+100 % of its DISTINCT values are file stems in one RTP
+subdirectory. Everything else is printed below the line.
+
+  chunk.field  RTP dir          distinct   references   resolved
+  11.3         RTP/CharSet        3 of 3       14            14
+  11.15        RTP/CharSet        2 of 2       14            14
+  14.2         RTP/Monster      115 of 115     115           115
+  16.4         RTP/Backdrop       9 of 9       10            10
+  19.2         RTP/Battle        26 of 26     131           131
+  20.2         RTP/ChipSet        5 of 5        5             5
+  21.103       RTP/Sound          1 of 1        1             1
+  21.136       RTP/BattleWeapon     1 of 1        1             1
+  22.11        RTP/CharSet        1 of 1        1             1
+  22.12        RTP/CharSet        1 of 1        1             1
+  22.13        RTP/CharSet        1 of 1        1             1
+  22.17        RTP/Title          1 of 1        1             1
+  22.18        RTP/GameOver       1 of 1        1             1
+  22.19        RTP/System         1 of 1        1             1
+  22.20        RTP/System2        1 of 1        1             1
+  22.84        RTP/Backdrop       1 of 1        1             1
+  TOTAL                                           299        299
+
+  RESOURCE REFERENCES THAT RESOLVE TO A FILE THAT EXISTS : 299 of 299
+  residue : 0
+
+-- and the limit of the join, stated -------------------------
+  A name resolving proves the file exists. It does not always
+  prove WHICH directory the reference means, because stems repeat.
+  distinct file stems under RTP                 : 658
+  stems appearing in more than one subdirectory : 18
+     Actor1         CharSet, FaceSet
+     Actor2         CharSet, FaceSet
+     Animal         CharSet, Music
+     Barrier        Battle, Sound
+     Bite           Battle, Sound
+     Breath         Battle, Sound
+     Buff           Battle, Sound
+     Debuff         Battle, Sound
+     ... 10 more
+  joined references whose stem is ambiguous     : 18 of 299
+  (they still resolve; the directory this table names for them
+   is the tool's best match and not a measurement.)
+
+-- below the threshold: names that partly coincide, and are NOT
+-- counted, because a display name that matches its own picture is
+-- a naming habit and not a reference
+  14.1         RTP/Monster      110 of 115 =  95.7 %
+  20.1         RTP/ChipSet        4 of 5   =  80.0 %
+  17.1         RTP/Battle         8 of 17  =  47.1 %
+  18.1         RTP/Sound          4 of 10  =  40.0 %
+  16.1         RTP/Backdrop       3 of 10  =  30.0 %
+  15.1         RTP/Music          6 of 88  =   6.8 %
+  12.1         RTP/Sound          5 of 128 =   3.9 %
+  19.1         RTP/Monster        1 of 134 =   0.7 %

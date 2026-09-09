@@ -1,0 +1,30 @@
+files matching .wav            : 216
+parsed as RIFF/WAVE           : 216
+not RIFF/WAVE                 : 0
+format tags                   : 1 x216
+
+-- route C: does the container close on the file? -------------------
+  files where RIFF size + 8 != file size, or the chunk walk does not
+  account for every byte      : 0 of 216
+
+-- routes A and B ---------------------------------------------------
+  A  data / nAvgBytesPerSec   : 263.486349206 s
+  B  data / frame / rate      : 263.486349206 s
+  |A - B| over the population : 0.000000000 s
+  worst single-file |A - B|   : 0.000000000 s   -
+  nAvgBytesPerSec != rate*frame: 0 files
+  nBlockAlign     != frame     : 0 files
+
+-- formats ----------------------------------------------------------
+   tag    ch       Hz  bits    files
+   1       1    22050    16      157
+   1       1    22050     8       59
+
+-- chunk order --------------------------------------------------
+   fmt ,data                         178
+   fmt ,fact,data                     36
+   fmt ,cue ,LIST,data                 2
+
+-- by directory -------------------------------------------------
+   RTP/Sound                  206 files      9080352 bytes     232.964 s  (3.88 min)
+   RTP/Music                   10 files      1346472 bytes      30.522 s  (0.51 min)

@@ -1,0 +1,199 @@
+project : ArcheiaPictureTutorial
+its own directories carrying files : 5
+   project                         6 files
+   project/ChipSet                 5 files
+   project/FaceSet                 5 files
+   project/Picture                24 files
+   project/System                  4 files
+RTP directories carrying files     : 16
+
+A (source, field) is a RESOURCE REFERENCE when at least 75 % of its
+distinct values are file stems somewhere. Everything else is below the line.
+
+  source     field            refs  where
+  ldb        11.15               1  project/FaceSet 1
+  ldb        11.3                1  RTP/CharSet 1
+  ldb        14.1              115  RTP/Monster 110, (nowhere) 5
+  ldb        14.2              115  RTP/Monster 115
+  ldb        16.4               10  RTP/Backdrop 10
+  ldb        19.2              131  RTP/Battle 131
+  ldb        20.1                5  project/ChipSet 4, (nowhere) 1
+  ldb        20.2                5  project/ChipSet 5
+  ldb        21.103              1  RTP/Sound 1
+  ldb        21.136              1  RTP/BattleWeapon 1
+  ldb        22.11               1  RTP/CharSet 1
+  ldb        22.12               1  RTP/CharSet 1
+  ldb        22.13               1  RTP/CharSet 1
+  ldb        22.17               1  RTP/Title 1
+  ldb        22.18               1  RTP/GameOver 1
+  ldb        22.19               1  project/System 1
+  ldb        22.20               1  RTP/System2 1
+  ldb        22.84               1  RTP/Backdrop 1
+  lmt        12.1                4  RTP/Music 3, (nowhere) 1
+  lmu        81.5.21             9  RTP/CharSet 6, project/FaceSet 3
+
+  references counted                 : 406
+  resolve INSIDE the project         : 14
+  resolve into the shared RTP        : 385
+  resolve NOWHERE                    : 7
+  the three sum to the total         : True
+
+-- the chipset chain, which no stem threshold can find ---------
+  a map's field 1 is an index into database chunk 20, whose
+  entry's field 2 is a graphic stem.
+  Map0001.lmu    chipset id 4 -> Dungeon    -> project/ChipSet/Dungeon.png
+  Map0002.lmu    chipset id 3 -> Interior   -> project/ChipSet/Interior.png
+  Map0003.lmu    chipset id 1 -> World      -> project/ChipSet/World.png
+  chipset chains that resolve : 3 of 3
+
+-- below the threshold, and NOT counted ------------------------
+  ldb        17.1           17 distinct,  47.1 % resolve
+  ldb        18.1           10 distinct,  40.0 % resolve
+  ldb        16.1           10 distinct,  30.0 % resolve
+  ldb        15.1           88 distinct,   6.8 % resolve
+  ldb        12.1          128 distinct,   4.7 % resolve
+  ldb        19.1          134 distinct,   0.7 % resolve
+  ldb        11.1            1 distinct,   0.0 % resolve
+  ldb        11.2            1 distinct,   0.0 % resolve
+  ldb        11.43           1 distinct,   0.0 % resolve
+  ldb        11.60           1 distinct,   0.0 % resolve
+  ldb        12.11           2 distinct,   0.0 % resolve
+  ldb        12.14          91 distinct,   0.0 % resolve
+  ldb        12.2           49 distinct,   0.0 % resolve
+  ldb        12.24           8 distinct,   0.0 % resolve
+  ldb        12.25           3 distinct,   0.0 % resolve
+  ldb        13.1           78 distinct,   0.0 % resolve
+  ldb        13.11           9 distinct,   0.0 % resolve
+  ldb        13.12           8 distinct,   0.0 % resolve
+  ldb        13.17           1 distinct,   0.0 % resolve
+  ldb        13.2           30 distinct,   0.0 % resolve
+  ldb        13.32           1 distinct,   0.0 % resolve
+  ldb        13.33           1 distinct,   0.0 % resolve
+  ldb        13.34           1 distinct,   0.0 % resolve
+  ldb        13.35           1 distinct,   0.0 % resolve
+  ldb        13.5            8 distinct,   0.0 % resolve
+  ldb        13.67           2 distinct,   0.0 % resolve
+  ldb        14.11          25 distinct,   0.0 % resolve
+  ldb        14.12          16 distinct,   0.0 % resolve
+  ldb        14.4           26 distinct,   0.0 % resolve
+  ldb        14.5            5 distinct,   0.0 % resolve
+  ldb        14.6           27 distinct,   0.0 % resolve
+  ldb        14.7           30 distinct,   0.0 % resolve
+  ldb        14.8           19 distinct,   0.0 % resolve
+  ldb        14.9           23 distinct,   0.0 % resolve
+  ldb        16.46           2 distinct,   0.0 % resolve
+  ldb        17.12           1 distinct,   0.0 % resolve
+  ldb        17.14           1 distinct,   0.0 % resolve
+  ldb        17.15           1 distinct,   0.0 % resolve
+  ldb        18.11           2 distinct,   0.0 % resolve
+  ldb        18.12           3 distinct,   0.0 % resolve
+  ldb        18.13           3 distinct,   0.0 % resolve
+  ldb        18.14           1 distinct,   0.0 % resolve
+  ldb        18.22           1 distinct,   0.0 % resolve
+  ldb        18.23           1 distinct,   0.0 % resolve
+  ldb        18.35           1 distinct,   0.0 % resolve
+  ldb        18.4            8 distinct,   0.0 % resolve
+  ldb        21.10           1 distinct,   0.0 % resolve
+  ldb        21.101          1 distinct,   0.0 % resolve
+  ldb        21.102          1 distinct,   0.0 % resolve
+  ldb        21.106          1 distinct,   0.0 % resolve
+  ldb        21.107          1 distinct,   0.0 % resolve
+  ldb        21.108          1 distinct,   0.0 % resolve
+  ldb        21.110          1 distinct,   0.0 % resolve
+  ldb        21.112          1 distinct,   0.0 % resolve
+  ldb        21.114          1 distinct,   0.0 % resolve
+  ldb        21.115          1 distinct,   0.0 % resolve
+  ldb        21.117          1 distinct,   0.0 % resolve
+  ldb        21.118          1 distinct,   0.0 % resolve
+  ldb        21.119          1 distinct,   0.0 % resolve
+  ldb        21.120          1 distinct,   0.0 % resolve
+  ldb        21.121          1 distinct,   0.0 % resolve
+  ldb        21.122          1 distinct,   0.0 % resolve
+  ldb        21.123          1 distinct,   0.0 % resolve
+  ldb        21.124          1 distinct,   0.0 % resolve
+  ldb        21.125          1 distinct,   0.0 % resolve
+  ldb        21.126          1 distinct,   0.0 % resolve
+  ldb        21.127          1 distinct,   0.0 % resolve
+  ldb        21.128          1 distinct,   0.0 % resolve
+  ldb        21.129          1 distinct,   0.0 % resolve
+  ldb        21.130          1 distinct,   0.0 % resolve
+  ldb        21.131          1 distinct,   0.0 % resolve
+  ldb        21.132          1 distinct,   0.0 % resolve
+  ldb        21.133          1 distinct,   0.0 % resolve
+  ldb        21.134          1 distinct,   0.0 % resolve
+  ldb        21.135          1 distinct,   0.0 % resolve
+  ldb        21.137          1 distinct,   0.0 % resolve
+  ldb        21.138          1 distinct,   0.0 % resolve
+  ldb        21.139          1 distinct,   0.0 % resolve
+  ldb        21.140          1 distinct,   0.0 % resolve
+  ldb        21.146          1 distinct,   0.0 % resolve
+  ldb        21.147          1 distinct,   0.0 % resolve
+  ldb        21.148          1 distinct,   0.0 % resolve
+  ldb        21.151          1 distinct,   0.0 % resolve
+  ldb        21.152          1 distinct,   0.0 % resolve
+  ldb        21.153          1 distinct,   0.0 % resolve
+  ldb        21.2            1 distinct,   0.0 % resolve
+  ldb        21.36           1 distinct,   0.0 % resolve
+  ldb        21.37           1 distinct,   0.0 % resolve
+  ldb        21.39           1 distinct,   0.0 % resolve
+  ldb        21.4            1 distinct,   0.0 % resolve
+  ldb        21.41           1 distinct,   0.0 % resolve
+  ldb        21.42           1 distinct,   0.0 % resolve
+  ldb        21.43           1 distinct,   0.0 % resolve
+  ldb        21.44           1 distinct,   0.0 % resolve
+  ldb        21.45           1 distinct,   0.0 % resolve
+  ldb        21.46           1 distinct,   0.0 % resolve
+  ldb        21.47           1 distinct,   0.0 % resolve
+  ldb        21.48           1 distinct,   0.0 % resolve
+  ldb        21.49           1 distinct,   0.0 % resolve
+  ldb        21.5            1 distinct,   0.0 % resolve
+  ldb        21.50           1 distinct,   0.0 % resolve
+  ldb        21.51           1 distinct,   0.0 % resolve
+  ldb        21.54           1 distinct,   0.0 % resolve
+  ldb        21.55           1 distinct,   0.0 % resolve
+  ldb        21.56           1 distinct,   0.0 % resolve
+  ldb        21.57           1 distinct,   0.0 % resolve
+  ldb        21.58           1 distinct,   0.0 % resolve
+  ldb        21.59           1 distinct,   0.0 % resolve
+  ldb        21.6            1 distinct,   0.0 % resolve
+  ldb        21.60           1 distinct,   0.0 % resolve
+  ldb        21.61           1 distinct,   0.0 % resolve
+  ldb        21.62           1 distinct,   0.0 % resolve
+  ldb        21.63           1 distinct,   0.0 % resolve
+  ldb        21.64           1 distinct,   0.0 % resolve
+  ldb        21.67           1 distinct,   0.0 % resolve
+  ldb        21.68           1 distinct,   0.0 % resolve
+  ldb        21.69           1 distinct,   0.0 % resolve
+  ldb        21.7            1 distinct,   0.0 % resolve
+  ldb        21.70           1 distinct,   0.0 % resolve
+  ldb        21.71           1 distinct,   0.0 % resolve
+  ldb        21.72           1 distinct,   0.0 % resolve
+  ldb        21.73           1 distinct,   0.0 % resolve
+  ldb        21.74           1 distinct,   0.0 % resolve
+  ldb        21.75           1 distinct,   0.0 % resolve
+  ldb        21.76           1 distinct,   0.0 % resolve
+  ldb        21.77           1 distinct,   0.0 % resolve
+  ldb        21.8            1 distinct,   0.0 % resolve
+  ldb        21.80           1 distinct,   0.0 % resolve
+  ldb        21.81           1 distinct,   0.0 % resolve
+  ldb        21.82           1 distinct,   0.0 % resolve
+  ldb        21.83           1 distinct,   0.0 % resolve
+  ldb        21.84           1 distinct,   0.0 % resolve
+  ldb        21.85           1 distinct,   0.0 % resolve
+  ldb        21.86           1 distinct,   0.0 % resolve
+  ldb        21.87           1 distinct,   0.0 % resolve
+  ldb        21.88           1 distinct,   0.0 % resolve
+  ldb        21.89           1 distinct,   0.0 % resolve
+  ldb        21.9            1 distinct,   0.0 % resolve
+  ldb        21.92           1 distinct,   0.0 % resolve
+  ldb        21.93           1 distinct,   0.0 % resolve
+  ldb        21.95           1 distinct,   0.0 % resolve
+  ldb        22.81           1 distinct,   0.0 % resolve
+  ldb        24.1           10 distinct,   0.0 % resolve
+  ldb        25.1            1 distinct,   0.0 % resolve
+  ldb        30.1           18 distinct,   0.0 % resolve
+  ldb        30.43           1 distinct,   0.0 % resolve
+  ldb        32.1           32 distinct,   0.0 % resolve
+  lmt        12.3            2 distinct,   0.0 % resolve
+  lmu        81.5.22         4 distinct,   0.0 % resolve
+  lmu        81.5.51         3 distinct,   0.0 % resolve

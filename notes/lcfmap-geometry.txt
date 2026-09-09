@@ -1,0 +1,6 @@
+maps            : 3
+layer chunks    : tags 71, 72, equal in size in every map
+cells per layer : 300  (two bytes each)
+event extremes  : max x 18, max y 14  ->  W >= 19, H >= 15
+factorisations of 300 meeting both bounds : 20x15
+THE GEOMETRY IS FORCED : 20 x 15

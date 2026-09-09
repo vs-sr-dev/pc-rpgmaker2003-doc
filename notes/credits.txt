@@ -1,0 +1,185 @@
+=== rpg2003.exe, the 2.5 KB around the two Archeia hits
+  3342611   TLabel
+  3342618   Label1
+  3342625   Left
+  3342638   Width
+  3342647   Height
+  3342656   Caption
+  3342664   ^RPG Maker 2003  Version 1.12a
+  3342698   Translated by: 
+  3342715   Jie Xin "Cy" Tan
+  3342733   Jasmin "Archeia" Toral
+  3342762   TLabel
+  3342769   Label2
+  3342776   Left
+  3342790   Width
+  3342799   Height
+  3342808   Caption
+  3342816   JLocalized and Improved by:  
+  3342847   David "Cherry" Trapp
+  3342869   Jasmin "Archeia" Toral
+  3342894   TButton
+  3342902   ButtonOk
+  3342911   Left
+  3342925   Width
+  3342933   Height
+  3342942   Cancel
+  3342950   Caption
+  3342963   Default
+  3342972   ModalResult
+  3342986   TabOrder
+  3343000   TPF0
+  3343006   TFormAreaMaker
+  3343021   FormAreaMaker
+  3343035   Caption
+  3343044   FormAreaMaker
+  3343058   PixelsPerInch
+  3343074   TextHeight
+  3343089   TScrollFrame
+  3343102   MapFrame
+  3343113   TOpaquePaintBox
+  3343129   Background
+  3343140   Width
+  3343149   Height
+  3343161   TPaintBox
+  3343171   DummyPaintBox
+  3343185   OnMouseDown
+  3343198   DummyPaintBoxMouseDown
+  3343221   OnMouseMove
+  3343234   DummyPaintBoxMouseMove
+  3343257   OnMouseUp
+  3343268   DummyPaintBoxMouseUp
+  3343296   TPF0
+  3343301   TFormCherrySpritesheet
+  3343324   FormCherrySpritesheet
+  3343346   Left
+  3343360   BorderStyle
+  3343373   bsDialog
+  3343382   Caption
+  3343391   Spritesheet Settings
+  3343412   ClientHeight
+  3343428   ClientWidth
+  3343443   Color
+  3343450   clBtnFace
+  3343460   Font.Charset
+  3343474   ANSI_CHARSET
+  3343487   Font.Color
+  3343499   clWindowText
+  3343512   Font.Height
+  3343526   Font.Name
+  3343537   Verdana
+  3343545   Font.Style
+  3343558   OldCreateOrder
+  3343574   Scaled
+  3343582   OnCreate
+  3343592   FormCreate
+  3343603   OnDestroy
+  3343614   FormDestroy
+  3343626   OnShow
+  3343634   FormShow
+  3343643   PixelsPerInch
+  3343659   TextHeight
+  3343673   TTabControl
+  3343685   TabControl1
+  3343697   Left
+  3343710   Width
+  3343719   Height
+  3343729   TabOrder
+  3343740   TabStop
+  3343750   TFakeGroupBox
+  3343764   GroupBoxSprites
+  3343780   Left
+  3343793   Width
+  3343802   Height
+  3343811   Caption
+  3343820   Number of Sprites in Image
+  3343847   TabOrder
+  3343859   TLabel
+  3343866   LabelX
+  3343873   Left
+  3343886   Width
+  3343894   Height
+  3343903   Caption
+  3343912   Horizontal:
+  3343926   TLabel
+  3343933   LabelY
+  3343940   Left
+  3343954   Width
+  3343962   Height
+  3343971   Caption
+  3343980   Vertical:
+  3343992   TDialEdit
+  3344002   DialEditX
+  3344012   Left
+  3344025   Width
+  3344033   Height
+  3344042   MaxValue
+  3344054   MinValue
+  3344065   Value
+  3344073   TabOrder
+  3344084   OnChange
+  3344094   DialEditXChange
+  3344112   TDialEdit
+  3344122   DialEditY
+  3344132   Left
+  3344146   Width
+  3344154   Height
+  3344163   MaxValue
+  3344175   MinValue
+  3344186   Value
+  3344194   TabOrd
+
+=== the project database's comment text, every printable run of 20+
+runs of 20 or more printable characters : 256
+  326125   Caught the enemy off-guard!
+  326700   Welcome.* Is there anything else you need?+
+  326763   What will you be buying?/
+  326789   How many will you need?0
+  326814   Thank you for your patronage.1
+  326845   What will you be selling?2
+  326872   How many will you be selling?3
+  326903   Thank you for your patronage.6
+  326934   Welcome! What d'you need today?7
+  326967   Anything else you need?8
+  327011   What's it gonna be?<
+  327032   How many d'you need?=
+  327063   What are you gonna sell??
+  327089   How many d'you wanna sell?@
+  327126   Hello. What do you need?D Is there anything else you need?E
+  327225   How many will you buy?J
+  327261   What will you sell?L
+  327282   How many will you sell?M
+  327347   Will you stay the night?S
+  327417   Will you be staying?X
+  329388   3/-------------------------------------------------/
+  329445   .// This stores the player input to a temporary
+  329515   3/-------------------------------------------------/
+  329589   3/-------------------------------------------------/
+  329646   $// This variable is for picture ID. 
+  329688   2// We will go from 101-107 since we have 7 Digits.
+  329744   3/-------------------------------------------------/
+  329818   3/-------------------------------------------------/
+  329875   -// This sets the coordinates of the pictures.
+  329926   3/-------------------------------------------------/
+  330013   3/-------------------------------------------------/
+  330092   3/-------------------------------------------------/
+  330159   3/-------------------------------------------------/
+  330216   3// We will now divide the variable's original value
+  330273   2// and store the remainder on a new variable using
+  330329   !// the modulus variable command. 
+  330376   3// For example, number 1337. In order to display it
+  330433   6// via pictures, we need to be able to take each digit
+  330493   =// and separate them to 1 (thousands), 3(hundreds), 3(tens), 
+  330584   ;// Mod 10 will take only the rightmost digit, and /10 will 
+  330650   // remove the rightmost digit
+  330684   3/-------------------------------------------------/
+  330746   3// In this picture command, we're using Variable 11
+  330803   6// as a suffix. If you go to the pictures folder, you 
+  330863   ?// will find files with the name Zahl (German word for number).
+  330932   A// You will also notice they have numbers like Zahl0, Zahl1, etc.
+  331012   8// The purpose of this is so you don't have to create a 
+  331074   /// long conditional branch to show each number.
+  331127   3/-------------------------------------------------/
+  331296   3/-------------------------------------------------/
+  331353   *// Break loop once 7 digits are displayed.
+  331401   3/-------------------------------------------------/

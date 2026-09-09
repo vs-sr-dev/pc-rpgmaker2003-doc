@@ -1,0 +1,743 @@
+=== production waves (gap threshold 3600 s = 1.0 h) ===
+
+wave 1   2026-09-09 12:18:11 .. 2026-09-09 12:18:20  737 files      33578445 bytes  100.00%
+
+--- wave 1 (737 files) ---
+    2026-09-09 12:18:11      6268124  rpg2003.chm
+    2026-09-09 12:18:11      4387328  rpg2003.exe
+    2026-09-09 12:18:11      1032704  rpg_rt.exe.dat
+    2026-09-09 12:18:11       388574  rpg_rt.ldb.dat
+    2026-09-09 12:18:11       285228  RTP/Sound/Earthquake2.wav
+    2026-09-09 12:18:11       317998  RTP/Sound/Sea1.wav
+    2026-09-09 12:18:11      1032704  Sample/ArcheiaPictureTutorial/RPG_RT.exe
+    2026-09-09 12:18:11       374229  Sample/ArcheiaPictureTutorial/RPG_RT.ldb
+    2026-09-09 12:18:11       630784  setup.exe.dat
+    2026-09-09 12:18:11       274944  ultimate_eb.dll
+    2026-09-09 12:18:12         1545  2k3_install.vdf
+    2026-09-09 12:18:12           52  RM2003 EN PRELIMINARY 13.09.2017.url
+    2026-09-09 12:18:12           52  RPG Maker 2003.url
+    2026-09-09 12:18:12        65525  RTP/Backdrop/Dungeon4.png
+    2026-09-09 12:18:12        52644  RTP/Backdrop/Dungeon6.png
+    2026-09-09 12:18:12        50956  RTP/Backdrop/Dungeon3.png
+    2026-09-09 12:18:12        41444  RTP/Backdrop/Road.png
+    2026-09-09 12:18:12        52389  RTP/Backdrop/Forest2.png
+    2026-09-09 12:18:12        70987  RTP/Backdrop/Rocky Road.png
+    2026-09-09 12:18:12        42070  RTP/Backdrop/Swamp.png
+    2026-09-09 12:18:12        47790  BaseFlushAppcompatCache.exe
+    2026-09-09 12:18:12        50362  RTP/Backdrop/Grassland.png
+    2026-09-09 12:18:12        63367  RTP/Backdrop/Ruins2.png
+    2026-09-09 12:18:12        53967  RTP/Backdrop/Temple2.png
+    2026-09-09 12:18:12        58984  RTP/Backdrop/Town.png
+    2026-09-09 12:18:12        44076  RTP/Backdrop/Forest1.png
+    2026-09-09 12:18:12         9665  RTP/BattleCharSet/Armored Warror A.png
+    2026-09-09 12:18:12        52204  RTP/Backdrop/Mansion.png
+    2026-09-09 12:18:12        38265  RTP/Backdrop/Sky.png
+    2026-09-09 12:18:12         9299  RTP/BattleCharSet/Male Fighter A.png
+    2026-09-09 12:18:12         4727  RTP/Battle/2003 Cure.png
+    2026-09-09 12:18:12         5214  RTP/BattleCharSet/Chinese Woman B.png
+    2026-09-09 12:18:12         5162  RTP/BattleCharSet/Male Ninja B.png
+    2026-09-09 12:18:12        23558  RTP/icon.ico
+    2026-09-09 12:18:12         8049  RTP/Battle/Fire1.png
+    2026-09-09 12:18:12         8599  RTP/Monster/Asura.png
+    2026-09-09 12:18:12        11088  RTP/Battle/Water.png
+    2026-09-09 12:18:12        34926  RTP/ChipSet/Interior.png
+    2026-09-09 12:18:12         3882  RTP/Monster/Ahriman.png
+    2026-09-09 12:18:12         5300  RTP/BattleCharSet/Man4 B.png
+    2026-09-09 12:18:12        10644  RTP/CharSet/People5.png
+    2026-09-09 12:18:12         2796  RTP/Battle/Spear.png
+    2026-09-09 12:18:12        33580  RTP/Sound/Fire7.wav
+    2026-09-09 12:18:12         5403  RTP/BattleCharSet/Woman1 B.png
+    2026-09-09 12:18:12        27646  RTP/FaceSet/People2.png
+    2026-09-09 12:18:12        24471  RTP/Music/Boss 3.mid
+    2026-09-09 12:18:12         5665  RTP/BattleWeapon/Weapon.png
+    2026-09-09 12:18:12         5836  RTP/BattleCharSet/Armored Warror B.png
+    2026-09-09 12:18:12         2857  RTP/Monster/Gorgon.png
+    2026-09-09 12:18:12         4929  RTP/Battle/2003 Holy.png
+    2026-09-09 12:18:12         6101  RTP/Battle/2003 Spear.png
+    2026-09-09 12:18:12         1989  RTP/Battle/Bite.png
+    2026-09-09 12:18:12         5119  RTP/BattleCharSet/Woman3 B.png
+    2026-09-09 12:18:12        10568  RTP/CharSet/People4.png
+    2026-09-09 12:18:12         8400  RTP/Monster/Cyclops.png
+    2026-09-09 12:18:12         4879  RTP/Battle/Breath.png
+    2026-09-09 12:18:12         4006  RTP/Monster/Kirin.png
+    2026-09-09 12:18:12         7222  RTP/Music/2003Dream of Striking It Rich.mid
+    2026-09-09 12:18:12        74028  RTP/Sound/Ice10.wav
+    2026-09-09 12:18:12         8903  RTP/BattleCharSet/Male Elf A.png
+    2026-09-09 12:18:12         1726  RTP/Battle/Treatment.png
+    2026-09-09 12:18:12         6188  RTP/BattleCharSet/Male Mage B.png
+    2026-09-09 12:18:12         5616  RTP/BattleCharSet/Male Warrior B.png
+    2026-09-09 12:18:12         8733  RTP/BattleCharSet/Woman2 A.png
+    2026-09-09 12:18:12        29491  RTP/FaceSet/Actor2.png
+    2026-09-09 12:18:12         1958  RTP/Monster/Cait Sith.png
+    2026-09-09 12:18:12         3020  RTP/Monster/Medusa.png
+    2026-09-09 12:18:12        18648  RTP/Music/Dungeon 2.mid
+    2026-09-09 12:18:12        39468  RTP/Sound/Fog1.wav
+    2026-09-09 12:18:12        25639  RTP/Music/2003Tension.mid
+    2026-09-09 12:18:12        72636  RTP/Music/Field 1.mid
+    2026-09-09 12:18:12        19855  RTP/Battle/2003 Fire.png
+    2026-09-09 12:18:12         5467  RTP/BattleCharSet/Female Bandit B.png
+    2026-09-09 12:18:12         9261  RTP/Monster/Golem.png
+    2026-09-09 12:18:12         7396  RTP/Music/Castle 1.mid
+    2026-09-09 12:18:12         5749  RTP/Battle/2003 Revive.png
+    2026-09-09 12:18:12         8009  RTP/CharSet/Animal.png
+    2026-09-09 12:18:12         9657  RTP/Monster/Midgardsormr.png
+    2026-09-09 12:18:12        75564  RTP/Sound/Ice7.wav
+    2026-09-09 12:18:12         5452  RTP/BattleCharSet/Female Pirate B.png
+    2026-09-09 12:18:12         3979  RTP/Monster/Catoblepas.png
+    2026-09-09 12:18:12         9920  RTP/Monster/Mammoth.png
+    2026-09-09 12:18:12         4454  RTP/Monster/Scylla.png
+    2026-09-09 12:18:12         8701  RTP/BattleCharSet/Female Elf A.png
+    2026-09-09 12:18:12         9234  RTP/BattleCharSet/Female Monk A.png
+    2026-09-09 12:18:12         9274  RTP/BattleCharSet/Man3 A.png
+    2026-09-09 12:18:12         3267  RTP/Monster/Griffon.png
+    2026-09-09 12:18:12        10263  RTP/Monster/Kraken.png
+    2026-09-09 12:18:12         3688  RTP/Monster/Lamia.png
+    2026-09-09 12:18:12        16281  RTP/Music/Shop 1.mid
+    2026-09-09 12:18:12         9193  RTP/BattleCharSet/Chinese Man A.png
+    2026-09-09 12:18:12         3164  RTP/Monster/Crab.png
+    2026-09-09 12:18:12        23641  RTP/Music/2003Battle with an Evil God.mid
+    2026-09-09 12:18:12        16942  RTP/Music/2003Creeping Darkness.mid
+    2026-09-09 12:18:12         1687  RTP/Battle/Arrow.png
+    2026-09-09 12:18:12         2385  RTP/Monster/Carbuncle.png
+    2026-09-09 12:18:12         2584  RTP/Monster/Ghoul.png
+    2026-09-09 12:18:12        35372  RTP/Sound/Explosion1.wav
+    2026-09-09 12:18:12         5349  RTP/BattleCharSet/Female Elf B.png
+    2026-09-09 12:18:12        30787  RTP/ChipSet/Ship.png
+    2026-09-09 12:18:12        12647  RTP/Music/2003Final Battleground.mid
+    2026-09-09 12:18:12        15998  RTP/Music/In a Pinch.mid
+    2026-09-09 12:18:12         3692  RTP/Monster/Horse.png
+    2026-09-09 12:18:12         9121  RTP/BattleCharSet/Male Pirate A.png
+    2026-09-09 12:18:12         3932  RTP/Monster/Demon.png
+    2026-09-09 12:18:12        58508  RTP/Backdrop/Beach.png
+    2026-09-09 12:18:12        67628  RTP/Sound/Sandstorm.wav
+    2026-09-09 12:18:12        48359  RTP/Music/2003Empire.mid
+    2026-09-09 12:18:12         7718  RTP/Monster/Suzaku.png
+    2026-09-09 12:18:12        43820  RTP/Sound/Recovery6.wav
+    2026-09-09 12:18:12       135724  RTP/Sound/Sea2.wav
+    2026-09-09 12:18:12         7566  RTP/Music/2003Deep Memory.mid
+    2026-09-09 12:18:12        83756  RTP/Sound/Holy7.wav
+    2026-09-09 12:18:12         9776  RTP/Music/Boss 2.mid
+    2026-09-09 12:18:12         8592  RTP/Monster/Ifreet.png
+    2026-09-09 12:18:12         3575  RTP/Monster/Oni.png
+    2026-09-09 12:18:12         2441  RTP/Monster/Snake.png
+    2026-09-09 12:18:12        10112  RTP/Music/Ship 3.mid
+    2026-09-09 12:18:12         5349  RTP/BattleCharSet/Male Bandit B.png
+    2026-09-09 12:18:12        31849  RTP/Music/Battle 2.mid
+    2026-09-09 12:18:12         3944  RTP/Battle/Thunder.png
+    2026-09-09 12:18:12        11249  RTP/CharSet/Monster1.png
+    2026-09-09 12:18:12        76631  RTP/Music/2003Far Eastern Land.mid
+    2026-09-09 12:18:12         9815  RTP/Monster/Kyuubi.png
+    2026-09-09 12:18:12         5071  RTP/Monster/Phoenix.png
+    2026-09-09 12:18:12         4140  RTP/Sound/Clock.wav
+    2026-09-09 12:18:12         8531  RTP/BattleCharSet/Male Bandit A.png
+    2026-09-09 12:18:12         4135  RTP/Battle/2003 Bow.png
+    2026-09-09 12:18:12         8781  RTP/BattleCharSet/Samurai A.png
+    2026-09-09 12:18:12        13132  RTP/Monster/Bahamut.png
+    2026-09-09 12:18:12        16641  RTP/Music/2003Silence.mid
+    2026-09-09 12:18:12        42643  RTP/Music/2003Cyber City.mid
+    2026-09-09 12:18:12         7437  RTP/Battle/2003 Thunder.png
+    2026-09-09 12:18:12        42863  RTP/Backdrop/Arena.png
+    2026-09-09 12:18:12         6190  RTP/Sound/Blow2.wav
+    2026-09-09 12:18:12         8628  RTP/Monster/Quetzalcoatl.png
+    2026-09-09 12:18:12        12886  RTP/Music/2003Free For All.mid
+    2026-09-09 12:18:12        42592  RTP/Music/2003Adventurers.mid
+    2026-09-09 12:18:12        37164  RTP/Sound/Debuff.wav
+    2026-09-09 12:18:12         9682  RTP/Sound/Slash3.wav
+    2026-09-09 12:18:12        40806  RTP/Backdrop/Bathhouse.png
+    2026-09-09 12:18:12         3527  RTP/Monster/Nepenthes.png
+    2026-09-09 12:18:12         7505  RTP/Music/Ghost Town 1.mid
+    2026-09-09 12:18:12        27367  RTP/GameOver/Game Over.png
+    2026-09-09 12:18:12        97820  RTP/Panorama/Dawn2.png
+    2026-09-09 12:18:12        64973  RTP/Panorama/Night Sky2.png
+    2026-09-09 12:18:12        47532  RTP/Sound/Recovery4.wav
+    2026-09-09 12:18:12         4446  RTP/Monster/Treant.png
+    2026-09-09 12:18:12         2649  RTP/Monster/Ghost.png
+    2026-09-09 12:18:12         2798  RTP/Monster/Kobold.png
+    2026-09-09 12:18:12         5173  RTP/Music/2003Dreaminess.mid
+    2026-09-09 12:18:12         6859  RTP/Music/Game Over 3.mid
+    2026-09-09 12:18:12        43587  RTP/Music/Lively Market.mid
+    2026-09-09 12:18:12        10210  RTP/Monster/Dragon.png
+    2026-09-09 12:18:12         8514  RTP/Monster/Ouroboros.png
+    2026-09-09 12:18:12         3743  RTP/Monster/Unicorn.png
+    2026-09-09 12:18:12        22257  RTP/Music/2003Otherworldly Corridor.mid
+    2026-09-09 12:18:12         7066  RTP/Music/Castle 2.mid
+    2026-09-09 12:18:12         5515  RTP/Music/Tower 2.mid
+    2026-09-09 12:18:12        10247  RTP/Monster/Lich.png
+    2026-09-09 12:18:12         2848  RTP/Monster/Toad.png
+    2026-09-09 12:18:12        30751  RTP/Music/Field 4.mid
+    2026-09-09 12:18:12         2319  RTP/Music/JFanfare 6.mid
+    2026-09-09 12:18:12        13415  RTP/Music/Shop 2.mid
+    2026-09-09 12:18:12        33094  RTP/Sound/Close1.wav
+    2026-09-09 12:18:12         6693  RTP/Music/2003Dream Forest.mid
+    2026-09-09 12:18:12       130348  RTP/Sound/Flash3.wav
+    2026-09-09 12:18:12         2282  RTP/Music/JFanfare 4.mid
+    2026-09-09 12:18:12        48424  RTP/Backdrop/Castle.png
+    2026-09-09 12:18:12        40288  RTP/Backdrop/Ruins1.png
+    2026-09-09 12:18:12         6542  RTP/Music/Fairy 2.mid
+    2026-09-09 12:18:12        29643  RTP/Music/Town 1.mid
+    2026-09-09 12:18:12        60844  RTP/Sound/Blind.wav
+    2026-09-09 12:18:12        21971  RTP/Music/2003Lonesome Journey.mid
+    2026-09-09 12:18:12        18242  RTP/Music/2003Palace Party.mid
+    2026-09-09 12:18:12         4734  RTP/Music/2003Snow Town.mid
+    2026-09-09 12:18:12         6012  RTP/Sound/Blow3.wav
+    2026-09-09 12:18:12        40236  RTP/Sound/Shot3.wav
+    2026-09-09 12:18:12        10635  RTP/Music/2003Deserted Mansion.mid
+    2026-09-09 12:18:12        39351  RTP/Music/2003Ice Labyrinth.mid
+    2026-09-09 12:18:12          736  RTP/Music/JInn 2.mid
+    2026-09-09 12:18:12         5114  RTP/Music/Thief.mid
+    2026-09-09 12:18:12         7601  RTP/Music/2003Little Army's March.mid
+    2026-09-09 12:18:12         8749  RTP/Music/Village 1.mid
+    2026-09-09 12:18:12        31916  RTP/Sound/Fire6.wav
+    2026-09-09 12:18:12        33836  RTP/Sound/Move.wav
+    2026-09-09 12:18:12        31432  RTP/Backdrop/Universe.png
+    2026-09-09 12:18:12        84524  RTP/Sound/Thunder9.wav
+    2026-09-09 12:18:12         8469  RTP/BattleCharSet/Female Ninja A.png
+    2026-09-09 12:18:12         8557  RTP/BattleCharSet/Female Pirate A.png
+    2026-09-09 12:18:12         2197  RTP/Music/JFanfare 2.mid
+    2026-09-09 12:18:12       203435  RTP/Panorama/Dimension Rift.png
+    2026-09-09 12:18:12        50732  RTP/Sound/Water1.wav
+    2026-09-09 12:18:12          921  Sample/ArcheiaPictureTutorial/Picture/Zahl2.png
+    2026-09-09 12:18:12         2784  RTP/Battle/Ressurection.png
+    2026-09-09 12:18:12         5564  RTP/BattleCharSet/Female Fighter B.png
+    2026-09-09 12:18:12         9261  RTP/BattleCharSet/Woman5 A.png
+    2026-09-09 12:18:12        17370  RTP/Battle/2003 Water.png
+    2026-09-09 12:18:12         5297  RTP/BattleCharSet/Female Monk B.png
+    2026-09-09 12:18:12        11827  RTP/CharSet/Actor3.png
+    2026-09-09 12:18:12        37494  RTP/ChipSet/Exterior.png
+    2026-09-09 12:18:12        19196  RTP/Music/2003SunnyVillage.mid
+    2026-09-09 12:18:12        83277  RTP/Panorama/Sunset2.png
+    2026-09-09 12:18:12         5803  RTP/BattleCharSet/Chinese Man B.png
+    2026-09-09 12:18:12         5430  RTP/BattleCharSet/Male Pirate B.png
+    2026-09-09 12:18:12         4556  RTP/Monster/Dragon Knight.png
+    2026-09-09 12:18:12        12500  RTP/Monster/Tiamat.png
+    2026-09-09 12:18:12         8984  RTP/Music/2003Village in the Valley.mid
+    2026-09-09 12:18:12        70700  RTP/Sound/Tiger.wav
+    2026-09-09 12:18:12        51500  RTP/Sound/Wind11.wav
+    2026-09-09 12:18:12        35447  RTP/Backdrop/Temple1.png
+    2026-09-09 12:18:12         9050  RTP/BattleCharSet/Female Fighter A.png
+    2026-09-09 12:18:12         9496  RTP/BattleCharSet/Female Warrior A.png
+    2026-09-09 12:18:12         8388  RTP/BattleCharSet/Male Ninja A.png
+    2026-09-09 12:18:12        35006  RTP/ChipSet/World.png
+    2026-09-09 12:18:12        13874  RTP/Monster/Satan.png
+    2026-09-09 12:18:12        16074  RTP/Music/2003Machine Fortress.mid
+    2026-09-09 12:18:12        20383  RTP/Music/Demon Lord.mid
+    2026-09-09 12:18:12        20551  RTP/Music/Ship 1.mid
+    2026-09-09 12:18:12        12908  RTP/Sound/Jump2.wav
+    2026-09-09 12:18:12        42796  RTP/Sound/Wind3.wav
+    2026-09-09 12:18:12         2356  Sample/ArcheiaPictureTutorial/System/SystemB.png
+    2026-09-09 12:18:12         9255  RTP/BattleCharSet/Male Monk A.png
+    2026-09-09 12:18:12         2863  RTP/Monster/Shark.png
+    2026-09-09 12:18:12        50297  RTP/Music/2003Colosseum.mid
+    2026-09-09 12:18:12         9841  RTP/Music/Mystery 2.mid
+    2026-09-09 12:18:12         2232  RTP/Monster/Centipede.png
+    2026-09-09 12:18:12         3432  RTP/Monster/Gargoyle.png
+    2026-09-09 12:18:12         5237  RTP/Music/Dungeon 1.mid
+    2026-09-09 12:18:12         5298  RTP/BattleCharSet/Woman4 B.png
+    2026-09-09 12:18:12         3060  RTP/Monster/Basilisk.png
+    2026-09-09 12:18:12         5386  RTP/Monster/Chimera.png
+    2026-09-09 12:18:12        49753  RTP/Backdrop/Mountain Road.png
+    2026-09-09 12:18:12         5263  RTP/Monster/Manticore.png
+    2026-09-09 12:18:12         4246  RTP/Monster/Siren.png
+    2026-09-09 12:18:12         6080  RTP/Music/2003Panic.mid
+    2026-09-09 12:18:12        18881  RTP/Music/Wrath.mid
+    2026-09-09 12:18:12        37100  RTP/Sound/Breath.wav
+    2026-09-09 12:18:12        18922  RTP/Sound/Darkness6.wav
+    2026-09-09 12:18:12         4678  RTP/Monster/Sphinx.png
+    2026-09-09 12:18:12         9320  RTP/Sound/Slash2.wav
+    2026-09-09 12:18:12         8024  RTP/Monster/Ryuu.png
+    2026-09-09 12:18:12        15102  RTP/Music/Fairy 1.mid
+    2026-09-09 12:18:12        25982  Sample/ArcheiaPictureTutorial/FaceSet/People2.png
+    2026-09-09 12:18:12        38088  RTP/Backdrop/Ship.png
+    2026-09-09 12:18:12         9630  RTP/Monster/Hydra.png
+    2026-09-09 12:18:12         2421  RTP/Monster/Skeleton.png
+    2026-09-09 12:18:12         7212  RTP/Music/Repose 2.mid
+    2026-09-09 12:18:12        11339  RTP/Music/Town 3.mid
+    2026-09-09 12:18:12        26284  RTP/Sound/Buzzer2.wav
+    2026-09-09 12:18:12        73772  RTP/Sound/Wind8.wav
+    2026-09-09 12:18:12        67471  RTP/Title/Title3.png
+    2026-09-09 12:18:12        47783  RTP/Backdrop/Snow Field.png
+    2026-09-09 12:18:12         2050  RTP/Monster/Grell.png
+    2026-09-09 12:18:12         7499  RTP/Music/Shop 3.mid
+    2026-09-09 12:18:12         4863  RTP/Battle/2003 Claw.png
+    2026-09-09 12:18:12         9807  RTP/Music/Defeat.mid
+    2026-09-09 12:18:12        46124  RTP/Sound/Wind1.wav
+    2026-09-09 12:18:12         3096  RTP/Monster/Octopus.png
+    2026-09-09 12:18:12        48479  RTP/Backdrop/Bridge.png
+    2026-09-09 12:18:12        25836  RTP/Music/Boss 4.mid
+    2026-09-09 12:18:12        43470  RTP/Sound/Cat.wav
+    2026-09-09 12:18:12        14900  RTP/Sound/Blow7.wav
+    2026-09-09 12:18:12         1773  RTP/Monster/Slime.png
+    2026-09-09 12:18:12       106425  RTP/Panorama/Cosmos1.png
+    2026-09-09 12:18:12        91543  RTP/Music/2003Wings to the Sky.mid
+    2026-09-09 12:18:12        42796  RTP/Sound/Thunder10.wav
+    2026-09-09 12:18:12        23436  RTP/Music/Ending 3.mid
+    2026-09-09 12:18:12        14166  RTP/Music/Sorrow.mid
+    2026-09-09 12:18:12        34930  Sample/ArcheiaPictureTutorial/ChipSet/World.png
+    2026-09-09 12:18:12          769  RTP/Music/JJoke 1.mid
+    2026-09-09 12:18:12         5130  RTP/Sound/Buzzer4.wav
+    2026-09-09 12:18:12         5845  Sample/ArcheiaPictureTutorial/Picture/RTPHEROES[3, 3].png
+    2026-09-09 12:18:12         1538  RTP/Music/JEnd of Battle 2.mid
+    2026-09-09 12:18:12       191606  RTP/Music/SE2003Bustle.wav
+    2026-09-09 12:18:12         2267  RTP/Music/2003Young Memories.mid
+    2026-09-09 12:18:12        18256  RTP/Music/Trial.mid
+    2026-09-09 12:18:12         5602  RTP/Sound/Cancel2.wav
+    2026-09-09 12:18:12        31148  RTP/Sound/Barrier.wav
+    2026-09-09 12:18:12        48064  RTP/Backdrop/Wasteland.png
+    2026-09-09 12:18:12         8711  RTP/BattleCharSet/Woman1 A.png
+    2026-09-09 12:18:12         8375  RTP/BattleCharSet/Chinese Woman A.png
+    2026-09-09 12:18:12         9539  RTP/BattleCharSet/Male Warrior A.png
+    2026-09-09 12:18:12         1262  RTP/Music/JEnd of Battle 1.mid
+    2026-09-09 12:18:12        32172  RTP/Sound/Absorb1.wav
+    2026-09-09 12:18:12        46288  RTP/Backdrop/Dungeon1.png
+    2026-09-09 12:18:12        10026  RTP/Monster/Behemoth.png
+    2026-09-09 12:18:12       114307  RTP/Music/2003Hero's Return.mid
+    2026-09-09 12:18:12        71724  RTP/Sound/Darkness1.wav
+    2026-09-09 12:18:12         2047  RTP/Monster/Imp.png
+    2026-09-09 12:18:12         5213  RTP/Monster/Seraphim.png
+    2026-09-09 12:18:12         5305  RTP/BattleCharSet/Female Hero B.png
+    2026-09-09 12:18:12         2643  RTP/Monster/Sylph.png
+    2026-09-09 12:18:12        31596  RTP/Sound/Fire8.wav
+    2026-09-09 12:18:12        37418  Sample/ArcheiaPictureTutorial/ChipSet/Exterior.png
+    2026-09-09 12:18:12         9093  RTP/BattleCharSet/Female Hero A.png
+    2026-09-09 12:18:12       215262  RTP/Music/SE2003Wind.wav
+    2026-09-09 12:18:12        86060  RTP/Sound/Combat1.wav
+    2026-09-09 12:18:12         8951  RTP/BattleCharSet/Female Bandit A.png
+    2026-09-09 12:18:12         4869  RTP/Battle/2003 Axe.png
+    2026-09-09 12:18:12         6978  RTP/Monster/Troll.png
+    2026-09-09 12:18:12        21548  RTP/Sound/Decision2.wav
+    2026-09-09 12:18:12        30010  RTP/Sound/Sword2.wav
+    2026-09-09 12:18:12        16400  RTP/CharSet/Monster2.png
+    2026-09-09 12:18:12         2076  RTP/Monster/Gazer.png
+    2026-09-09 12:18:12         8972  RTP/Battle/2003 Paralysis.png
+    2026-09-09 12:18:12         5641  RTP/BattleCharSet/Female Mage B.png
+    2026-09-09 12:18:12         5409  RTP/BattleCharSet/Samurai B.png
+    2026-09-09 12:18:12         5306  RTP/BattleCharSet/Woman2 B.png
+    2026-09-09 12:18:12         2774  RTP/Monster/Mimic.png
+    2026-09-09 12:18:12        31209  RTP/Panorama/Sky1.png
+    2026-09-09 12:18:12         8832  RTP/BattleCharSet/Man4 A.png
+    2026-09-09 12:18:12        74093  RTP/Music/Boss 1.mid
+    2026-09-09 12:18:12        44799  RTP/Backdrop/Dungeon2.png
+    2026-09-09 12:18:12         8269  RTP/Battle/2003 Blow.png
+    2026-09-09 12:18:12        10328  RTP/Monster/Giant.png
+    2026-09-09 12:18:12        11640  RTP/CharSet/Actor1.png
+    2026-09-09 12:18:12        11372  RTP/Sound/Buzzer3.wav
+    2026-09-09 12:18:12        70921  RTP/Music/2003Tavern.mid
+    2026-09-09 12:18:12         4247  RTP/Music/Game Over 2.mid
+    2026-09-09 12:18:12        17154  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_8.png
+    2026-09-09 12:18:12         7769  RTP/Battle/2003 Cold.png
+    2026-09-09 12:18:12         1551  RTP/Monster/Bat.png
+    2026-09-09 12:18:12        27084  RTP/Music/Vehicle 1.mid
+    2026-09-09 12:18:12        53548  RTP/Sound/Chicken.wav
+    2026-09-09 12:18:12           98  Sample/ArcheiaPictureTutorial/RPG_RT.ini
+    2026-09-09 12:18:12        65935  RTP/Backdrop/Desert.png
+    2026-09-09 12:18:12        67348  RTP/Backdrop/Graveyard.png
+    2026-09-09 12:18:12         4582  RTP/Battle/2003 Light Pillar.png
+    2026-09-09 12:18:12         5575  RTP/Battle/2003 Whip.png
+    2026-09-09 12:18:12         8547  RTP/Battle/2003 Wind.png
+    2026-09-09 12:18:12         5549  RTP/BattleCharSet/Male Elf B.png
+    2026-09-09 12:18:12         5563  RTP/BattleCharSet/Man1 B.png
+    2026-09-09 12:18:12         2715  RTP/Monster/Goblin.png
+    2026-09-09 12:18:12         5575  RTP/Music/Church.mid
+    2026-09-09 12:18:12         6668  RTP/Sound/Blow5.wav
+    2026-09-09 12:18:12         3045  Sample/ArcheiaPictureTutorial/System/SystemC.png
+    2026-09-09 12:18:12        50600  RTP/Backdrop/Dungeon5.png
+    2026-09-09 12:18:12         2188  RTP/Monster/Jack-O-Lantern.png
+    2026-09-09 12:18:12         2455  RTP/Battle/Claw.png
+    2026-09-09 12:18:12         9631  RTP/BattleCharSet/Female Mage A.png
+    2026-09-09 12:18:12         9051  RTP/BattleCharSet/Man1 A.png
+    2026-09-09 12:18:12        10799  RTP/CharSet/People2.png
+    2026-09-09 12:18:12         2214  RTP/Monster/Wraith.png
+    2026-09-09 12:18:12        21844  RTP/Music/Dungeon 4.mid
+    2026-09-09 12:18:12        57388  RTP/Sound/Chime2.wav
+    2026-09-09 12:18:12        47532  RTP/Sound/Collapse1.wav
+    2026-09-09 12:18:12         2334  RTP/Battle/Sword2.png
+    2026-09-09 12:18:12         9144  RTP/BattleCharSet/Man5 A.png
+    2026-09-09 12:18:12         5499  RTP/Monster/Odin.png
+    2026-09-09 12:18:12        51720  RTP/Music/2003Repeated Wars.mid
+    2026-09-09 12:18:12         5691  RTP/Battle/2003 Recovery.png
+    2026-09-09 12:18:12         8450  RTP/BattleCharSet/Woman3 A.png
+    2026-09-09 12:18:12        12160  RTP/CharSet/Actor2.png
+    2026-09-09 12:18:12        10655  RTP/CharSet/People1.png
+    2026-09-09 12:18:12         2979  RTP/Monster/Sorcerer.png
+    2026-09-09 12:18:12        25345  RTP/Music/Dungeon 5.mid
+    2026-09-09 12:18:12        22891  RTP/Panorama/Planet3.png
+    2026-09-09 12:18:12        40236  RTP/Sound/Explosion2.wav
+    2026-09-09 12:18:12         3126  RTP/Monster/Centaur.png
+    2026-09-09 12:18:12         3661  RTP/Music/Exploration.mid
+    2026-09-09 12:18:12         3618  RTP/Sound/Cursor2.wav
+    2026-09-09 12:18:12         7222  RTP/Battle/2003 Earth.png
+    2026-09-09 12:18:12         5723  RTP/BattleCharSet/Female Warrior B.png
+    2026-09-09 12:18:12        13508  RTP/Music/Dungeon 3.mid
+    2026-09-09 12:18:12        58924  RTP/Sound/Holy8.wav
+    2026-09-09 12:18:12         5393  RTP/BattleCharSet/Woman5 B.png
+    2026-09-09 12:18:12         1736  RTP/Monster/Tarantula.png
+    2026-09-09 12:18:12        11504  RTP/Music/2003Healing Spring.mid
+    2026-09-09 12:18:12        36652  RTP/Sound/Holy5.wav
+    2026-09-09 12:18:12        38956  RTP/Sound/Ice2.wav
+    2026-09-09 12:18:12         3585  RTP/Battle/Holy.png
+    2026-09-09 12:18:12        10034  RTP/BattleCharSet/Male Mage A.png
+    2026-09-09 12:18:12         8524  RTP/Monster/Lakshmi.png
+    2026-09-09 12:18:12        13548  RTP/Sound/Buzzer1.wav
+    2026-09-09 12:18:12         1982  RTP/Battle/Barrier.png
+    2026-09-09 12:18:12         5821  RTP/CharSet/Object1.png
+    2026-09-09 12:18:12         3218  RTP/Monster/Harpy.png
+    2026-09-09 12:18:12         2379  RTP/Monster/Parasite.png
+    2026-09-09 12:18:12        31110  RTP/Music/Opening 3.mid
+    2026-09-09 12:18:12       122636  RTP/Sound/Bell.wav
+    2026-09-09 12:18:12        48812  RTP/Sound/Explosion3.wav
+    2026-09-09 12:18:12         5220  RTP/Music/2003Cathedral.mid
+    2026-09-09 12:18:12         2007  RTP/Battle/Recovery.png
+    2026-09-09 12:18:12         3565  RTP/Monster/Crawler.png
+    2026-09-09 12:18:12         4346  RTP/Monster/Minotaur.png
+    2026-09-09 12:18:12        21797  RTP/Music/Vehicle 3.mid
+    2026-09-09 12:18:12        36140  RTP/Sound/Earth1.wav
+    2026-09-09 12:18:12        81196  RTP/Sound/Holy2.wav
+    2026-09-09 12:18:12         2944  RTP/Monster/Lizard.png
+    2026-09-09 12:18:12         3989  RTP/Monster/Ogre.png
+    2026-09-09 12:18:12         3252  RTP/Music/2003Church.mid
+    2026-09-09 12:18:12         3979  RTP/Music/Ghost Town 2.mid
+    2026-09-09 12:18:12         4939  RTP/Music/Secret Treasure.mid
+    2026-09-09 12:18:12        61228  RTP/Sound/Earth10.wav
+    2026-09-09 12:18:12        72236  RTP/Sound/Holy1.wav
+    2026-09-09 12:18:12        94892  RTP/Sound/Recovery5.wav
+    2026-09-09 12:18:12         1437  RTP/System2/System2A.png
+    2026-09-09 12:18:12          919  Sample/ArcheiaPictureTutorial/Picture/Zahl7.png
+    2026-09-09 12:18:12        13864  UNLHA32.TXT
+    2026-09-09 12:18:12         2926  RTP/Monster/Spectre.png
+    2026-09-09 12:18:12        48328  RTP/Music/Opening 1.mid
+    2026-09-09 12:18:12        47404  RTP/Sound/Earth6.wav
+    2026-09-09 12:18:12        39930  RTP/Backdrop/Old Town.png
+    2026-09-09 12:18:12          640  RTP/Music/J2003Horn.mid
+    2026-09-09 12:18:12         9286  RTP/Music/Village 3.mid
+    2026-09-09 12:18:12        25778  RTP/Sound/Collapse2.wav
+    2026-09-09 12:18:12        24620  RTP/Sound/Ice1.wav
+    2026-09-09 12:18:12        20261  RTP/Music/2003Village of Savages.mid
+    2026-09-09 12:18:12         9928  RTP/Music/Hero 2.mid
+    2026-09-09 12:18:12         1312  RTP/Music/JEnd of Battle 3.mid
+    2026-09-09 12:18:12       151306  RTP/Music/SE2003Jungle.wav
+    2026-09-09 12:18:12        72748  RTP/Music/SERain.wav
+    2026-09-09 12:18:12        17007  Sample/ArcheiaPictureTutorial/Picture/POLAROID.png
+    2026-09-09 12:18:12        10428  RTP/BattleCharSet/Male Hero A.png
+    2026-09-09 12:18:12         5941  RTP/BattleCharSet/Male Hero B.png
+    2026-09-09 12:18:12         7951  RTP/Music/2003DarkAltar.mid
+    2026-09-09 12:18:12        27671  RTP/Music/2003Exploring Ruins.mid
+    2026-09-09 12:18:12        13014  RTP/Music/Victory.mid
+    2026-09-09 12:18:12        23276  RTP/Sound/Attack1.wav
+    2026-09-09 12:18:12        37164  RTP/Sound/Paralyze3.wav
+    2026-09-09 12:18:12        46974  RTP/Music/Hero 1.mid
+    2026-09-09 12:18:12          847  RTP/Music/JJoke 2.mid
+    2026-09-09 12:18:12        19384  RTP/Music/SE2003Alarm.wav
+    2026-09-09 12:18:12        52588  RTP/Sound/Lion.wav
+    2026-09-09 12:18:12        31596  RTP/Sound/Magic1.wav
+    2026-09-09 12:18:12        49196  RTP/Sound/Raise1.wav
+    2026-09-09 12:18:12        17062  RTP/Music/Tower 3.mid
+    2026-09-09 12:18:12        20459  RTP/Panorama/Planet1.png
+    2026-09-09 12:18:12        23980  RTP/Sound/Holy3.wav
+    2026-09-09 12:18:12         7590  RTP/Sound/Key.wav
+    2026-09-09 12:18:12        23340  RTP/Sound/Buff.wav
+    2026-09-09 12:18:12        65068  RTP/Sound/Combat2.wav
+    2026-09-09 12:18:12        64044  RTP/Sound/Earth9.wav
+    2026-09-09 12:18:12        16876  RTP/Sound/Evade1.wav
+    2026-09-09 12:18:12        71212  RTP/Sound/Poison.wav
+    2026-09-09 12:18:12        12112  RTP/Sound/Slash1.wav
+    2026-09-09 12:18:12         3045  RTP/System/SystemC.png
+    2026-09-09 12:18:12        16708  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_9.png
+    2026-09-09 12:18:12        22700  RTP/Sound/Earth8.wav
+    2026-09-09 12:18:12         8812  RTP/Sound/Barrier2.wav
+    2026-09-09 12:18:12        32684  RTP/Sound/Flash1.wav
+    2026-09-09 12:18:12        27372  RTP/Sound/Open2.wav
+    2026-09-09 12:18:12         5573  RTP/BattleCharSet/Male Fighter B.png
+    2026-09-09 12:18:12        10092  RTP/Sound/Barrier1.wav
+    2026-09-09 12:18:12        51244  RTP/Sound/Fog2.wav
+    2026-09-09 12:18:12        11410  RTP/Sound/Sword1.wav
+    2026-09-09 12:18:12        54060  RTP/Sound/Earth2.wav
+    2026-09-09 12:18:12        42348  RTP/Sound/Explosion5.wav
+    2026-09-09 12:18:12        30260  RTP/Sound/Ice3.wav
+    2026-09-09 12:18:12        32280  RTP/Sound/Magic2.wav
+    2026-09-09 12:18:12        17442  RTP/Sound/Sword3.wav
+    2026-09-09 12:18:12        13508  RTP/Sound/Damage1.wav
+    2026-09-09 12:18:12         9098  RTP/Sound/Damage2.wav
+    2026-09-09 12:18:12        66728  RTP/Sound/Darkness2.wav
+    2026-09-09 12:18:12        66860  RTP/Sound/Monster2.wav
+    2026-09-09 12:18:12        43308  RTP/Sound/Pollen.wav
+    2026-09-09 12:18:12          936  Sample/ArcheiaPictureTutorial/Picture/Zahl6.png
+    2026-09-09 12:18:12        70956  RTP/Sound/Water5.wav
+    2026-09-09 12:18:12        79916  RTP/Sound/Cow.wav
+    2026-09-09 12:18:12        11180  RTP/Sound/Decision1.wav
+    2026-09-09 12:18:12        14344  RTP/Sound/Dog.wav
+    2026-09-09 12:18:12       220660  RTP/Sound/Rain1.wav
+    2026-09-09 12:18:12        25260  RTP/Sound/Silence.wav
+    2026-09-09 12:18:12          335  Sample/ArcheiaPictureTutorial/RPG_RT.lmt
+    2026-09-09 12:18:18         5394  RTP/CharSet/Object2.png
+    2026-09-09 12:18:18        11389  RTP/CharSet/People3.png
+    2026-09-09 12:18:18         1789  RTP/Monster/Remora.png
+    2026-09-09 12:18:18         2992  RTP/Monster/Vampire.png
+    2026-09-09 12:18:18         3487  RTP/Monster/Wight.png
+    2026-09-09 12:18:18         1953  RTP/Music/JEnd of Battle 4.mid
+    2026-09-09 12:18:18         4720  RTP/Sound/Cancel1.wav
+    2026-09-09 12:18:18        26086  RTP/Music/Opening 2.mid
+    2026-09-09 12:18:18        58924  RTP/Sound/Darkness3.wav
+    2026-09-09 12:18:18        16734  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_6.png
+    2026-09-09 12:18:18        82400  RTP/Sound/Confusion.wav
+    2026-09-09 12:18:18         8768  RTP/Sound/Switch1.wav
+    2026-09-09 12:18:18          957  Sample/ArcheiaPictureTutorial/Picture/Zahl0.png
+    2026-09-09 12:18:18          934  Sample/ArcheiaPictureTutorial/Picture/Zahl3.png
+    2026-09-09 12:18:18         2655  RTP/Monster/Mantis.png
+    2026-09-09 12:18:18        25530  RTP/Music/2003City Bustle.mid
+    2026-09-09 12:18:18        45356  RTP/Sound/Ice6.wav
+    2026-09-09 12:18:18        47532  RTP/Sound/Recovery7.wav
+    2026-09-09 12:18:18        48142  RTP/Sound/Roar.wav
+    2026-09-09 12:18:18         2412  RTP/Battle/Wind.png
+    2026-09-09 12:18:18         5438  RTP/BattleCharSet/Male Monk B.png
+    2026-09-09 12:18:18         5218  RTP/Battle/2003 Other2.png
+    2026-09-09 12:18:18         8922  RTP/BattleCharSet/Man2 A.png
+    2026-09-09 12:18:18         4336  RTP/Battle/Blow.png
+    2026-09-09 12:18:18        12861  RTP/Battle/Fire2.png
+    2026-09-09 12:18:18         6876  RTP/Monster/Byakko.png
+    2026-09-09 12:18:18         3686  RTP/Monster/Cockatorice.png
+    2026-09-09 12:18:18         2051  RTP/Monster/Spirit.png
+    2026-09-09 12:18:18        27225  RTP/Music/Field 2.mid
+    2026-09-09 12:18:18         3656  RTP/Monster/Necromancer.png
+    2026-09-09 12:18:18         2131  RTP/Monster/Shadow.png
+    2026-09-09 12:18:18         3104  RTP/Monster/Werewolf.png
+    2026-09-09 12:18:18        24376  RTP/Panorama/Night Sky1.png
+    2026-09-09 12:18:18        28952  Sample/ArcheiaPictureTutorial/FaceSet/Actor2.png
+    2026-09-09 12:18:18         3347  RTP/Monster/Orc.png
+    2026-09-09 12:18:18         3894  RTP/Monster/Sahagin.png
+    2026-09-09 12:18:18       187472  RTP/Music/SE2003Bird.wav
+    2026-09-09 12:18:18         8842  RTP/Sound/Slash7.wav
+    2026-09-09 12:18:18          930  Sample/ArcheiaPictureTutorial/Picture/Zahl9.png
+    2026-09-09 12:18:18        54653  Sample/ArcheiaPictureTutorial/Picture/[BONUS]_POLAROID_BASE.psd
+    2026-09-09 12:18:18         2075  Sample/ArcheiaPictureTutorial/System/System.png
+    2026-09-09 12:18:18          929  Sample/ArcheiaPictureTutorial/Picture/Zahl5.png
+    2026-09-09 12:18:18        18156  RTP/Sound/Thunder2.wav
+    2026-09-09 12:18:18        45612  RTP/Sound/Water2.wav
+    2026-09-09 12:18:18         8559  RTP/Battle/2003 Breath.png
+    2026-09-09 12:18:18         2918  RTP/Music/JFanfare 3.mid
+    2026-09-09 12:18:18         2809  RTP/Monster/Salamander.png
+    2026-09-09 12:18:18        12027  RTP/Music/2003In the Eternal Flow of Time.mid
+    2026-09-09 12:18:18        49964  RTP/Sound/Raise3.wav
+    2026-09-09 12:18:18        94402  RTP/Music/2003Casino Indulgence.mid
+    2026-09-09 12:18:18        23779  RTP/Music/2003Steady Breeze.mid
+    2026-09-09 12:18:18        41132  RTP/Sound/Recovery1.wav
+    2026-09-09 12:18:18         3728  RTP/Sound/Switch2.wav
+    2026-09-09 12:18:18          910  Sample/ArcheiaPictureTutorial/Picture/Zahl1.png
+    2026-09-09 12:18:18         2774  RTP/Monster/Scorpion.png
+    2026-09-09 12:18:18        43922  RTP/Music/SEClock.wav
+    2026-09-09 12:18:18        17277  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_2.png
+    2026-09-09 12:18:18         1866  RTP/Battle/Sword1.png
+    2026-09-09 12:18:18        37396  RTP/Sound/Teleport1.wav
+    2026-09-09 12:18:18         2547  RTP/Monster/Fenrir.png
+    2026-09-09 12:18:18         9348  RTP/Music/Animal.mid
+    2026-09-09 12:18:18        24171  RTP/Music/Town 2.mid
+    2026-09-09 12:18:18        25132  RTP/Sound/Fire3.wav
+    2026-09-09 12:18:18        31244  RTP/Sound/Thunder3.wav
+    2026-09-09 12:18:18         2075  RTP/System/System.png
+    2026-09-09 12:18:18        27674  Sample/ArcheiaPictureTutorial/FaceSet/Actor1.png
+    2026-09-09 12:18:18         3870  RTP/Monster/Big Foot.png
+    2026-09-09 12:18:18         5758  RTP/Monster/Undead Knight.png
+    2026-09-09 12:18:18        63666  RTP/Music/Battle 1.mid
+    2026-09-09 12:18:18         5790  RTP/BattleCharSet/Man2 B.png
+    2026-09-09 12:18:18         2875  RTP/Monster/Elf.png
+    2026-09-09 12:18:18        10847  RTP/Music/Village 2.mid
+    2026-09-09 12:18:18        31980  RTP/Sound/Explosion4.wav
+    2026-09-09 12:18:18         7469  Sample/ArcheiaPictureTutorial/Map0002.lmu
+    2026-09-09 12:18:18         5655  RTP/BattleCharSet/Man3 B.png
+    2026-09-09 12:18:18        74540  RTP/Sound/Holy6.wav
+    2026-09-09 12:18:18        54572  RTP/Sound/Thunder6.wav
+    2026-09-09 12:18:18         2029  RTP/Battle/Axe.png
+    2026-09-09 12:18:18        28635  RTP/Music/2003Maximum Battle.mid
+    2026-09-09 12:18:18         9771  RTP/Music/Repose 3.mid
+    2026-09-09 12:18:18        29228  RTP/Sound/Fire2.wav
+    2026-09-09 12:18:18          659  RTP/Music/JDoubt.mid
+    2026-09-09 12:18:18        18360  RTP/Music/Ship 2.mid
+    2026-09-09 12:18:18        71212  RTP/Sound/Water6.wav
+    2026-09-09 12:18:18        26445  RTP/Music/Ending 1.mid
+    2026-09-09 12:18:18         4409  RTP/Music/Parting 1.mid
+    2026-09-09 12:18:18         8768  RTP/Sound/Evade2.wav
+    2026-09-09 12:18:18        72748  RTP/Sound/Flash2.wav
+    2026-09-09 12:18:18        10796  RTP/Sound/Jump1.wav
+    2026-09-09 12:18:18         7976  RTP/Sound/Knock.wav
+    2026-09-09 12:18:18        16402  RTP/Sound/Open1.wav
+    2026-09-09 12:18:18        23468  RTP/Sound/Recovery2.wav
+    2026-09-09 12:18:18        36460  RTP/Sound/Wind9.wav
+    2026-09-09 12:18:18         8249  RTP/Music/Tower 1.mid
+    2026-09-09 12:18:18         1526  RTP/System2/System2C.png
+    2026-09-09 12:18:18         1111  Sample/ArcheiaPictureTutorial/Picture/INPUTDISPLAY.png
+    2026-09-09 12:18:18         7040  RTP/Sound/Blow1.wav
+    2026-09-09 12:18:18        19500  RTP/Sound/Earth7.wav
+    2026-09-09 12:18:18          927  Sample/ArcheiaPictureTutorial/Picture/Zahl8.png
+    2026-09-09 12:18:18       124928  ultimate_rt_eb.dll.dat
+    2026-09-09 12:18:18        99072  RTP/Music/2003Sorrow.mid
+    2026-09-09 12:18:18        37144  RTP/Panorama/Dawn1.png
+    2026-09-09 12:18:18        32360  RTP/Sound/Chime1.wav
+    2026-09-09 12:18:18        50860  RTP/Sound/Wind6.wav
+    2026-09-09 12:18:18       124928  Sample/ArcheiaPictureTutorial/ultimate_rt_eb.dll
+    2026-09-09 12:18:18        30723  Sample/ArcheiaPictureTutorial/ChipSet/Ship.png
+    2026-09-09 12:18:18        48428  RTP/Sound/Explosion7.wav
+    2026-09-09 12:18:18         5180  RTP/Battle/Paralysis.png
+    2026-09-09 12:18:18         5466  RTP/BattleCharSet/Man5 B.png
+    2026-09-09 12:18:18         8981  RTP/Monster/Garuda.png
+    2026-09-09 12:18:18        26296  RTP/Music/Battle 3.mid
+    2026-09-09 12:18:18         4112  RTP/Monster/Dark Knight.png
+    2026-09-09 12:18:18        18429  RTP/Panorama/Planet2.png
+    2026-09-09 12:18:18        84396  RTP/Sound/Darkness5.wav
+    2026-09-09 12:18:18         2783  RTP/System/SystemA.png
+    2026-09-09 12:18:18        55746  Sample/ArcheiaPictureTutorial/ChipSet/Interior.png
+    2026-09-09 12:18:18         2783  Sample/ArcheiaPictureTutorial/System/SystemA.png
+    2026-09-09 12:18:18         7698  RTP/Monster/Cerberus.png
+    2026-09-09 12:18:18        20396  RTP/Sound/Escape.wav
+    2026-09-09 12:18:18        11391  RTP/Battle/2003 Explosion.png
+    2026-09-09 12:18:18         7082  RTP/Battle/Explosion.png
+    2026-09-09 12:18:18        13813  RTP/Music/Black Market.mid
+    2026-09-09 12:18:18       103724  RTP/Music/SEDownpour.wav
+    2026-09-09 12:18:18         1604  RTP/System2/System2B.png
+    2026-09-09 12:18:18        24635  Sample/ArcheiaPictureTutorial/FaceSet/Monster.png
+    2026-09-09 12:18:18        36908  RTP/Sound/Fall1.wav
+    2026-09-09 12:18:18        78892  RTP/Sound/Holy4.wav
+    2026-09-09 12:18:18        63148  RTP/Sound/Ice4.wav
+    2026-09-09 12:18:18        54558  RTP/Sound/Teleport2.wav
+    2026-09-09 12:18:18        34796  RTP/Sound/Ice5.wav
+    2026-09-09 12:18:18       131862  RTP/Sound/Monster1.wav
+    2026-09-09 12:18:18        49836  RTP/Sound/Raise2.wav
+    2026-09-09 12:18:18         8400  RTP/Sound/Slash6.wav
+    2026-09-09 12:18:18         5330  RTP/Sound/Wind7.wav
+    2026-09-09 12:18:18        15404  RTP/Sound/Attack2.wav
+    2026-09-09 12:18:18        27308  RTP/Sound/Ice9.wav
+    2026-09-09 12:18:18        35244  RTP/Sound/Recovery8.wav
+    2026-09-09 12:18:18         7482  RTP/Sound/Slash8.wav
+    2026-09-09 12:18:18        71212  RTP/Sound/Wind2.wav
+    2026-09-09 12:18:18       220660  RTP/Sound/Rain2.wav
+    2026-09-09 12:18:18        37420  RTP/Sound/Shot1.wav
+    2026-09-09 12:18:18        11372  RTP/Sound/Wind4.wav
+    2026-09-09 12:18:18       237568  UNLHA32.DLL
+    2026-09-09 12:18:18        44844  RTP/Sound/Wave1.wav
+    2026-09-09 12:18:18         2460  RTP/Battle/Whip.png
+    2026-09-09 12:18:18         5230  RTP/BattleCharSet/Female Ninja B.png
+    2026-09-09 12:18:18        32109  RTP/ChipSet/Dungeon.png
+    2026-09-09 12:18:18        48800  RTP/Backdrop/Sea.png
+    2026-09-09 12:18:18        11200  RTP/CharSet/Vehicles.png
+    2026-09-09 12:18:18         3067  RTP/Monster/Alligator.png
+    2026-09-09 12:18:18         4663  RTP/Monster/Berserker.png
+    2026-09-09 12:18:18        31898  Sample/ArcheiaPictureTutorial/ChipSet/Dungeon.png
+    2026-09-09 12:18:18         2892  RTP/Monster/Dark Elf.png
+    2026-09-09 12:18:18         7351  RTP/Monster/Titan.png
+    2026-09-09 12:18:18        10382  RTP/Music/Castle 3.mid
+    2026-09-09 12:18:18         1039  RTP/Music/JMystery.mid
+    2026-09-09 12:18:18        16118  RTP/Sound/Blow4.wav
+    2026-09-09 12:18:18        60492  RTP/Sound/Horse.wav
+    2026-09-09 12:18:18        10916  RTP/Music/2003Ancient City.mid
+    2026-09-09 12:18:18        31028  RTP/Music/Liveliness.mid
+    2026-09-09 12:18:18         8652  RTP/Sound/Slash4.wav
+    2026-09-09 12:18:18         2752  Sample/ArcheiaPictureTutorial/Map0001.lmu
+    2026-09-09 12:18:18         6232  RTP/Battle/2003 Barrier.png
+    2026-09-09 12:18:18         9359  RTP/Monster/Lilith.png
+    2026-09-09 12:18:18        61424  RTP/Music/2003Fairy Forest.mid
+    2026-09-09 12:18:18        19181  RTP/Music/Ending 2.mid
+    2026-09-09 12:18:18        48812  RTP/Sound/Explosion6.wav
+    2026-09-09 12:18:18        38188  RTP/Sound/Recovery3.wav
+    2026-09-09 12:18:18        10333  RTP/Battle/Dark.png
+    2026-09-09 12:18:18         3145  RTP/Monster/Lizardman.png
+    2026-09-09 12:18:18         8829  RTP/Music/Mystery 3.mid
+    2026-09-09 12:18:18        42540  RTP/Sound/Earth5.wav
+    2026-09-09 12:18:18        17243  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_1.png
+    2026-09-09 12:18:18        15788  RTP/Battle/2003 Other1.png
+    2026-09-09 12:18:18        71427  RTP/Music/2003Subterranean Maze.mid
+    2026-09-09 12:18:18        22030  RTP/Sound/Bite.wav
+    2026-09-09 12:18:18        17080  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_7.png
+    2026-09-09 12:18:18        11554  RTP/Battle/Other.png
+    2026-09-09 12:18:18         8929  RTP/BattleCharSet/Woman4 A.png
+    2026-09-09 12:18:18         4559  RTP/Monster/Anaconda.png
+    2026-09-09 12:18:18         6592  RTP/Monster/Wyvern.png
+    2026-09-09 12:18:18       126508  RTP/Music/SEEarthquake.wav
+    2026-09-09 12:18:18        54956  RTP/Sound/Thunder7.wav
+    2026-09-09 12:18:18         2414  Sample/ArcheiaPictureTutorial/Map0003.lmu
+    2026-09-09 12:18:18         5242  RTP/Battle/2003 Sword.png
+    2026-09-09 12:18:18         7111  RTP/Battle/Ice.png
+    2026-09-09 12:18:18         6055  RTP/Monster/Leviathan.png
+    2026-09-09 12:18:18         1726  RTP/Music/JFanfare 5.mid
+    2026-09-09 12:18:18          927  Sample/ArcheiaPictureTutorial/Picture/Zahl4.png
+    2026-09-09 12:18:18         5495  RTP/Battle/2003 Absorb.png
+    2026-09-09 12:18:18         4191  RTP/Battle/Buff.png
+    2026-09-09 12:18:18        25542  RTP/Music/2003Beginning of a War.mid
+    2026-09-09 12:18:18        16854  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_3.png
+    2026-09-09 12:18:18         4165  RTP/Battle/Debuff.png
+    2026-09-09 12:18:18        24592  RTP/FaceSet/Monster.png
+    2026-09-09 12:18:18         8048  RTP/Monster/Genbu.png
+    2026-09-09 12:18:18         3275  RTP/Monster/Worm.png
+    2026-09-09 12:18:18        30670  RTP/Music/Field 3.mid
+    2026-09-09 12:18:18         1642  RTP/Music/JInn 1.mid
+    2026-09-09 12:18:18        46124  RTP/Sound/Darkness4.wav
+    2026-09-09 12:18:18       157740  RTP/Sound/Earthquake1.wav
+    2026-09-09 12:18:18        29740  RTP/Sound/Fire5.wav
+    2026-09-09 12:18:18         1953  RTP/Monster/Hornet.png
+    2026-09-09 12:18:18         1276  RTP/Music/JFanfare 1.mid
+    2026-09-09 12:18:18        21420  RTP/Sound/Bow1.wav
+    2026-09-09 12:18:18          835  RTP/Music/JItem.mid
+    2026-09-09 12:18:18         2492  RTP/Monster/Mummy.png
+    2026-09-09 12:18:18        83690  RTP/Music/2003Waltz of Blessings.mid
+    2026-09-09 12:18:18         7038  RTP/Music/Game Over 1.mid
+    2026-09-09 12:18:18        26419  RTP/Music/Mystery 1.mid
+    2026-09-09 12:18:18        29740  RTP/Sound/Bow2.wav
+    2026-09-09 12:18:18        42028  RTP/Sound/Water4.wav
+    2026-09-09 12:18:18         2294  Sample/ArcheiaPictureTutorial/Picture/magiccircle.png
+    2026-09-09 12:18:18         3992  RTP/Battle/Earth.png
+    2026-09-09 12:18:18        11803  RTP/CharSet/Actor4.png
+    2026-09-09 12:18:18          678  RTP/Sound/Cursor1.wav
+    2026-09-09 12:18:18         7592  RTP/Sound/Slash11.wav
+    2026-09-09 12:18:18        16652  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_4.png
+    2026-09-09 12:18:18         1720  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_5.png
+    2026-09-09 12:18:18         2868  RTP/Monster/Zombie.png
+    2026-09-09 12:18:18        20724  RTP/Music/Vehicle 2.mid
+    2026-09-09 12:18:18        58156  RTP/Sound/Glare.wav
+    2026-09-09 12:18:18        14884  RTP/Sound/Paralyze1.wav
+    2026-09-09 12:18:18        13612  RTP/Sound/Paralyze2.wav
+    2026-09-09 12:18:18        63916  RTP/Sound/Wave2.wav
+    2026-09-09 12:18:18        13731  RTP/Music/Repose 1.mid
+    2026-09-09 12:18:18        73004  RTP/Sound/Ice8.wav
+    2026-09-09 12:18:18        47916  RTP/Sound/Thunder1.wav
+    2026-09-09 12:18:18         8120  RTP/Music/Parting 2.mid
+    2026-09-09 12:18:18        19756  RTP/Sound/Fire1.wav
+    2026-09-09 12:18:18        42124  RTP/Sound/Sheep.wav
+    2026-09-09 12:18:18        16845  RTP/Battle/2003 Dark.png
+    2026-09-09 12:18:18        29484  RTP/Sound/Holy9.wav
+    2026-09-09 12:18:18         9650  RTP/Sound/Slash9.wav
+    2026-09-09 12:18:18        37164  RTP/Sound/Song.wav
+    2026-09-09 12:18:18         3562  RTP/Monster/Carmilla.png
+    2026-09-09 12:18:18        51044  RTP/Sound/Absorb2.wav
+    2026-09-09 12:18:18         6820  RTP/Sound/Slash10.wav
+    2026-09-09 12:18:18         3018  RTP/System/SystemB.png
+    2026-09-09 12:18:18        13398  RTP/Sound/Blow6.wav
+    2026-09-09 12:18:18        18156  RTP/Sound/Earth3.wav
+    2026-09-09 12:18:18        27052  RTP/Sound/Fire4.wav
+    2026-09-09 12:18:18        23084  RTP/Sound/Shot2.wav
+    2026-09-09 12:18:18         8622  RTP/Sound/Slash5.wav
+    2026-09-09 12:18:18           16  Sample/ArcheiaPictureTutorial/Picture_Tutorial.r3proj
+    2026-09-09 12:18:18        28227  RTP/Panorama/Sunset1.png
+    2026-09-09 12:18:18        57002  RTP/Title/Title1.png
+    2026-09-09 12:18:18        59948  RTP/Sound/Earth4.wav
+    2026-09-09 12:18:18        40108  RTP/Sound/Ensnare.wav
+    2026-09-09 12:18:18        31528  RTP/Sound/Item1.wav
+    2026-09-09 12:18:18        50324  RTP/Sound/Item2.wav
+    2026-09-09 12:18:18        35628  RTP/Sound/Thunder8.wav
+    2026-09-09 12:18:18        54572  RTP/Sound/Wind10.wav
+    2026-09-09 12:18:18        47916  RTP/Sound/Water3.wav
+    2026-09-09 12:18:18        56876  RTP/Sound/Wind5.wav
+    2026-09-09 12:18:18            6  steam_appid.txt
+    2026-09-09 12:18:18        60972  RTP/Sound/Ice11.wav
+    2026-09-09 12:18:18        43564  RTP/Sound/Thunder4.wav
+    2026-09-09 12:18:18        62942  RTP/Title/Title4.png
+    2026-09-09 12:18:18        41516  RTP/Sound/Sleep.wav
+    2026-09-09 12:18:18        34364  RTP/Sound/Close2.wav
+    2026-09-09 12:18:18        27094  Sample/ArcheiaPictureTutorial/FaceSet/People1.png
+    2026-09-09 12:18:18       234540  RTP/Music/SESea.wav
+    2026-09-09 12:18:19        30152  RTP/FaceSet/People1.png
+    2026-09-09 12:18:19        28142  RTP/FaceSet/Actor1.png
+    2026-09-09 12:18:19         2486  RTP/Monster/Kappa.png
+    2026-09-09 12:18:19        35116  RTP/Sound/Thunder5.wav
+    2026-09-09 12:18:19        84736  RTP/Sound/GlassShatter.wav
+    2026-09-09 12:18:19        27692  RTP/Sound/Fall2.wav
+    2026-09-09 12:18:19        81971  RTP/Title/Title2.png
+    2026-09-09 12:18:19        94873  RTP/Panorama/Sky2.png
+    2026-09-09 12:18:20        56363  RTP/Backdrop/Space.png
+

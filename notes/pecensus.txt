@@ -1,0 +1,32 @@
+path                                              fmt     kind      bytes     linker COFF (UTC)          mtime (local)       CompanyName / module
+---------------------------------------------- ------ -------- ---------- ---------- ------------------- ------------------- ------------------------------
+BaseFlushAppcompatCache.exe                      PE32   native      47790       6.00 2009-12-05 22:50:52 2026-09-09 12:18:12 
+Sample/ArcheiaPictureTutorial/RPG_RT.exe         PE32   native    1032704       2.25 1992-06-19 22:22:17 2026-09-09 12:18:11 KADOKAWA GAMES
+mple/ArcheiaPictureTutorial/ultimate_rt_eb.dll   PE32   native     124928       2.24 1970-01-01 18:12:16 2026-09-09 12:18:18 KADOKAWA GAMES
+UNLHA32.DLL                                      PE32   native     237568       3.00 2000-03-01 02:30:53 2026-09-09 12:18:18 LZH file processing library
+rpg2003.exe                                      PE32   native    4387328       2.25 1992-06-19 22:22:17 2026-09-09 12:18:11 KADOKAWA GAMES
+rpg_rt.exe.dat                                   PE32   native    1032704       2.25 1992-06-19 22:22:17 2026-09-09 12:18:11 KADOKAWA GAMES
+setup.exe.dat                                    PE32   native     630784       2.25 1992-06-19 22:22:17 2026-09-09 12:18:11 
+ultimate_eb.dll                                  PE32   native     274944       2.24 1970-01-25 06:32:32 2026-09-09 12:18:11 KADOKAWA GAMES
+ultimate_rt_eb.dll.dat                           PE32   native     124928       2.24 1970-01-01 18:12:16 2026-09-09 12:18:18 KADOKAWA GAMES
+
+=== files whose mtime PRECEDES their own COFF link timestamp ===
+(a file cannot be written before it is linked; where this happens
+ the mtime is synthetic, or the two clocks are in different zones)
+
+    none
+
+impossible mtimes : 0 of 9 datable binaries
+
+binaries        : 9
+by format       : PE32 9
+COFF range      : 1970-01-01 .. 2009-12-05
+distinct COFF days: 5  1970-01-01, 1970-01-25, 1992-06-19, 2000-03-01, 2009-12-05
+
+Authenticode: 0 of 9 PE files carry a certificate table
+    none
+
+CompanyName / module name, by count:
+    KADOKAWA GAMES                           6
+    (none)                                   2
+    LZH file processing library              1

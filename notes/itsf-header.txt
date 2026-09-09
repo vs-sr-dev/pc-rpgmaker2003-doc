@@ -1,0 +1,49 @@
+file                        : rpgmaker2003-steam/rpg2003.chm
+bytes on disk               : 6268124
+
+--- the ITSF header, 96 bytes ---------------------------------
+  version                   : 3
+  header length declared    : 96
+  u32 at +0x0C              : 1
+  u32 at +0x10              : 2271116676 (0x875E7D84)
+  u32 at +0x14, an LCID     : 3079 (0x0C07)
+  guid 1                    : {7C01FD10-7BAA-11D0-9E0C-00A0C922E6EC}
+  guid 2                    : {7C01FD11-7BAA-11D0-9E0C-00A0C922E6EC}
+  header section 0          : offset 96, length 24
+  header section 1 (the dir): offset 120, length 16468
+  content section 0         : offset 16588
+
+--- the three closures ---------------------------------------
+  96 (header) + 24 (section 0) = 120 against a directory offset of 120
+      residue 0
+  120 (dir offset) + 16468 (dir length) = 16588 against a content offset of 16588
+      residue 0
+  header section 0 is three u64 : (510, 6268124, 0)
+  the second declares the container's own length : 6268124
+  against 6268124 bytes on disk       residue 0
+
+--- the ITSP directory header, 84 bytes ----------------------
+  version                   : 1
+  header_length             : 84
+  unknown_0C                : 10
+  chunk_size                : 4096
+  density                   : 2
+  depth                     : 2
+  root_chunk                : 3
+  first_pmgl                : 0
+  last_pmgl                 : 2
+  minus_one                 : -1
+  chunk_count               : 4
+  lcid                      : 1033 (0x0409)
+  guid                      : {5D02926A-212E-11D0-9DF9-00A0C922E6EC}
+  header_length_again       : 84
+  tail                      : (-1, -1, -1)
+
+--- the fourth closure, and it is the chunk count ------------
+  84 (ITSP header) + 4 chunks x 4096 bytes = 16468
+  against a declared directory length of 16468    residue 0
+
+  THE COUNT IS AT +0x2C AND IT IS 4.
+  The u32 at +0x20 is 0, which is the index of the first PMGL
+  chunk and not a count. Reading +0x20 as the count is the
+  error this session's pre-briefing recorded against itself.

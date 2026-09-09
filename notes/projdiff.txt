@@ -1,0 +1,60 @@
+project files      : 47
+RTP files          : 676
+same relative name : 14
+only in the project: 33
+
+  file                                  project        RTP  verdict
+  ChipSet/Dungeon.png                     31898      32109  DIFFERS  same chunk types, different bytes
+  ChipSet/Exterior.png                    37418      37494  DIFFERS  same chunk types, different bytes
+  ChipSet/Interior.png                    55746      34926  DIFFERS  carries cHRM, iTXt, pHYs
+  ChipSet/Ship.png                        30723      30787  DIFFERS  same chunk types, different bytes
+  ChipSet/World.png                       34930      35006  DIFFERS  same chunk types, different bytes
+  FaceSet/Actor1.png                      27674      28142  DIFFERS  same chunk types, different bytes
+  FaceSet/Actor2.png                      28952      29491  DIFFERS  same chunk types, different bytes
+  FaceSet/Monster.png                     24635      24592  DIFFERS  same chunk types, different bytes
+  FaceSet/People1.png                     27094      30152  DIFFERS  same chunk types, different bytes
+  FaceSet/People2.png                     25982      27646  DIFFERS  same chunk types, different bytes
+  System/System.png                        2075       2075  identical
+  System/SystemA.png                       2783       2783  identical
+  System/SystemB.png                       2356       3018  DIFFERS  same chunk types, different bytes
+  System/SystemC.png                       3045       3045  identical
+
+  byte-identical to the product's copy : 3 of 14
+  differing                            : 11 of 14
+  the two sum to the common names      : True
+
+-- files the project has and the RTP does not ------------------
+   Map0001.lmu                                      2752
+   Map0002.lmu                                      7469
+   Map0003.lmu                                      2414
+   Picture/INPUTDISPLAY.png                         1111
+   Picture/POLAROID.png                            17007
+   Picture/RTPHEROES[3, 3].png                      5845
+   Picture/RTPHERO_1.png                           17243
+   Picture/RTPHERO_2.png                           17277
+   Picture/RTPHERO_3.png                           16854
+   Picture/RTPHERO_4.png                           16652
+   Picture/RTPHERO_5.png                            1720
+   Picture/RTPHERO_6.png                           16734
+   Picture/RTPHERO_7.png                           17080
+   Picture/RTPHERO_8.png                           17154
+   Picture/RTPHERO_9.png                           16708
+   Picture/Zahl0.png                                 957
+   Picture/Zahl1.png                                 910
+   Picture/Zahl2.png                                 921
+   Picture/Zahl3.png                                 934
+   Picture/Zahl4.png                                 927
+   Picture/Zahl5.png                                 929
+   Picture/Zahl6.png                                 936
+   Picture/Zahl7.png                                 919
+   Picture/Zahl8.png                                 927
+   Picture/Zahl9.png                                 930
+   Picture/[BONUS]_POLAROID_BASE.psd               54653
+   Picture/magiccircle.png                          2294
+   Picture_Tutorial.r3proj                            16
+   RPG_RT.exe                                    1032704
+   RPG_RT.ini                                         98
+   RPG_RT.ldb                                     374229
+   RPG_RT.lmt                                        335
+   ultimate_rt_eb.dll                             124928
+   33 files

@@ -1,0 +1,36 @@
+manifest      : appmanifest_362870.acf
+bytes         : 868
+top-level key : AppState
+
+   "AppState/appid"             "362870"
+   "AppState/universe"          "1"
+   "AppState/LauncherPath"      "C:\\Program Files (x86)\\Steam\\steam.exe"
+   "AppState/name"              "RPG Maker 2003"
+   "AppState/StateFlags"        "4"
+   "AppState/installdir"        "RPG Maker 2003"
+   "AppState/LastUpdated"       "1788949101"
+   "AppState/LastPlayed"        "0"
+   "AppState/SizeOnDisk"        "33578445"
+   "AppState/StagingSize"       "0"
+   "AppState/buildid"           "2173406"
+   "AppState/LastOwner"         "<STEAMID64:17 digits redacted>"
+   "AppState/DownloadType"      "1"
+   "AppState/UpdateResult"      "0"
+   "AppState/BytesToDownload"   "22100528"
+   "AppState/BytesDownloaded"   "22100528"
+   "AppState/BytesToStage"      "33578445"
+   "AppState/BytesStaged"       "33578445"
+   "AppState/TargetBuildID"     "2173406"
+   "AppState/AutoUpdateBehavior" "0"
+   "AppState/AllowOtherDownloadsWhileRunning" "0"
+   "AppState/ScheduledAutoUpdate" "0"
+   "AppState/InstalledDepots/362871/manifest" "837722761356681434"
+   "AppState/InstalledDepots/362871/size" "33578445"
+   "AppState/InstallScripts/362871" "2k3_install.vdf"
+   "AppState/UserConfig/language" "english"
+   "AppState/MountedConfig/language" "english"
+
+keys printed  : 27
+keys redacted : 1   (the rule: redact what identifies a person)
+what the redacted value was, as a matter of ID format:
+   universe 1, account type 1, instance 1 -- the individual account number is what was removed

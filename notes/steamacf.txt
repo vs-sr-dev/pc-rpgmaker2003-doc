@@ -1,0 +1,16 @@
+SizeOnDisk declared      : 33578445
+the tree, counted        : 33578445 over 737 files
+residue                  : 0
+
+installed depots:
+   362871           33578445   manifest 837722761356681434
+   sum            33578445
+   residue against SizeOnDisk : 0
+
+
+WHAT THIS BUYS, AND IT IS LESS THAN IT LOOKS
+A total that closes to the byte says the tree WEIGHS what Steam
+thinks it weighs. It says nothing about any individual file: one
+byte changed anywhere leaves SizeOnDisk untouched, and so does any
+pair of edits that cancel. It is not a checksum and must not be
+reported as one.

@@ -1,0 +1,13 @@
+file          : Sample/ArcheiaPictureTutorial/Picture/INPUTDISPLAY.png
+chunk         : tpNg at byte offset 87, length 8
+CRC declared  : c871abbc
+CRC computed  : c871abbc   VERIFIES
+registered in the PNG specification : NO
+payload:
+      0000  47 4c 44 33 00 00 00 00                          |GLD3....|
+as text       : 'GLD3\x00\x00\x00\x00'
+
+files walked : 355
+chunks seen  : 1848
+CRC failures : 0
+occurrences of tpNg : 1

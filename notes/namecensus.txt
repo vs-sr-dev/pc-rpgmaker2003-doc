@@ -1,0 +1,15 @@
+# NOTE: this capture contained absolute paths of the machine the work
+# was done on, inside a Python traceback. They have been replaced by
+# <repository>/ per rule 7. Nothing else is changed.
+packages            : 0
+name-table entries  : 0 (with repeats across packages)
+distinct names      : 0
+
+Traceback (most recent call last):
+  File "<repository>/tools\namecensus.py", line 149, in <module>
+    main()
+    ~~~~^^
+  File "<repository>/tools\namecensus.py", line 111, in main
+    % (len(once), 100.0 * len(once) / len(where)))
+                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+ZeroDivisionError: division by zero

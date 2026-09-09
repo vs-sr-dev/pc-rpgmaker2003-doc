@@ -1,0 +1,26 @@
+source files       : 737
+source directories : 41, of which empty 19
+  copied 100 of 737
+  copied 200 of 737
+  copied 300 of 737
+  copied 400 of 737
+  copied 500 of 737
+  copied 600 of 737
+  copied 700 of 737
+files copied       : 737
+  verified 100 of 737
+  verified 200 of 737
+  verified 300 of 737
+  verified 400 of 737
+  verified 500 of 737
+  verified 600 of 737
+  verified 700 of 737
+
+bytes                   : 33578445
+size agrees             : 737 of 737
+mtime agrees to 100 ns  : 737 of 737
+sha1 agrees             : 737 of 737
+directories, source     : 41   copy : 41   agree : True
+empty directories       : 19   copy : 19   agree : True
+size, mtime, sha1 and the directory tree all agree : True
+the original was opened read-only and nothing was written to it

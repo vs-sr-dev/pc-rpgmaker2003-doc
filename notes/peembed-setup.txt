@@ -1,0 +1,42 @@
+file                    : rpgmaker2003-steam/setup.exe.dat
+bytes                   : 630784
+DOS stub's first 4 bytes: b'MZP\x00'
+e_lfanew                : 256
+machine                 : 0x014C
+COFF TimeDateStamp      : 708992537
+sections                : 8
+
+-- QUESTION 1: does the outer image account for the whole file? -
+   name            vsize        rva    rawsize     rawptr      raw end
+   CODE           411136       4096     411136       1024       412160
+   DATA             5120     417792       5120     412160       417280
+   BSS              3369     425984          0     417280       417280
+   .idata           9728     430080       9728     417280       427008
+   .tls               16     442368          0     427008       427008
+   .rdata            512     446464        512     427008       427520
+   .reloc          28672     450560      28672     427520       456192
+   .rsrc          174592     479232     174592     456192       630784
+   highest raw end      : 630784
+   file length          : 630784
+   RESIDUE              : 0
+
+-- the resource directory --------------------------------------
+   .rsrc at raw 456192, 174592 bytes
+   leaf entries         : 62
+   declared bytes       : 170398
+   by top-level type    : {'CURSOR': 7, 'BITMAP': 22, 'ICON': 4, 'DIALOG': 1, 'STRING': 14, 'RCDATA': 6, 'GROUP_CURSOR': 7, 'GROUP_ICON': 1}
+
+-- QUESTION 2 and 3: is there an executable inside it? ---------
+   an MZ that parses as PE at file offset 483728
+      stub b'MZP\x00', e_lfanew 256, 8 sections, stamp 708992537
+      it falls inside the outer image's .rsrc section
+      its own section table reaches   : 142848 bytes
+      a resource entry begins exactly here:
+         RCDATA/GAMEDELETE/9
+         declared size 142848 against the inner image's reach 142848   RESIDUE 0
+
+-- the verdict -------------------------------------------------
+   The file is ONE image that accounts for every byte, and the
+   inner executable(s) are RESOURCES of it. The file does not
+   divide in two, and any arithmetic that appears to divide it
+   is a coincidence of the remainder, not a boundary.

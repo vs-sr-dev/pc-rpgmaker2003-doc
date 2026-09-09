@@ -1,0 +1,74 @@
+BaseFlushAppcompatCache.exe
+    (no version resource)
+UNLHA32.DLL
+    CompanyName        
+    FileDescription    LZH file processing library
+    FileVersion        1.47.1.7-VC
+    InternalName       UNLHA32
+    LegalCopyright     (C)Micco 1995-2000.  All rights reserved.
+    OriginalFilename   UNLHA32.DLL
+    ProductName        UNLHA32.DLL for Win32
+    ProductVersion     1.47.1.7-VC
+
+rpg2003.exe
+    CompanyName        KADOKAWA GAMES
+    FileDescription    RPG Maker 2003 Editor
+    FileVersion        1.1.2.1
+    InternalName       
+    LegalCopyright     
+    LegalTrademarks    
+    OriginalFilename   
+    ProductName        RPG Maker 2003
+    ProductVersion     1.1.2.1
+    Comments           
+
+rpg_rt.exe.dat
+    CompanyName        KADOKAWA GAMES
+    FileDescription    RPG Maker 2003 Runtime
+    FileVersion        1.1.2.1
+    InternalName       
+    LegalCopyright     
+    LegalTrademarks    
+    OriginalFilename   RPG_RT.exe
+    ProductName        RPG Maker 2003
+    ProductVersion     1.1.2.1
+    Comments           
+
+setup.exe.dat
+    (no version resource)
+ultimate_eb.dll
+    FileVersion        1.1.2.1
+    ProductVersion     1.1.2.1
+    CompanyName        KADOKAWA GAMES
+    FileDescription    Ultimate DLL (RM2k3 custom version for Degica)
+    ProductName        RPG Maker 2003
+    OriginalFilename   ultimate_eb.dll
+
+ultimate_rt_eb.dll.dat
+    FileVersion        1.1.2.1
+    ProductVersion     1.1.2.1
+    CompanyName        KADOKAWA GAMES
+    FileDescription    Ultimate Runtime DLL (RM2k3 custom version for Degica)
+    ProductName        RPG Maker 2003
+    OriginalFilename   ultimate_rt_eb.dll
+
+Sample/ArcheiaPictureTutorial/RPG_RT.exe
+    CompanyName        KADOKAWA GAMES
+    FileDescription    RPG Maker 2003 Runtime
+    FileVersion        1.1.2.1
+    InternalName       
+    LegalCopyright     
+    LegalTrademarks    
+    OriginalFilename   RPG_RT.exe
+    ProductName        RPG Maker 2003
+    ProductVersion     1.1.2.1
+    Comments           
+
+Sample/ArcheiaPictureTutorial/ultimate_rt_eb.dll
+    FileVersion        1.1.2.1
+    ProductVersion     1.1.2.1
+    CompanyName        KADOKAWA GAMES
+    FileDescription    Ultimate Runtime DLL (RM2k3 custom version for Degica)
+    ProductName        RPG Maker 2003
+    OriginalFilename   ultimate_rt_eb.dll
+

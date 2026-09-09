@@ -1,0 +1,13 @@
+# NOTE: this capture contained absolute paths of the machine the work
+# was done on, inside a Python traceback. They have been replaced by
+# <repository>/ per rule 7. Nothing else is changed.
+Traceback (most recent call last):
+  File "<repository>/tools\ne.py", line 474, in <module>
+    sys.exit(main() or 0)
+             ~~~~^^
+  File "<repository>/tools\ne.py", line 413, in main
+    ne = NE(args.file)
+  File "<repository>/tools\ne.py", line 78, in __init__
+    self.data = open(path, "rb").read()
+                ~~~~^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'rpgmaker2003-steam'

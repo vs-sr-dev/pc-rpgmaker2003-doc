@@ -1,0 +1,4 @@
+file      : rpgmaker2003-steam/UNLHA32.TXT
+bytes     : 13864
+addresses : 3 replaced
+check     : 3 address-shaped strings remain in the file

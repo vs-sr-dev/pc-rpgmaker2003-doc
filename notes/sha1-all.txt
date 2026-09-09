@@ -1,0 +1,738 @@
+fa04f6450ed7fa81516b281b4984f6c50d3c6ee1          1545  2k3_install.vdf
+9ba229d3f979f01801c76fa7fe6cdff77e83f30a         47790  BaseFlushAppcompatCache.exe
+e1f501ef97c6b9e5f34ce78b814733c4468b75df            52  RM2003 EN PRELIMINARY 13.09.2017.url
+e1f501ef97c6b9e5f34ce78b814733c4468b75df            52  RPG Maker 2003.url
+e1f338ef9ae2e0d289f61956ece608ee56b16358        237568  UNLHA32.DLL
+82526bbcc5bc447a698e826da3f3f9a83858631c         13864  UNLHA32.TXT
+75bca122e0c83dee6aaba43de5a449e75e6ce11a       6268124  rpg2003.chm
+4dc4d17cca2d5c074f5db66e4c057eacca609400       4387328  rpg2003.exe
+302d8f15356d2cc0e9606b388a904a2a50a7a01e       1032704  rpg_rt.exe.dat
+0861f60891243292a6dad9c9824a306d281a6e55        388574  rpg_rt.ldb.dat
+535f9a5fc1cff2c87613f82b3682a7282f2de321        630784  setup.exe.dat
+50554474cf43a36b7ef3cc7ef1113052fbf6b00a             6  steam_appid.txt
+b85df8b0a12de29b6b2a1b65766f37996b7542ee        274944  ultimate_eb.dll
+1a3eb60b07eaf1fbc20ae609826f30bbb6d6188d        124928  ultimate_rt_eb.dll.dat
+e9ed3a3ec69da2d4184dcc4b8aea69cfd5e1b1a8         23558  RTP/icon.ico
+149be622dc6a958e1d59d489cd85d1dd2786cab4         42863  RTP/Backdrop/Arena.png
+b60d4d686c79a00ee45756a9cc34a10c475e0177         40806  RTP/Backdrop/Bathhouse.png
+5338b9d1188106a457669004ee86746f3e264d26         58508  RTP/Backdrop/Beach.png
+2289e9cde9088266bba3574fa9692aa2b088fbda         48479  RTP/Backdrop/Bridge.png
+46568fc59b37c0899406648579905f2f86c6dbcd         48424  RTP/Backdrop/Castle.png
+beb03c84627f834c899138a4774110d77656c524         65935  RTP/Backdrop/Desert.png
+0cac239a07f300ab76a9799f4c28b7ca04be7c96         46288  RTP/Backdrop/Dungeon1.png
+6f3c2bda2f1529b86ea5b7a98baa3f1551e53bf6         44799  RTP/Backdrop/Dungeon2.png
+6b7695fa3eca29a6aadb67a5c4b93b2d0ebb211d         50956  RTP/Backdrop/Dungeon3.png
+75f389dffc1314b779502875be4855d518387fc7         65525  RTP/Backdrop/Dungeon4.png
+0f9751301cfcfa59ccf1262c83920066bd82d565         50600  RTP/Backdrop/Dungeon5.png
+cf753026094c9726373b20b22bb88628095990b4         52644  RTP/Backdrop/Dungeon6.png
+0d5d4a3928ebe0870d0d4580e7399794a2b8563d         44076  RTP/Backdrop/Forest1.png
+c628a6ebf85bf90ba7e67551b697883702b94235         52389  RTP/Backdrop/Forest2.png
+1111bdf9230e45635a0f3c235c275faab2cf6c43         50362  RTP/Backdrop/Grassland.png
+fcb6ee281e17691401935141e534841f7e14681c         67348  RTP/Backdrop/Graveyard.png
+2561185a8d0cfd5018400c77ff0818e8abadc384         52204  RTP/Backdrop/Mansion.png
+4bed2582679bbb20b28574b788392d7db5d66551         49753  RTP/Backdrop/Mountain Road.png
+40956c4a558aae3b7438ff5f86ec6ee797564ef3         39930  RTP/Backdrop/Old Town.png
+c7c264c42c1b08c37619f4c5dccaa9e1b2167453         41444  RTP/Backdrop/Road.png
+f19f3df3f90e20528b015f0b2fc9e1ae66ff4b96         70987  RTP/Backdrop/Rocky Road.png
+53254d45d459e40e19d2e3d2ec04862a6f36fdd0         40288  RTP/Backdrop/Ruins1.png
+329c26ea01bf70aef2b6a58ca113b77c1e1d6028         63367  RTP/Backdrop/Ruins2.png
+69b8ad166210819fae532871b9fa8d68ceab7918         48800  RTP/Backdrop/Sea.png
+291685bb8a6a57fddb4cb2879fb53f342ca9adf4         38088  RTP/Backdrop/Ship.png
+3790e1010e36224d198a084ed9ea44f5522d94d3         38265  RTP/Backdrop/Sky.png
+430b2595389465a244441194fdf2a535a02703cb         47783  RTP/Backdrop/Snow Field.png
+31868f2a7eedc4875f0800c222c066f244a6e315         56363  RTP/Backdrop/Space.png
+5cf4608c59b7d424c53c77f0f6ce7ff68bed6b89         42070  RTP/Backdrop/Swamp.png
+d29c1d24576f42ce5fffff499285004e87ff41f9         35447  RTP/Backdrop/Temple1.png
+0cd0b8434249abb8481eff2dd851888339684d39         53967  RTP/Backdrop/Temple2.png
+5117a780de02c01b8787bdd022c1b8c6947e83fb         58984  RTP/Backdrop/Town.png
+091598b722e614fc0896285f7514724a9a19d8f1         31432  RTP/Backdrop/Universe.png
+0cfb6cdefc2e98c9f0af4eeae3320ca32220df7c         48064  RTP/Backdrop/Wasteland.png
+f5c5933a5ee9f288857a6585c4cac4f632fdf074          5495  RTP/Battle/2003 Absorb.png
+8ef41d88d28a92191e8fd3ee9efe58032e07e13f          4869  RTP/Battle/2003 Axe.png
+1e2850dbed8c93c8c9d64aca14d67685510b2888          6232  RTP/Battle/2003 Barrier.png
+5d9735e2b5f35c59c73be0c72e77b6595999b004          8269  RTP/Battle/2003 Blow.png
+6e874284253c548a45bdeeb8457c12b492c2d395          4135  RTP/Battle/2003 Bow.png
+8c2c6ea81cc0610ebad26b62cff72cac16f2941e          8559  RTP/Battle/2003 Breath.png
+2940a0c7c7fd79aac21462cda11324c593d864c1          4863  RTP/Battle/2003 Claw.png
+0804558cb1fe4ac2299dd0f3201fe821ca4cdd9f          7769  RTP/Battle/2003 Cold.png
+c8110d35bc3e7a30f9c7cdddc79087279431038f          4727  RTP/Battle/2003 Cure.png
+bc8dcf7eefd692cf4e69d7b2905d7a52576d3cd6         16845  RTP/Battle/2003 Dark.png
+4bc6b479b361e13d2c1689c97ea98b39e37e62b3          7222  RTP/Battle/2003 Earth.png
+0f182f1ca65ad779d66d4f0f0d73f32c69bb029a         11391  RTP/Battle/2003 Explosion.png
+9bf5ed4634395c74db9b8f8bab1697cc5634023a         19855  RTP/Battle/2003 Fire.png
+e76ba5d98df0282701c5a2ed5efd6b76259e2276          4929  RTP/Battle/2003 Holy.png
+249ac4175e5c643946bec553177951bd2747074e          4582  RTP/Battle/2003 Light Pillar.png
+b2d3299716565b037f9c76b9a215587656919371         15788  RTP/Battle/2003 Other1.png
+df0d6a89aac9219db107662c579a3e5171f04e07          5218  RTP/Battle/2003 Other2.png
+897f62a8762edb6e5fc5ea68b6a82475dbaa6d25          8972  RTP/Battle/2003 Paralysis.png
+37154af8230043b9531c0b295b5d5525941bad36          5691  RTP/Battle/2003 Recovery.png
+18ea62ed4ce786d5505028434b3aad797d5fef60          5749  RTP/Battle/2003 Revive.png
+b8435dd04ef8c46fde50f61a6ac46ef08f9745b2          6101  RTP/Battle/2003 Spear.png
+4e376bf7725b885e701662f688a5c3555549fe44          5242  RTP/Battle/2003 Sword.png
+707c48526cfdb662801d4f569cbd84927b6b637e          7437  RTP/Battle/2003 Thunder.png
+6c8fea920db6725896ded2c3017d8f90d2933181         17370  RTP/Battle/2003 Water.png
+fd12565f8653569c41867df65d6ba0b7f72e22d8          5575  RTP/Battle/2003 Whip.png
+ec4deafad0d43183c90819b46095a55d4f69dfce          8547  RTP/Battle/2003 Wind.png
+7aa8d4c377efcea1c9fad01924da1ba7b8575e1e          1687  RTP/Battle/Arrow.png
+81c7acae7d9a98add206741cf0f165787d7642d3          2029  RTP/Battle/Axe.png
+de79aa6cb530ef050cd1bc6e32080551f86489f8          1982  RTP/Battle/Barrier.png
+ad3d0f2c79cb380be71a2f3ec304ad5756eaa24b          1989  RTP/Battle/Bite.png
+d2e7d26cd953b5f3fe00d723604b14db6ebfa08a          4336  RTP/Battle/Blow.png
+693e48f23b4a4b2ad5b42b2dd682051b01e88220          4879  RTP/Battle/Breath.png
+831b64fa4bdd19feed932af9c0917ccf22bcffbd          4191  RTP/Battle/Buff.png
+c9ce485ec8903ddc4f5f0c2d4e5a6c75fea00cde          2455  RTP/Battle/Claw.png
+d469c4f87ae03aa48b2ae263f5213b101a43afc2         10333  RTP/Battle/Dark.png
+dd4428b4817dd0f5e9b1b759088c65377ec67a28          4165  RTP/Battle/Debuff.png
+b581c66364a2072d3df6e4b516a853bd604ca9b1          3992  RTP/Battle/Earth.png
+2b366dbabe414ecb4657b982cd5bf4555c9d4886          7082  RTP/Battle/Explosion.png
+372ceaa40f0e16e9a34e1f9ba2e1390d6c066e1d          8049  RTP/Battle/Fire1.png
+177a2fedd9bb8cfd518dcd419b8f91695bf5deb2         12861  RTP/Battle/Fire2.png
+dfc6d4fedd5e54dcb890e64365114d23651f49a4          3585  RTP/Battle/Holy.png
+61274cfeb741160a1f6b55d92ee7f5729edb6995          7111  RTP/Battle/Ice.png
+5e1b6a478ce507542e2a59e5a1968aedf060c63c         11554  RTP/Battle/Other.png
+d4acaf39d282ec98f9a64a3244972fca482e60b3          5180  RTP/Battle/Paralysis.png
+2055438e00bdba083fca5e483ed03f355758d883          2007  RTP/Battle/Recovery.png
+f8e24ce61b0c7bb482f9c0ad88a63bd177fe4201          2784  RTP/Battle/Ressurection.png
+e7ae20424684c3be9cf246444d594a0b165fe8ac          2796  RTP/Battle/Spear.png
+e94cde8a18157b2fd2d1c4d475fad3fb06224c78          1866  RTP/Battle/Sword1.png
+3978eb3d53561c2eb2bb3cb786664240c7629377          2334  RTP/Battle/Sword2.png
+ed179529f3eaac7497e964dcd4724abbad97d0c6          3944  RTP/Battle/Thunder.png
+5eedeb60700ebc429fdf33aec860118e022aa379          1726  RTP/Battle/Treatment.png
+577a95ff6aeee784dd2f68233a2ab93c62b59e14         11088  RTP/Battle/Water.png
+8393ed8d98bae992349bbd00953546f04e90ac90          2460  RTP/Battle/Whip.png
+6a5adfc138643e435b3e2b9fcecc757608324bc2          2412  RTP/Battle/Wind.png
+c6eccfdf17b5097718873e48efef3f41540a3188          9665  RTP/BattleCharSet/Armored Warror A.png
+2acf79f829e7e05c2e6d0233097bff3842aedefd          5836  RTP/BattleCharSet/Armored Warror B.png
+b9c5e2d98a0b5a87de5558fecc9c65b29f63f58f          9193  RTP/BattleCharSet/Chinese Man A.png
+aa8f02fcccdfe18d8838296545ff2208e9fe8857          5803  RTP/BattleCharSet/Chinese Man B.png
+df9b0c0f3a1b9317be75086e64e44c53383e2fa2          8375  RTP/BattleCharSet/Chinese Woman A.png
+9eec106ecaae386e3fee46e23fe32bfa46190c68          5214  RTP/BattleCharSet/Chinese Woman B.png
+f3aa6c23e8e7c5caad071cf4ceb1e7dcb452244e          8951  RTP/BattleCharSet/Female Bandit A.png
+37ecbdaac8ab8292ce1f81a90cefdf7b1a662750          5467  RTP/BattleCharSet/Female Bandit B.png
+10eaa73f9e0907f52698f10c152c15af6376d4c1          8701  RTP/BattleCharSet/Female Elf A.png
+d69341afd019c7c3dd54874660f47580ab97c2de          5349  RTP/BattleCharSet/Female Elf B.png
+6d144108f1544d4bd9862f4f46a13609a7dad7e3          9050  RTP/BattleCharSet/Female Fighter A.png
+e93318731ae8be8f1d451254a9bea0e7bedea070          5564  RTP/BattleCharSet/Female Fighter B.png
+beecfc8dcfa6e83e9c0588720e92713851039833          9093  RTP/BattleCharSet/Female Hero A.png
+916aa65eb01683fa8d2f26c4bfb953f9feea1f01          5305  RTP/BattleCharSet/Female Hero B.png
+1ef1d31570b0a87bcde3683bb80171ed88c341aa          9631  RTP/BattleCharSet/Female Mage A.png
+f0874687932166bfec26c23a7b78349c997b32f2          5641  RTP/BattleCharSet/Female Mage B.png
+e6101aecfa8787f465cec2680e326950c197537b          9234  RTP/BattleCharSet/Female Monk A.png
+895ff5abd0eb0b10a9643612cb52076f3c173e2d          5297  RTP/BattleCharSet/Female Monk B.png
+db787d96f37a6eef828ed30eae0a3b9c6c2ae696          8469  RTP/BattleCharSet/Female Ninja A.png
+ae591c7ff99508d0d5de0e409da199d86a8dad7e          5230  RTP/BattleCharSet/Female Ninja B.png
+fa6bcac73e4b2b41b099fb8419c037b084b11ade          8557  RTP/BattleCharSet/Female Pirate A.png
+b937ef616a9945041437aeae4b5a38e1e1b839c4          5452  RTP/BattleCharSet/Female Pirate B.png
+9771416e671cad19d64a46d62bd9555a19a9dbdb          9496  RTP/BattleCharSet/Female Warrior A.png
+9b1b9d79f998552c8633c6959be59f2e33ba8b0d          5723  RTP/BattleCharSet/Female Warrior B.png
+3b50d33d2840a46c41f068907193a8bc7937a3a4          8531  RTP/BattleCharSet/Male Bandit A.png
+c3daa32b93135ab3b9189707db10cb87064c5b64          5349  RTP/BattleCharSet/Male Bandit B.png
+c7ec9be208d37b9c379e008a0e096562774cad74          8903  RTP/BattleCharSet/Male Elf A.png
+19132c2c863b3361d58119b6366e4541452244af          5549  RTP/BattleCharSet/Male Elf B.png
+db258ff958ea2c8c78e7253dbf752792849318e5          9299  RTP/BattleCharSet/Male Fighter A.png
+148f6f7bc58c1b9bffd7e68b77af2241f5957906          5573  RTP/BattleCharSet/Male Fighter B.png
+cd56aaeeb6651b8adf362b0ff71f0764031be790         10428  RTP/BattleCharSet/Male Hero A.png
+4b631d8b8c7ad71b12552422be63a4d99d932631          5941  RTP/BattleCharSet/Male Hero B.png
+a37a66c17caad7ae8bd9a1545c3985471889bf4e         10034  RTP/BattleCharSet/Male Mage A.png
+0ec4d5d571d6710cdf368b029a656c5a9e7e78c4          6188  RTP/BattleCharSet/Male Mage B.png
+ce28a81c91e90d82a8761f11bd1116fd3a2fffba          9255  RTP/BattleCharSet/Male Monk A.png
+4a7599e52bdefcbd2023765e0e9993b75ff89727          5438  RTP/BattleCharSet/Male Monk B.png
+af5a3fae8c6d4ea40df545420951decbaaebc77b          8388  RTP/BattleCharSet/Male Ninja A.png
+66477c651fc0513fad22319048fbd8ea2e2d65dd          5162  RTP/BattleCharSet/Male Ninja B.png
+18772740b26bb116fcb1bf4aa0a0f97b7e129a8c          9121  RTP/BattleCharSet/Male Pirate A.png
+f4ad8313c180440a0980bc6267c5124b6c9fbfc3          5430  RTP/BattleCharSet/Male Pirate B.png
+b397883f4c36f02051213f9fedf87dc17b9e891e          9539  RTP/BattleCharSet/Male Warrior A.png
+a7b87cfb630d9d5c85da4813446e3dc65068de09          5616  RTP/BattleCharSet/Male Warrior B.png
+794d3a04b77383f5ad76b8bd821da7b762e5edef          9051  RTP/BattleCharSet/Man1 A.png
+9ccccd8e9239dfe1625373b687f76d0f4d7de2e9          5563  RTP/BattleCharSet/Man1 B.png
+11a6e5b3462e448d9041e127bb5c18d314be80f5          8922  RTP/BattleCharSet/Man2 A.png
+0452291d1dfdd2c0f0eb055875e5ab54850f6ece          5790  RTP/BattleCharSet/Man2 B.png
+0d34dcadd7329d041671fbe033960ca772f02c9e          9274  RTP/BattleCharSet/Man3 A.png
+0774a28a5fc8ba31089533a0acc1a7682a05bfd5          5655  RTP/BattleCharSet/Man3 B.png
+8689a78725f8d3037dfb9b7524cefc23e7481248          8832  RTP/BattleCharSet/Man4 A.png
+7f89450217f5af676767b06c9fe30bd69191a50f          5300  RTP/BattleCharSet/Man4 B.png
+c98d95ae916faa0c90147aa9b6e0e0a2de88cbdc          9144  RTP/BattleCharSet/Man5 A.png
+fcef7822afb78520e4a4d3ede18415afbacd124f          5466  RTP/BattleCharSet/Man5 B.png
+326d9e094cf8589a4c202d0ad43219a5573ceb6e          8781  RTP/BattleCharSet/Samurai A.png
+e47e1e57d41c33d2c4c0e52feeb61134d5e58eb0          5409  RTP/BattleCharSet/Samurai B.png
+563ece1230a31bcedeb5ecda8a8e3812c03712e6          8711  RTP/BattleCharSet/Woman1 A.png
+06747799111dcb3d034090180ee80748e5177562          5403  RTP/BattleCharSet/Woman1 B.png
+32c98dac627c8f61be695f9d2aa5f8e4740d9d9a          8733  RTP/BattleCharSet/Woman2 A.png
+a0f5f278a4b75774ed94a08db9e73b44c7f48a81          5306  RTP/BattleCharSet/Woman2 B.png
+cca9a58ce48a16419d0b6f0969d3e048f34d8d33          8450  RTP/BattleCharSet/Woman3 A.png
+e83b236d9ab64392292ced1d705cd2cb8ddc34a7          5119  RTP/BattleCharSet/Woman3 B.png
+99b11e7acaa35521cb24e9860548318e987bc8fd          8929  RTP/BattleCharSet/Woman4 A.png
+b5f2a135843b6f13f13a199d19001d55cadde17e          5298  RTP/BattleCharSet/Woman4 B.png
+2589cc8a0407aa2eae5fd3309a448327a419c769          9261  RTP/BattleCharSet/Woman5 A.png
+6ffbca20fc8c3f81944f4a47d272805ec43f51e2          5393  RTP/BattleCharSet/Woman5 B.png
+f3578ca82be18acb2f0c375d22c193034c2ec93d          5665  RTP/BattleWeapon/Weapon.png
+2e3d96534c72f4f95d8cb6226b6030db223b9a40         11640  RTP/CharSet/Actor1.png
+4cfcdfb6960a9dc6059a60cbcfb050beb7f521b1         12160  RTP/CharSet/Actor2.png
+469ededc947199d91074bcbca0b801e3bece371d         11827  RTP/CharSet/Actor3.png
+660541fa363fd98aa3aa49dd375df6c313beaa7d         11803  RTP/CharSet/Actor4.png
+4320dff21243a7fe2e9ad60c9e7b54e2a4257076          8009  RTP/CharSet/Animal.png
+354020c8d0c7f71eb3b1d662dd6f9474936e71fe         11249  RTP/CharSet/Monster1.png
+c30c72abfa47d5b42ba54c3c499b9164d479439b         16400  RTP/CharSet/Monster2.png
+486800da45259809bb945639326f322cec7fa39e          5821  RTP/CharSet/Object1.png
+7a8cff10ff069148b5fa1eaed087699e70eb5227          5394  RTP/CharSet/Object2.png
+8b1f903e05329f5fda7b277c04af9be07b947df7         10655  RTP/CharSet/People1.png
+d8446c2e11046552dc26b6d20d64ff3fef40d6e8         10799  RTP/CharSet/People2.png
+d18a3143568100f7b4c9d3293403e887128e0a4f         11389  RTP/CharSet/People3.png
+97f7c4a3d677aa726c9f51be5d9f4f1955596f3a         10568  RTP/CharSet/People4.png
+d02ef3c90f98de753485e28d86cda5ba730c71df         10644  RTP/CharSet/People5.png
+a0bb2e7aa911f242ac99e4130a506906d146b3a6         11200  RTP/CharSet/Vehicles.png
+67c612b14f45416469cc3e144c9e33eee8566811         32109  RTP/ChipSet/Dungeon.png
+706aea9936b70acd642a5d3a7005e963d7652c2a         37494  RTP/ChipSet/Exterior.png
+f82488adf1a4571e00815b596f4fd7d31da36db9         34926  RTP/ChipSet/Interior.png
+36965d359920cfc94896807dc89b2f06aef1e9a9         30787  RTP/ChipSet/Ship.png
+e18eeca9674378978b392a2743d660ba9a88182a         35006  RTP/ChipSet/World.png
+9485790d12cdb2e6888ee96d4379d211293b9b41         28142  RTP/FaceSet/Actor1.png
+955a97916b3914929ce8387ae86d1f84cd6bdceb         29491  RTP/FaceSet/Actor2.png
+0eaa8f38f67993322a0e5874218e3210092fa4f9         24592  RTP/FaceSet/Monster.png
+1e1058cf5a80e428010c42d966a0ca3cb1f87c66         30152  RTP/FaceSet/People1.png
+4f4ec73b7514d021a39675848ad451b913b7b3ca         27646  RTP/FaceSet/People2.png
+b86793b352fa5ab2faf71ad7015d4d375b1237f1         27367  RTP/GameOver/Game Over.png
+921d562a0a1072d205508c3678d4e340f729455b          3882  RTP/Monster/Ahriman.png
+104d950a3cf2858e95bc19ef2619bd2806af0b51          3067  RTP/Monster/Alligator.png
+3ef83e65b92b5ccdfd1084c34671248c8456fb97          4559  RTP/Monster/Anaconda.png
+b9e1b63af7f97d26519c7038754b4deba2317faf          8599  RTP/Monster/Asura.png
+21c206d91df227d884089e4adcede8a7dc6bdf16         13132  RTP/Monster/Bahamut.png
+ac4a9e158539d2506ff9214c6df56ac83dc3c6a5          3060  RTP/Monster/Basilisk.png
+9a1094ae9eea6d2bb2d1330364ade853534d363f          1551  RTP/Monster/Bat.png
+364f9a6bc8ace627be3b5f7df978e847f44c27f6         10026  RTP/Monster/Behemoth.png
+29324fa028f6d57d91bd2bdb41a4316eb90a3341          4663  RTP/Monster/Berserker.png
+99df314f1c48c1c17d06bfcc73aea46f25be0246          3870  RTP/Monster/Big Foot.png
+5d5163039ff0db313b886b5a5e7e88e7b6aba2c2          6876  RTP/Monster/Byakko.png
+7ff1745de90ef54d7278d9a6f4d54968303f282b          1958  RTP/Monster/Cait Sith.png
+8f3c100b8d51cb146e93934ef3ce52e40a6646ec          2385  RTP/Monster/Carbuncle.png
+3af2b8ad4ac929650475ab86bfa28df8344f242c          3562  RTP/Monster/Carmilla.png
+39c65b9e8e4636496813463437278f2fb9bf9c94          3979  RTP/Monster/Catoblepas.png
+db4fc4b8bc576d6bc3204f9f735c9f90e85892bb          3126  RTP/Monster/Centaur.png
+39d29c442cb934beba951eef4e3251b207e19dcc          2232  RTP/Monster/Centipede.png
+d72f56b47183a085dc8cca1aadc236fb37a401a1          7698  RTP/Monster/Cerberus.png
+c895f7a2650c38d049006ccd9f9b657a57d2a17b          5386  RTP/Monster/Chimera.png
+639323eece7568971776d20a16bc9a72d72f767c          3686  RTP/Monster/Cockatorice.png
+2825b899897fb3f881599068c1ca0876081915f3          3164  RTP/Monster/Crab.png
+1282a4737ce0e0ba9c4df618197434f80959dc37          3565  RTP/Monster/Crawler.png
+b2fad123cfa78656debd232cd252fe61afb5db75          8400  RTP/Monster/Cyclops.png
+35c6293780e75162bee8ddf95a9693a67546ca44          2892  RTP/Monster/Dark Elf.png
+a7e5d815f1c26f4c33d6d7413e02fa4801db1c15          4112  RTP/Monster/Dark Knight.png
+1b76f787ac5c94acc62956135d2bed3a383bdb8e          3932  RTP/Monster/Demon.png
+9534b835559f176b2d873bbda932a51c8d7751f6          4556  RTP/Monster/Dragon Knight.png
+d5ca46a0caee3e9555bcc9c4f17ae249d13af140         10210  RTP/Monster/Dragon.png
+b1c8302f775afffcbf21bcf8de6b6ed1fd310dfe          2875  RTP/Monster/Elf.png
+a62a26780154505a1305ed8e2daa5d68a3353cd1          2547  RTP/Monster/Fenrir.png
+2daff695d621f1b9dbeeb8164df65fa81197d7f1          3432  RTP/Monster/Gargoyle.png
+ef795b37b715068c638af815a1102b48248d8116          8981  RTP/Monster/Garuda.png
+5d21a85bdc72ed36217206849180d7da08f5d56e          2076  RTP/Monster/Gazer.png
+ac53194ac895d5b512766606dd9f0bc410e81968          8048  RTP/Monster/Genbu.png
+1939081d1e049d18de597ea60bf81fa645dfc91e          2649  RTP/Monster/Ghost.png
+aaf597197a78cd4d16f5cf180539f40d8841b532          2584  RTP/Monster/Ghoul.png
+855dea22d17510fba969112ea12e4ad96f65e92f         10328  RTP/Monster/Giant.png
+323a92eccffa3451e2f95f833b232a5d34f19c44          2715  RTP/Monster/Goblin.png
+cfdb577e3839c270d5ef38e9ffe3dd19fb371609          9261  RTP/Monster/Golem.png
+be4368cc15ee2db1cc0253e4fb1f71d6bab4d7ce          2857  RTP/Monster/Gorgon.png
+0adc30c87a7d490459ed7a32b53cbd8e1f4da771          2050  RTP/Monster/Grell.png
+e454ecc33290599f5ed3e5e6ce3591115d7fcbae          3267  RTP/Monster/Griffon.png
+c7a83f9fbb68b53dd2c6ff662c04036fc7cd30f1          3218  RTP/Monster/Harpy.png
+ec67c9f00fba99e6483a625d6869509dca42131c          1953  RTP/Monster/Hornet.png
+c53879843dcef9f0cf1769cf411a3b487ca03944          3692  RTP/Monster/Horse.png
+510dc19d1ed63f0a17a10fb6969f12e2ec322e6a          9630  RTP/Monster/Hydra.png
+44253acede074aef65ba7d0b524b8bf4258ec004          8592  RTP/Monster/Ifreet.png
+baa208df04e4811010163f01fdece3d93c79bae1          2047  RTP/Monster/Imp.png
+57cb20e30fae8afb744aa88b8e367722f25bc9d7          2188  RTP/Monster/Jack-O-Lantern.png
+2cc3ea6dd9f6a52511a5615a0e4c0784789e41ed          2486  RTP/Monster/Kappa.png
+51f9f4822454382c300c5019cbfcee1789c36f1c          4006  RTP/Monster/Kirin.png
+3b542c333bf006620cc0d7de0dc0158e08224402          2798  RTP/Monster/Kobold.png
+31696f95d7bb321d4462c9c28691bbd2dc5badb4         10263  RTP/Monster/Kraken.png
+2d741f11e8076ff8a6c49e602ba004a67b7f60f2          9815  RTP/Monster/Kyuubi.png
+374aab3738279b40752c00515305922c89157aa1          8524  RTP/Monster/Lakshmi.png
+8781511c7f867b8055744fa8137ffc511212def0          3688  RTP/Monster/Lamia.png
+20442b1c37021da80610580c96823b3f908581b0          6055  RTP/Monster/Leviathan.png
+cd9dea98f4421ebe0d3c9113793a7d8377d706c0         10247  RTP/Monster/Lich.png
+9e62e9ba8ad747f153710646e132c171df07dc5b          9359  RTP/Monster/Lilith.png
+a8d81874d93602be745d474354c9926493db1e19          2944  RTP/Monster/Lizard.png
+6e6eabdceb911c865891e7649bb458ac0abaf56d          3145  RTP/Monster/Lizardman.png
+6544270f8c2b32a79982ccc27ae53b53c0fe7551          9920  RTP/Monster/Mammoth.png
+7d076b4531600a7669c45927e0ac7adaeed0c363          5263  RTP/Monster/Manticore.png
+05f8d8aa42267f22015761692bf607184ef0a85a          2655  RTP/Monster/Mantis.png
+79c65573d7b5af6aa782f559d27309a3471c574f          3020  RTP/Monster/Medusa.png
+2215e7497db8645370b21b7129f1d0b42f0d94d6          9657  RTP/Monster/Midgardsormr.png
+3db367a09743340341208ff49d3be38f5cbc9d03          2774  RTP/Monster/Mimic.png
+bf6d6f188fa84f828aa765c76490c7cb253b9a00          4346  RTP/Monster/Minotaur.png
+b2d712b34cc316bc706a806b0d9a5f6b90f169dd          2492  RTP/Monster/Mummy.png
+c6577dc78dc99b63a22048fbd7d8230277a1029c          3656  RTP/Monster/Necromancer.png
+94d2b710bf203068f3fbd8e2a45b11632f432205          3527  RTP/Monster/Nepenthes.png
+f9dc66b257a1e0af9b59c95e1f3c391a7b9a3450          3096  RTP/Monster/Octopus.png
+90ca9bc6a370090cf63aeb16f3c986ebe96bf001          5499  RTP/Monster/Odin.png
+2990bf34bbca3317adcf481a7fef09014b45fc33          3989  RTP/Monster/Ogre.png
+533bfc039aea1305334be50884e5d4a5595c8c32          3575  RTP/Monster/Oni.png
+d81fafc87ef824556c93753436d3901a821c9b86          3347  RTP/Monster/Orc.png
+2bb670397368f8e9c35765518dddd71027c0d04a          8514  RTP/Monster/Ouroboros.png
+76ce2b0176bbd25aa74069ccf3583ebceed26976          2379  RTP/Monster/Parasite.png
+5057d6cc385b3f916016ba6d1b2d95ff75b055a1          5071  RTP/Monster/Phoenix.png
+5e1fd61b1545dc58f9c0729b4b7bfdfc233977b2          8628  RTP/Monster/Quetzalcoatl.png
+04c93041d8ec0a00d98a21f88210a02970ee4fbd          1789  RTP/Monster/Remora.png
+1fe2e5ec6fbac9d52d63dde6185169fc28227639          8024  RTP/Monster/Ryuu.png
+9ab80fb968828859ee347adee94a5a0303ff4605          3894  RTP/Monster/Sahagin.png
+617e09aa43b56e2d4be1c2331031aa1cff5ed407          2809  RTP/Monster/Salamander.png
+fac0dfbb061d51bacf77417e33527af4043ab1d7         13874  RTP/Monster/Satan.png
+8fce6076ec581856ff4c30592563a82831eca69e          2774  RTP/Monster/Scorpion.png
+52f621202bdcd4b88276e6c6fd41d0cf4281c171          4454  RTP/Monster/Scylla.png
+cbe0f4d4d83f52e59621661378351fe9a0f209f5          5213  RTP/Monster/Seraphim.png
+9df596555ab9325c7d40f8eb1544b8a947cebfec          2131  RTP/Monster/Shadow.png
+9b4a92f1207eb7a6fab59e8f7d2fe45e0b66728c          2863  RTP/Monster/Shark.png
+2e651da5e8ab1457dec4eeb71bea4f528363b4ed          4246  RTP/Monster/Siren.png
+e8eaec7e4f7269ef8e2e9ff92bb0a88001eff111          2421  RTP/Monster/Skeleton.png
+4f1ca17f56c54c8b138979ae40901950635a62d9          1773  RTP/Monster/Slime.png
+15ba2698c5fca9e90b28a95aa1f7c22e34bdec4d          2441  RTP/Monster/Snake.png
+9c5bd7fbe6bd395102cc8cee960e127b50188332          2979  RTP/Monster/Sorcerer.png
+623d40f7f1a0e1e1754c8a208ff09a37fc5538db          2926  RTP/Monster/Spectre.png
+c6ff1fdbb11f8d40360e4bdff89eeb885e74538b          4678  RTP/Monster/Sphinx.png
+b986e38dfe9f03ca03be3c79511e6df6570d7ed9          2051  RTP/Monster/Spirit.png
+7cb352f4b840c503b7bc38c39c30625c9d452bcf          7718  RTP/Monster/Suzaku.png
+fc171122270b1a473f7d2a13b98add3ad7367064          2643  RTP/Monster/Sylph.png
+ef9c93938f76c0eb233d7e3c4af7b1dc7d33a343          1736  RTP/Monster/Tarantula.png
+21b7733aa1b2ba4b537134d46fc4cbcd6df58f71         12500  RTP/Monster/Tiamat.png
+e5accb4c385f150dff9f851baacb50b23bc5346d          7351  RTP/Monster/Titan.png
+73e022acfd6add61ffede60f3ef840d3d90d216b          2848  RTP/Monster/Toad.png
+a540e1e334692d4c8da3656b44009908ba03f56a          4446  RTP/Monster/Treant.png
+588eac018686609ef7e38daf0b7cba83fb3edf08          6978  RTP/Monster/Troll.png
+e97ce459a1e8033d42a8db6e19050dcd5099f61b          5758  RTP/Monster/Undead Knight.png
+96a6b2f0fedfb1cbce36d5c7f6880223ba2e6552          3743  RTP/Monster/Unicorn.png
+00dda76d705e75c305eaa87f7c05b680db2d8669          2992  RTP/Monster/Vampire.png
+6a0d7bb8e502916ffec686fe375e04e8a934ba03          3104  RTP/Monster/Werewolf.png
+52353985de655bde4857662c51dc8b8f54d4c6b1          3487  RTP/Monster/Wight.png
+ebf832a5957b55361633525af85b069af80c5e44          3275  RTP/Monster/Worm.png
+de19788ad702925a7bf3cb0e9d71f2897ba3023a          2214  RTP/Monster/Wraith.png
+722d0b9a18a6d52a4097c58d0da27d621da79d7e          6592  RTP/Monster/Wyvern.png
+8f9c490f2b51845b85ddc94433586c2f6b924883          2868  RTP/Monster/Zombie.png
+722020aabe4fb750d2bc28cb077789e5553a6d2f         42592  RTP/Music/2003Adventurers.mid
+977f7febb41f0c93cbd8a5809658178b472fd551         10916  RTP/Music/2003Ancient City.mid
+92c11a49122d53424c43d073206df1602bda8d21         23641  RTP/Music/2003Battle with an Evil God.mid
+03043e2837fa487e8063decb11a3a37ecaa27a5e         25542  RTP/Music/2003Beginning of a War.mid
+d2deb58bc5b084896c4b33ae477fc756a878cb69         94402  RTP/Music/2003Casino Indulgence.mid
+abed359cc2b5842c80991e63304d77c900f49395          5220  RTP/Music/2003Cathedral.mid
+681cb4afa7f7e1caec148f8243c43e1fc889b16f          3252  RTP/Music/2003Church.mid
+69dfeb50329c4be8bad889cd4fefc6f3e15a89e0         25530  RTP/Music/2003City Bustle.mid
+c5ec44f870efc98e7d323d94d6dbcd67d8fbcf9c         50297  RTP/Music/2003Colosseum.mid
+d7dd5add99a356eb7aeef2efa38c1dd240c8df07         16942  RTP/Music/2003Creeping Darkness.mid
+4a22f85ec6a384763ce8208599bb6d2b934e0dd1         42643  RTP/Music/2003Cyber City.mid
+533ac017d086a8bcea05b31749958e683faeec89          7951  RTP/Music/2003DarkAltar.mid
+e32dd19aeff50037c370b9802766827ac5b7ab08          7566  RTP/Music/2003Deep Memory.mid
+71b82686b6cade9805986e67f4058ed9e274b44a         10635  RTP/Music/2003Deserted Mansion.mid
+2f4c3c8c6d3328214c1f68e5aaa52b20ea14b7e5          6693  RTP/Music/2003Dream Forest.mid
+988fa9e0a4e7a1bb7ef4808f9aa98e682c43faae          7222  RTP/Music/2003Dream of Striking It Rich.mid
+56c535312d6c5502c57d6ab96c95953fd0337d15          5173  RTP/Music/2003Dreaminess.mid
+f909976d4bb28adcbef9b357dd8c3baa3afca678         48359  RTP/Music/2003Empire.mid
+104c310fc8b2025e3e8000ef04f71c40273de766         27671  RTP/Music/2003Exploring Ruins.mid
+3e45088fda66f6aa7c718d356a2faad4beb121f7         61424  RTP/Music/2003Fairy Forest.mid
+ee54b2d94ff60c08d6276834be6dbf7c0c2bca90         76631  RTP/Music/2003Far Eastern Land.mid
+fa887ab4493e1a1334cf9a5ef50538eaa8da42f4         12647  RTP/Music/2003Final Battleground.mid
+a22882df6c2f8c2a8d97e5932007ee576eb69200         12886  RTP/Music/2003Free For All.mid
+70a3416e5c86f9ae303afa9e3c4911930599d362         11504  RTP/Music/2003Healing Spring.mid
+ec5aeff18c52a44a77f174c255bbc5acc19a40d4        114307  RTP/Music/2003Hero's Return.mid
+d506d3fa9cbbeb04d0d4ea526dbd914cc6040a05         39351  RTP/Music/2003Ice Labyrinth.mid
+dc50aa66dbbaaf15f562e8ceb970e4528b5d565f         12027  RTP/Music/2003In the Eternal Flow of Time.mid
+6cf438be1515696ac614dd57ca6ba07ad5cdb39a          7601  RTP/Music/2003Little Army's March.mid
+fc6c966f9677d7e49f85bacdafb9fe70adbb660f         21971  RTP/Music/2003Lonesome Journey.mid
+769f56b4705a177961429652ae07e97c89cdcb2d         16074  RTP/Music/2003Machine Fortress.mid
+a6c61a8d52aee5b2532761f1a8fa1a396c988a7a         28635  RTP/Music/2003Maximum Battle.mid
+c3d630073839ef90fc2c28a8c3cfe4c34c107233         22257  RTP/Music/2003Otherworldly Corridor.mid
+79a17f01e48b186897c4be4a7fcf1aa9f9747be2         18242  RTP/Music/2003Palace Party.mid
+8713d11185b37e551427ce6bbb14638b0308e371          6080  RTP/Music/2003Panic.mid
+52beac04444a7e621b698ef818f11a90aa7b9bc5         51720  RTP/Music/2003Repeated Wars.mid
+e479b84fd97ab1b5f2620fa1a4c5a03c0cb81582         16641  RTP/Music/2003Silence.mid
+827113f76d0b8ae88fe9d490a729293013de2791          4734  RTP/Music/2003Snow Town.mid
+edee52524fc662f9e9f4094527c700aa393b9a9a         99072  RTP/Music/2003Sorrow.mid
+e67540eb039a8ef667d243215f62edf962e02607         23779  RTP/Music/2003Steady Breeze.mid
+ee8f49fd81ba58267afcf08fa6f871603f824e65         71427  RTP/Music/2003Subterranean Maze.mid
+602c72dd54a3fa57616386690630fb8dc2df38c1         19196  RTP/Music/2003SunnyVillage.mid
+3c6bebb5bcfec62f6c37ec028daf5a86722d652a         70921  RTP/Music/2003Tavern.mid
+c7d6112c004295d02934808d155a55314f13a740         25639  RTP/Music/2003Tension.mid
+1260c79fc8f36b6bb19dda11e2cd46eefd8231a5          8984  RTP/Music/2003Village in the Valley.mid
+c802dd3972eb61b94f96a5f62df4fb41a5ccc28e         20261  RTP/Music/2003Village of Savages.mid
+9fec738638d2666e370ae305a6d645f424eba360         83690  RTP/Music/2003Waltz of Blessings.mid
+e3f216cc46e77b60402546e56065d8034bc5a866         91543  RTP/Music/2003Wings to the Sky.mid
+f7832bc9ebaca48406db10dda54ee9965e1f2419          2267  RTP/Music/2003Young Memories.mid
+7b58362dd620b2ceb7433224b002bef73d444e47          9348  RTP/Music/Animal.mid
+dc5cc32fafa442b09ab2d814ed32074d02597234         63666  RTP/Music/Battle 1.mid
+53707908f88c4d8cddcc1b5709552ff2ec890fac         31849  RTP/Music/Battle 2.mid
+1e102151ab79f4a0a15894406c7f38ec47ad50f1         26296  RTP/Music/Battle 3.mid
+8476e0901c020e037a20a659e7a4c93e848e50ab         13813  RTP/Music/Black Market.mid
+c735572861d22dbb7ca94b5128f828ccd122491f         74093  RTP/Music/Boss 1.mid
+482749ab105be59b1b968f6b2f77fa98caf72bac          9776  RTP/Music/Boss 2.mid
+db424320b93a5215f17149b25240b88621aabe60         24471  RTP/Music/Boss 3.mid
+d80e88d8716e07069e343599e1db8497ed329120         25836  RTP/Music/Boss 4.mid
+afef604dd04bca45cf54f0b381f57fc566671eee          7396  RTP/Music/Castle 1.mid
+f911779b43abac1cc3320eecc5026f1ce2932196          7066  RTP/Music/Castle 2.mid
+d4eef9bd6d12a85cc2ef63d1f83795ad953c8a49         10382  RTP/Music/Castle 3.mid
+01d152e2c0ca481198dede246eeed431dc52b446          5575  RTP/Music/Church.mid
+6f8f4ae916666a1bf1fed645856a65bac811c622          9807  RTP/Music/Defeat.mid
+16ff13531c8fee258d2db6e9ce24d94f4cf8a6b6         20383  RTP/Music/Demon Lord.mid
+e50b48a17d842459d3599632975acad552215bb7          5237  RTP/Music/Dungeon 1.mid
+58c6365d98d08c53bc193831b315752fcff899bf         18648  RTP/Music/Dungeon 2.mid
+d5b3aefcb74729b7c0fa92c3b4da395dc7842def         13508  RTP/Music/Dungeon 3.mid
+7883f40310d4f5b76348ea3716cfc1ad8f7892b5         21844  RTP/Music/Dungeon 4.mid
+2aa5fe5d9cb7e50f636346479f4490beaedd7872         25345  RTP/Music/Dungeon 5.mid
+9cd416c3869139cedf02b81bcf7f5c34e05828a2         26445  RTP/Music/Ending 1.mid
+ed09818c83fccbb4799be25d4d3d1cdba2d51409         19181  RTP/Music/Ending 2.mid
+4785dec1dbefc57bf4a391ef485c5625573b2f8e         23436  RTP/Music/Ending 3.mid
+e40617fd6160bca70bdf0324fadd48e058525038          3661  RTP/Music/Exploration.mid
+2971873b17b96eaa814a29176ed9a23b14d271e2         15102  RTP/Music/Fairy 1.mid
+badc405760eb1b391b0aa4f7b892e07bb0f22b5c          6542  RTP/Music/Fairy 2.mid
+a7eb1e59168504f746a068838e6a6caa25af93f4         72636  RTP/Music/Field 1.mid
+c77e50f23d2c067fa6c24db0b31c88296deb0b04         27225  RTP/Music/Field 2.mid
+46f66c08ca6ce260038820410b49db1ca4cf7f23         30670  RTP/Music/Field 3.mid
+928570b52e34ad8d2a790aa51d101b0b4c9111a2         30751  RTP/Music/Field 4.mid
+370da9089c27c1679504b85aa2168d9ccc747b2e          7038  RTP/Music/Game Over 1.mid
+43674c92caf875816c9d6dc18acb51157bea5297          4247  RTP/Music/Game Over 2.mid
+7d4d1c7e2957f49c3fdb31bddd6d2b504a9e6378          6859  RTP/Music/Game Over 3.mid
+d15bb6b78923f1f3e7e07465e5eb72748060f75d          7505  RTP/Music/Ghost Town 1.mid
+20179b9dbf70b3908dafcfb81b34c2a87f8f57e2          3979  RTP/Music/Ghost Town 2.mid
+769497b2070b1e0623e66eee867584199fcf07cb         46974  RTP/Music/Hero 1.mid
+dd8d307ab546116c3a1787f9f0f3068bbdbd2ac0          9928  RTP/Music/Hero 2.mid
+6f51ef39c5f2e689eaa09d82c93bb139b5277af8         15998  RTP/Music/In a Pinch.mid
+997ba8c08c579a01f5114896fd4d26c5647c2782           640  RTP/Music/J2003Horn.mid
+491f4d31325725e9d90425ec0be56cdf6b0406cb           659  RTP/Music/JDoubt.mid
+e82d3cc231bda016cd2230088044741489b31c45          1262  RTP/Music/JEnd of Battle 1.mid
+98b839a1e377ce7518da476d6127ddbfe4596d19          1538  RTP/Music/JEnd of Battle 2.mid
+9ea18c981fb27fbe1b47a5c029727500c8371fe7          1312  RTP/Music/JEnd of Battle 3.mid
+d9100838522d417ef1eb3d6b60f7805138da0ee1          1953  RTP/Music/JEnd of Battle 4.mid
+b2ec126fc4873c7cfbd0a60c977a1d5bf5dde5a5          1276  RTP/Music/JFanfare 1.mid
+5bcc1644b0b2dcf1f1c8c66b9245d7f4b545a825          2197  RTP/Music/JFanfare 2.mid
+70a2de0bdb9d203db0d84c25d2a1b0d2c190ff4f          2918  RTP/Music/JFanfare 3.mid
+8494288ca815b97cb1f9c1c777e6d9af41ee78c6          2282  RTP/Music/JFanfare 4.mid
+226434623854610e5bb6caaab5b7f702b529dc45          1726  RTP/Music/JFanfare 5.mid
+98769a5a82e4a28510b127169923dde2c15fba1d          2319  RTP/Music/JFanfare 6.mid
+14d7a5f8b2fd439a9484505d928f58d4bbc055e4          1642  RTP/Music/JInn 1.mid
+62c35b40915938212f838beb6a58828f7042117b           736  RTP/Music/JInn 2.mid
+c291fff049c511316812fefe8e9908f5f73b2ee4           835  RTP/Music/JItem.mid
+f8fe2f649c6fa8964411de9fe09ce923bbbc409b           769  RTP/Music/JJoke 1.mid
+1919a629f48a6e26bbaa373d1c5fb51250c0ddd6           847  RTP/Music/JJoke 2.mid
+e28d13a033f6677ffd80fdf3e4949a5c2753517e          1039  RTP/Music/JMystery.mid
+79542c7469537de3f31143fa9e2ba232f6213421         31028  RTP/Music/Liveliness.mid
+247b1ae0daf2dac4d969d59e17d0525aaa61d81d         43587  RTP/Music/Lively Market.mid
+7618a71902c401871afb866b8e3fa07beedb8069         26419  RTP/Music/Mystery 1.mid
+64d184096eb1265c5ec92681e3717c4d1b69fdc3          9841  RTP/Music/Mystery 2.mid
+3e7ea3ec76480bb5fb6ea31c32085f01990e69fb          8829  RTP/Music/Mystery 3.mid
+bed01e251b5fd9b5814a49d180664ddbf3efc4c7         48328  RTP/Music/Opening 1.mid
+1d339484687698b02991fb7b7855e9cf78f807c3         26086  RTP/Music/Opening 2.mid
+724ac38e6f98513ebe0b5a4d7916c90c3b2aa834         31110  RTP/Music/Opening 3.mid
+18ed543e8ead1b7045d81550fabef9cb4d779fd0          4409  RTP/Music/Parting 1.mid
+cdc629f4564a0d6973c4fdd3fbed3f0a65c744c2          8120  RTP/Music/Parting 2.mid
+5c41106de347c85326b168a18ee3a4d0d0f9016b         13731  RTP/Music/Repose 1.mid
+3071ceca6aae4b00c7eb9f3bdc5178af38429957          7212  RTP/Music/Repose 2.mid
+ba0c83c792f4689fff2e9c73af1eff48f9271ebe          9771  RTP/Music/Repose 3.mid
+cf74064d7558de3a46a69e74de828fea20c2b265         19384  RTP/Music/SE2003Alarm.wav
+8acd7198daaf54b6a7288f3ff3a92c057f1ff477        187472  RTP/Music/SE2003Bird.wav
+c2db3e522e9407e82e1d2e48d22fb9067951842d        191606  RTP/Music/SE2003Bustle.wav
+4de77a1e37cf0699161d0449f9ec58836ba13223        151306  RTP/Music/SE2003Jungle.wav
+5e306e88c8ab5942af1b6612b2061f9590052cfd        215262  RTP/Music/SE2003Wind.wav
+96cf77a0f65ba8d35e57bd8f490d9be62b35d4b7         43922  RTP/Music/SEClock.wav
+f929eafb78a6c168b5abc790574fee9bd2c13894        103724  RTP/Music/SEDownpour.wav
+8e5e37f3612104d7e5e4bd45002e6e93deb3fd91        126508  RTP/Music/SEEarthquake.wav
+e261b436c3d5120c74af31ffae59476bbb3f73fb         72748  RTP/Music/SERain.wav
+5a66a6ccc0742799f759f2c1986c4238cb1b0968        234540  RTP/Music/SESea.wav
+8ddc5821a6b0c807dbf9ffe8f376e7834741629b          4939  RTP/Music/Secret Treasure.mid
+a022c110af9211a9d72dd569b9faea333a90f3c5         20551  RTP/Music/Ship 1.mid
+3d98f5bd6a42d57032bd86ee8cbbfddfb96b0cce         18360  RTP/Music/Ship 2.mid
+023b57cd10be658db9a3fdd843b92321514f9d06         10112  RTP/Music/Ship 3.mid
+7e987e099a813699b220da7704aded4886bd58f2         16281  RTP/Music/Shop 1.mid
+fa0c31b4b9705341e7c796423772556f79e26dfc         13415  RTP/Music/Shop 2.mid
+9beac0e21b9306aa18f384093665cc2e924fe94a          7499  RTP/Music/Shop 3.mid
+c594b9f0939e5ec0e163738ee1fec6de592ed684         14166  RTP/Music/Sorrow.mid
+3169efa16b735ba04a37a0ab0dd1f3e989e854d6          5114  RTP/Music/Thief.mid
+68ccb384b90570a69fc34ffdcc5ff266c544960a          8249  RTP/Music/Tower 1.mid
+dc3b132cc48e220cda2a9d42e5930854665a91ff          5515  RTP/Music/Tower 2.mid
+eb05f070851953dc588e729217580ef96f0988a7         17062  RTP/Music/Tower 3.mid
+21ee6db7c2e7665df87f2f7f53d654fc3dd7fd3b         29643  RTP/Music/Town 1.mid
+094f05301e1fac07fe0771c2a98b195680955682         24171  RTP/Music/Town 2.mid
+09952db5b2c8d9222ad4c1ff2fd53e989a1d5910         11339  RTP/Music/Town 3.mid
+922e6d9462a09440853977ec2c5309cbb7ab7bab         18256  RTP/Music/Trial.mid
+2f9886946c13e72a464be148cffd3828f88fdf4d         27084  RTP/Music/Vehicle 1.mid
+f5365f3f8eba8f84762d1506149a3fd23d7f1c6b         20724  RTP/Music/Vehicle 2.mid
+6bc32a2a9dce9961713c2193fc80d20d6d89b7ea         21797  RTP/Music/Vehicle 3.mid
+b5005ec64e81b56f380242d580aed3731838f380         13014  RTP/Music/Victory.mid
+74452255e8a689c531ec3b77706052e4beb3b823          8749  RTP/Music/Village 1.mid
+4b81fc63a03daceb68b517b6df216776b205d3e5         10847  RTP/Music/Village 2.mid
+46559270a136c5400696b7c5a052351bee739bba          9286  RTP/Music/Village 3.mid
+93f9d109e920708e5ba27c9d5d08cf16105f33bd         18881  RTP/Music/Wrath.mid
+9d970c59f2795e9ce971c32c8af064c9a82e3ece        106425  RTP/Panorama/Cosmos1.png
+267ba8cb9724c53b91180912ba0ee89038a53813         37144  RTP/Panorama/Dawn1.png
+e500cee8b976f8c777e0fd2519c272c93487244f         97820  RTP/Panorama/Dawn2.png
+48030a75db0362f3e346e8536abdfd89731c5cd9        203435  RTP/Panorama/Dimension Rift.png
+7a60d7c187018e174068913ea7177c8e1fee1c8d         24376  RTP/Panorama/Night Sky1.png
+9fe797bfb6931fe84698dbe9e5d61e637fdde4ea         64973  RTP/Panorama/Night Sky2.png
+f6b1c97f2519d276de190323dff0f6335dff2bb4         20459  RTP/Panorama/Planet1.png
+4119e45da4b7c138b890105200cb0ebb76c2a008         18429  RTP/Panorama/Planet2.png
+c7974e5db83f5d07d12011c5f492dcfd369ff492         22891  RTP/Panorama/Planet3.png
+33182bcc2467a67deabda42b7da1c299478a74a7         31209  RTP/Panorama/Sky1.png
+34e600ef4be488ac88f353ae3f1a663b01c04a16         94873  RTP/Panorama/Sky2.png
+d43e5b5aec5a9164e0d364bb1386d5dd6ee5ee84         28227  RTP/Panorama/Sunset1.png
+95ed3338ceb861a415d1292fffe44b80a9af3127         83277  RTP/Panorama/Sunset2.png
+46ac07993390a702aa4666d5b8f72fcc372c7456         32172  RTP/Sound/Absorb1.wav
+50607def0283cb5e3e1238e787cc6240d5524e73         51044  RTP/Sound/Absorb2.wav
+cca88ab18e77df46c22398475369248a9642282a         23276  RTP/Sound/Attack1.wav
+14da54a8b3d2cc16af8e95d8f95e45196ff962e0         15404  RTP/Sound/Attack2.wav
+05e8280faf35d609fd1e2db80b0867746fa739b8         31148  RTP/Sound/Barrier.wav
+5becdcd1c5270d50ff42205439b8e68b1cff2058         10092  RTP/Sound/Barrier1.wav
+2d088b525e727c32faffeae9eae45110375d8c8b          8812  RTP/Sound/Barrier2.wav
+095f650aed97be2606e9307eb48f6e5d9322027c        122636  RTP/Sound/Bell.wav
+596b677bfe3a74fda3b1cbc22d400f1f4ed1471f         22030  RTP/Sound/Bite.wav
+727e2c2c238fda650a4ed800d7cbde66fea27ea1         60844  RTP/Sound/Blind.wav
+70c9abf5ef19a87c32e810429330c9f193dd659d          7040  RTP/Sound/Blow1.wav
+7d044e75c59544a5b52fd11e7ec39750fc2b6c63          6190  RTP/Sound/Blow2.wav
+58559fa3bb62370c6988b49e90a03fce1d7c6076          6012  RTP/Sound/Blow3.wav
+8d90901219834797c48f0126061a21f7e5a82b43         16118  RTP/Sound/Blow4.wav
+3f05295d536bb64847b930a8ce50028c5e4ef120          6668  RTP/Sound/Blow5.wav
+12c2072f75a22223e1ec691a6ed3b2bfbfb9551b         13398  RTP/Sound/Blow6.wav
+ef90dee339bf5a3672a618c7127a9e92ed2d8969         14900  RTP/Sound/Blow7.wav
+9fa64e443bd741159fbdf1ba895b572bc7d5b4f4         21420  RTP/Sound/Bow1.wav
+8980760509057dabbc38c12a4afee4f342bbb835         29740  RTP/Sound/Bow2.wav
+8cda7b979204da5a4cf5de4af6143b1c47cbca1c         37100  RTP/Sound/Breath.wav
+bc80757653436f0e11ca88cdf8de8916f4ed2372         23340  RTP/Sound/Buff.wav
+4451339f26316dcf4ba6549f4e95e4502bee38fb         13548  RTP/Sound/Buzzer1.wav
+ef9f80bda27e22e050a6acc3c956a3589af258d1         26284  RTP/Sound/Buzzer2.wav
+214de6cd48459628a8563b94185c3def4e3f5908         11372  RTP/Sound/Buzzer3.wav
+79ef3c1acf22a54bd7c42a7789cf4025c3ea406d          5130  RTP/Sound/Buzzer4.wav
+db1f002dd855906b284dd31f31c09513782f98b9          4720  RTP/Sound/Cancel1.wav
+d934738499790db9f451fc6a06204701a96f1ca5          5602  RTP/Sound/Cancel2.wav
+eb36dac9a770d99c9ed3585748c879635dc4cba7         43470  RTP/Sound/Cat.wav
+894f2d13b634abc9d419fb2749d816c34770ce67         53548  RTP/Sound/Chicken.wav
+9f476acafe87977d89009193d318eadb4cd7d44e         32360  RTP/Sound/Chime1.wav
+d6dd12210f6fc1cc327d7841064ceae97ec0d3b5         57388  RTP/Sound/Chime2.wav
+e6f1252674913659e62c56dcd7153deccd5cfb99          4140  RTP/Sound/Clock.wav
+12740e97321bed852d13373ca5db801e3f5a1bf8         33094  RTP/Sound/Close1.wav
+935e20c01e8cdd6eb4872e60ca3c0940a670c357         34364  RTP/Sound/Close2.wav
+f71ed12e737cebb07992d48ed8a8cd1f482bd6f9         47532  RTP/Sound/Collapse1.wav
+9d6d94120eb7eb3d1847bc82820e7e7cf173ebac         25778  RTP/Sound/Collapse2.wav
+9b83badafeef5431e256510bc6572a17d390ba10         86060  RTP/Sound/Combat1.wav
+34c010935ac151844b619dba5f74363a5203276d         65068  RTP/Sound/Combat2.wav
+38134b62035351b7fbec28538418bccf12ca3be0         82400  RTP/Sound/Confusion.wav
+cb9e5b5d7baa842ca3970fe9ec69284f216f5c6a         79916  RTP/Sound/Cow.wav
+d929e85e7efde7f63ed42f4fdfec936a0c6a9ba4           678  RTP/Sound/Cursor1.wav
+37e2e62a6f938750663100d0f33d6ec592064508          3618  RTP/Sound/Cursor2.wav
+cec782277f6f4c88d758c90aca531c05f493408d         13508  RTP/Sound/Damage1.wav
+669c085949089b58ee3b75a134b251671bbd89de          9098  RTP/Sound/Damage2.wav
+71a959df599b01b7530d785baba334261bd12db7         71724  RTP/Sound/Darkness1.wav
+0a2af153b8c9a8873862f10cd8e91d619b60940b         66728  RTP/Sound/Darkness2.wav
+7e1833d1c68186b2222b16e7cd246aef9d22d6f9         58924  RTP/Sound/Darkness3.wav
+0013db1604de570ae105cd78a4f9245f96d64069         46124  RTP/Sound/Darkness4.wav
+33ac3de45ebe8d1011fc80063ae846c7b3ceee66         84396  RTP/Sound/Darkness5.wav
+1976482f6a488c0d8e106c8dd1ad391ef2aae7a5         18922  RTP/Sound/Darkness6.wav
+c3d61767d57385b5e19319111097e9a9e0b1e1ec         37164  RTP/Sound/Debuff.wav
+88e62b2d3e2617246c6a73bbb9a93171e2b9b7bc         11180  RTP/Sound/Decision1.wav
+77ad2a8b2394bf5ef12056bd3e9b08bd6667da54         21548  RTP/Sound/Decision2.wav
+054bed89ce3bd22215fffc99eeca5180bc0ca53b         14344  RTP/Sound/Dog.wav
+8ef47cbc96ab8599b36163c0e41bd83e9a7216c2         36140  RTP/Sound/Earth1.wav
+71a30731db75f2df786d3883a77cdf03ad22dc0e         61228  RTP/Sound/Earth10.wav
+8e840432eefd501525c9eb33ca084033206245d4         54060  RTP/Sound/Earth2.wav
+576deb6de21eefff80f787045821673073efc17b         18156  RTP/Sound/Earth3.wav
+b3a76a961f445eaa16540aec647c4583af17d71c         59948  RTP/Sound/Earth4.wav
+1baf60c02e9056bac6998a992f76b8f7e2d7e5df         42540  RTP/Sound/Earth5.wav
+66f9606de24469c0d046be872a065e023ea703cd         47404  RTP/Sound/Earth6.wav
+b5ac540dcceacf1909b21161988b4cecff44446f         19500  RTP/Sound/Earth7.wav
+b1f56d6dc7dc07301b524e996184b634ecb6829d         22700  RTP/Sound/Earth8.wav
+5363e1cc37373d9a9279a47cd5bf59ed3647a309         64044  RTP/Sound/Earth9.wav
+343fdd6b7d235412fd9a56b712ac2cde5e1939fd        157740  RTP/Sound/Earthquake1.wav
+e0f82fec7081e1e2cc8f6ead92e1486943e82bcc        285228  RTP/Sound/Earthquake2.wav
+54939926f936364ffac96fd46af927fc53f04457         40108  RTP/Sound/Ensnare.wav
+e6045f41c165a0d1eff23bbaf750dcb05158d520         20396  RTP/Sound/Escape.wav
+a20621015b2f72ac36a7fd491ec4f4dc7337770a         16876  RTP/Sound/Evade1.wav
+f882db18e204898450eb83417b52d9dd240075ba          8768  RTP/Sound/Evade2.wav
+f3d1906490fdd546a4082f299995388b15c704da         35372  RTP/Sound/Explosion1.wav
+06060f61aea2496c99c3d6c93b9df2568e146668         40236  RTP/Sound/Explosion2.wav
+0bee97a09810788ef482e550ae6e8ce780833472         48812  RTP/Sound/Explosion3.wav
+aed537e373d89bf8b72360bd4e7660e61bb76dc8         31980  RTP/Sound/Explosion4.wav
+d1ee6a368f3af2fcd10a376790e3425e1f5cf453         42348  RTP/Sound/Explosion5.wav
+4626d069113d447cea0f6d984e069fbe4c7a29a1         48812  RTP/Sound/Explosion6.wav
+2f5607fbce67d3af3f86842198e715eaf7515534         48428  RTP/Sound/Explosion7.wav
+d5785262b978ace9ba939298210451fa7b35949c         36908  RTP/Sound/Fall1.wav
+dfd848eba1d170ef28c12e771917c78022ae8e64         27692  RTP/Sound/Fall2.wav
+3e9cca2a5a07b8ac15fa78287b40d33c0d993733         19756  RTP/Sound/Fire1.wav
+5f37b21e7808c499d5e18cdde8a7fd150ab2b53f         29228  RTP/Sound/Fire2.wav
+26335628911fee568e865b5cd27f966d30f512f4         25132  RTP/Sound/Fire3.wav
+9b5780a5ed9f5be8ff566adf4971ba15676319d3         27052  RTP/Sound/Fire4.wav
+01c858273e0962b99c2845e549aa7c3ee17d6733         29740  RTP/Sound/Fire5.wav
+a47b7b4aad6ddfddfc1d9a0239455082faf848ee         31916  RTP/Sound/Fire6.wav
+4394ca5960ebfc26d89500cb85aede9f768da6ef         33580  RTP/Sound/Fire7.wav
+7c9b1a1182077ae18f2996fc6cb1fc46c766d310         31596  RTP/Sound/Fire8.wav
+098ada6319f82359fc448cc534518af69dad68d7         32684  RTP/Sound/Flash1.wav
+8362232750228be92a1cf61313e604c9c885edd1         72748  RTP/Sound/Flash2.wav
+f4e4871f2d797fafef22af91882fc336ec39ee68        130348  RTP/Sound/Flash3.wav
+53ec065cdc4dfc2a16527ad1bd45833e9dc5f391         39468  RTP/Sound/Fog1.wav
+e95b6fa4f202b18053e255feaabb8d53e29db148         51244  RTP/Sound/Fog2.wav
+64f19112d71e3be7673070c6e4188493f2255ad7         58156  RTP/Sound/Glare.wav
+1474cb18f746b85806d1eba50320cfee522928a4         84736  RTP/Sound/GlassShatter.wav
+7a196a835042354de7979b10d8f69faa8dbda00e         72236  RTP/Sound/Holy1.wav
+de708315826afbe8be1dd783d3be72d57bb580d3         81196  RTP/Sound/Holy2.wav
+c03cb5176a6e72c39be916bd225ff90ae11a9506         23980  RTP/Sound/Holy3.wav
+1faa1629b5af8d9811dfe94a3ffe9ce1431df1d4         78892  RTP/Sound/Holy4.wav
+8d958f4f1dd8a70314f2cd2dc86d4adbe982adbb         36652  RTP/Sound/Holy5.wav
+80464f8cdc4f948e64ec9fd4dd2b0c5ca6ae3546         74540  RTP/Sound/Holy6.wav
+ea9e858c3e0e581d568aabe8e69a4729f2fbe927         83756  RTP/Sound/Holy7.wav
+899b9f6cc9ec1f38093a4fc4654dfaf4510508f4         58924  RTP/Sound/Holy8.wav
+c0f45cc95d3aeb05ddab2aec9e86c2fee0f04133         29484  RTP/Sound/Holy9.wav
+8fa0cde8544bc57ba4b0cf8a7c7893c2cb62cf55         60492  RTP/Sound/Horse.wav
+42b388fd2ee50f30b4914904e12d1ae0b9489704         24620  RTP/Sound/Ice1.wav
+4e0b2a638e410bbba6ab0aee8894518d203c0d93         74028  RTP/Sound/Ice10.wav
+142eefdba5a996f33f2e86efcf63370151ac9c5d         60972  RTP/Sound/Ice11.wav
+ca011b01e3e527f3eec3041e38792bb7e6c9aff7         38956  RTP/Sound/Ice2.wav
+33d779efb09f33a3184b3ec17ff33f0cda1db467         30260  RTP/Sound/Ice3.wav
+8c9b0a243ef4b230020a04a70d77f34a7a2a0e43         63148  RTP/Sound/Ice4.wav
+a6ae10209b2fe178b1fffe017ded56826ae89993         34796  RTP/Sound/Ice5.wav
+71f6c2375e90f47e35b5d7151c21df61bcc378da         45356  RTP/Sound/Ice6.wav
+1eefa80d4568d7d72dafcaf1a87d6d2a1f3e5eaf         75564  RTP/Sound/Ice7.wav
+e565fb9ba97a0d8ecd2e8d8c76dcd38126cfba02         73004  RTP/Sound/Ice8.wav
+e1d46917593dfea465393247af7d5112c83872f1         27308  RTP/Sound/Ice9.wav
+6c73f370e0b8dec08f7b76499866077ffb5947e5         31528  RTP/Sound/Item1.wav
+18cc2010f880c1e5566d326e86afe57128ef03fb         50324  RTP/Sound/Item2.wav
+5ea00a2b7d7d88d537fb55aac267cabc67d93548         10796  RTP/Sound/Jump1.wav
+e372789c39dac242fabac00abf3fa0add7c6ecf5         12908  RTP/Sound/Jump2.wav
+153d80282acdc26abd9d5446f495f02177b2a24f          7590  RTP/Sound/Key.wav
+c0c7f6fd0af3d58d39c875c6a5e934b465ee8809          7976  RTP/Sound/Knock.wav
+00354590b344dc6aaa2571704ea7bfedfba4c400         52588  RTP/Sound/Lion.wav
+e6dc4b07d96b901d51cc602f1a49e39d43c98d93         31596  RTP/Sound/Magic1.wav
+b1b5546afbe42dc109f19438f5b5c7ff1ff55c21         32280  RTP/Sound/Magic2.wav
+352d266bbd6bc562d18f7cbc2e5c37712bbb5cfd        131862  RTP/Sound/Monster1.wav
+1b96596a33533dcfa75b3c7a0118dae5edc2f7f5         66860  RTP/Sound/Monster2.wav
+0c7538a9ba617a48016c7fbed1cfd68f88779bc4         33836  RTP/Sound/Move.wav
+eaead3008fbab5f69de2b321e6118e71c1e769e9         16402  RTP/Sound/Open1.wav
+1c7159abcdb82d19d269caf2470eb236baf50776         27372  RTP/Sound/Open2.wav
+237a81b0422b061ae59c9e5c988b45e7c3fc2203         14884  RTP/Sound/Paralyze1.wav
+dd99e0184445eeb95cc22498770ae46a4bd4a66a         13612  RTP/Sound/Paralyze2.wav
+135f012bcd7f253bd352291c83b8db234b979277         37164  RTP/Sound/Paralyze3.wav
+c92f3d05efecc300a286505237c0af5e9c4ac71a         71212  RTP/Sound/Poison.wav
+4cafcd6525ffd7209ed08516bdb6aef845e620da         43308  RTP/Sound/Pollen.wav
+0e123c53db0656b185afe3ce8e385c715a91f391        220660  RTP/Sound/Rain1.wav
+f35e3e75b0ae8385354cd7364e4f87b244d3a5b1        220660  RTP/Sound/Rain2.wav
+d23289a046b4f94cdff4609be02899807924e52c         49196  RTP/Sound/Raise1.wav
+4730601c940c00a8e9cc532e088732a190423858         49836  RTP/Sound/Raise2.wav
+1c2326ee245785a5aa4310f859557268bf875995         49964  RTP/Sound/Raise3.wav
+0cb67865271329cf491f4e95288cb240482b2b0e         41132  RTP/Sound/Recovery1.wav
+f711d3de958fe96aa6dd98b7037ccb841b4fd647         23468  RTP/Sound/Recovery2.wav
+d99851f70cb57a2170d97240f5231c6250f95477         38188  RTP/Sound/Recovery3.wav
+306d3d07b972125cfae2c2a7778537288fba4a79         47532  RTP/Sound/Recovery4.wav
+a545ac2fc6740451d3e6dd9a7f682634eb9c9feb         94892  RTP/Sound/Recovery5.wav
+4e6f80fbf955d465c89554746bf437d4589e5f84         43820  RTP/Sound/Recovery6.wav
+982e0d37bee019e493da746b47b4d1fdc191cad4         47532  RTP/Sound/Recovery7.wav
+58eb3ea7ee840ca63549809b62ff7da73227bea6         35244  RTP/Sound/Recovery8.wav
+f3076feb1e88529d9b490fae10084ddddfa8eaff         48142  RTP/Sound/Roar.wav
+578a85784e0334a8b864f4cb2c8fd59b88975e49         67628  RTP/Sound/Sandstorm.wav
+fdc5f8802816318b9328f0767d22913fe588ac15        317998  RTP/Sound/Sea1.wav
+ee151f1baf17feefd5fb2ff7f67506e76f832a3d        135724  RTP/Sound/Sea2.wav
+4d4fa0b11e304577de8c38b8eb8bacc68468ea59         42124  RTP/Sound/Sheep.wav
+9e8a812cb90c658e54ff0be6981a8cc31b079941         37420  RTP/Sound/Shot1.wav
+6dc27a8f41a9be0c5f627a58a185d03341040bbb         23084  RTP/Sound/Shot2.wav
+1693289d668114a1524111c36267b6927bee6443         40236  RTP/Sound/Shot3.wav
+579b1839cac8bb283ce89c5e18cec3e2f2a94cab         25260  RTP/Sound/Silence.wav
+cefd214ab2c5d30160c407b151fd712d6e56a32a         12112  RTP/Sound/Slash1.wav
+c5000973f3fea5b10fe700ddb081266847442194          6820  RTP/Sound/Slash10.wav
+fab347cc594481bfd3e6491543217eb393f20b18          7592  RTP/Sound/Slash11.wav
+da8b7b4b0c20ab7b3b92a7818ade709a95f5b261          9320  RTP/Sound/Slash2.wav
+a6e729c41fe5d9745b9559d881571920a40ec7c5          9682  RTP/Sound/Slash3.wav
+d9c614283f0855bc19e2c5695aa75c39629b5eac          8652  RTP/Sound/Slash4.wav
+0aea4d1a62e257416ae2e96614b2a7c8eaa44f05          8622  RTP/Sound/Slash5.wav
+c8b0e80b8b611dbbb21f04e4ec83dc93717127c2          8400  RTP/Sound/Slash6.wav
+a10727168f418b4b48e226d0c34e8cc23ad09532          8842  RTP/Sound/Slash7.wav
+e32cd8420e91289f8a089541ff4695cacfafb1ee          7482  RTP/Sound/Slash8.wav
+0b24a2ca17b18b04ec20cc2c01579af2271f43bf          9650  RTP/Sound/Slash9.wav
+0fe0511d0063e09d3d3409c099e5a4ada23b79f6         41516  RTP/Sound/Sleep.wav
+1b7e867ca93b1d76eb2196199a87fc1255b12b5b         37164  RTP/Sound/Song.wav
+1d5c28a0fa1a9b8e2b6aa1f1405a3a249d4a74e8          8768  RTP/Sound/Switch1.wav
+fc39b16a2cbc5afdc13067204dd28bbc8683e858          3728  RTP/Sound/Switch2.wav
+7b6238cfe40f9f1f9413bb9aa11b3a2b1e4f81e7         11410  RTP/Sound/Sword1.wav
+dd835da406dc1aa56d892d54709868a1cd8b4433         30010  RTP/Sound/Sword2.wav
+78228a6dce30e2a4f563b6d31f991ef7358c13b5         17442  RTP/Sound/Sword3.wav
+49860e9f21aee6c0878d531542862288e120fb44         37396  RTP/Sound/Teleport1.wav
+30290a9ae999b3e7659642d5f79a54fc81bc7a3c         54558  RTP/Sound/Teleport2.wav
+f9ef2ec771e263da1a67e957ec04a91742748e6b         47916  RTP/Sound/Thunder1.wav
+c4e14d6d2bcb257d08b748add4b6f82e282c2181         42796  RTP/Sound/Thunder10.wav
+87e1cc74cab2902c2afc593777da9bf3782f63c9         18156  RTP/Sound/Thunder2.wav
+e2a02b7b1a44ecb80491a5507916cc4627bed94e         31244  RTP/Sound/Thunder3.wav
+2044da35987f3afb61a261fd4ef4a1fcc7673c62         43564  RTP/Sound/Thunder4.wav
+4a48be6a8fbf53d30944d5f7fac8d14c7db68d6e         35116  RTP/Sound/Thunder5.wav
+3dd0250d24e378e7ba850aaf00962ecec06cf7e8         54572  RTP/Sound/Thunder6.wav
+6830210a23666b11c42b9ee7756859cbdd457a18         54956  RTP/Sound/Thunder7.wav
+43592e5e4a3d9863623aa05521bf417c2616daf0         35628  RTP/Sound/Thunder8.wav
+89f42c99a3eb3ed189fe256413cf42eafbd46bf8         84524  RTP/Sound/Thunder9.wav
+08d783529c3cba410747e5085caa8a6fb7a89a40         70700  RTP/Sound/Tiger.wav
+71e460ce967366dec3ae706e9274b5581859b72a         50732  RTP/Sound/Water1.wav
+3802c0c993d04218e8c9f1646986a14a3ff327f3         45612  RTP/Sound/Water2.wav
+981ae87ddce5847cee7c07e5ef21d93ec322bf4f         47916  RTP/Sound/Water3.wav
+267b1c55341948f5ea6a79bd20728fb74ac4ddf7         42028  RTP/Sound/Water4.wav
+4857eb224709981bc9574784e10316747c21682d         70956  RTP/Sound/Water5.wav
+8caa11ba8746c0078c8fa986bf2d4afe0d44c5e0         71212  RTP/Sound/Water6.wav
+542b29780bae94e6f7f405cdcc45f9a020b4634f         44844  RTP/Sound/Wave1.wav
+aaedb7ce4b9bada985a94ed7aa593bdaec75279b         63916  RTP/Sound/Wave2.wav
+185c7e635bf2ac8ee22b2b295b5d8891b120779f         46124  RTP/Sound/Wind1.wav
+516594503f3681640eb043ac396c21dddb3c6efc         54572  RTP/Sound/Wind10.wav
+98a6811cfc5dd9b54332deff83662ceec34f3520         51500  RTP/Sound/Wind11.wav
+bcc576649232dd34d53e4ba7b6300628f298add1         71212  RTP/Sound/Wind2.wav
+dbcd4395d0bfa051ec7719365312329fc4961e28         42796  RTP/Sound/Wind3.wav
+f6956611ff599bef0c15257b4b4af294be473ae0         11372  RTP/Sound/Wind4.wav
+249f05a4fe13ccacb765cf41b93160dfe3c5890c         56876  RTP/Sound/Wind5.wav
+138e33e22599223e93cf521bbf54d8fa8f980c2c         50860  RTP/Sound/Wind6.wav
+66468d55051e05d1e8a8e6c0c7e77f16c93ad76f          5330  RTP/Sound/Wind7.wav
+6a66de27de1fc61e76913e5a5f754f1804fb9cd7         73772  RTP/Sound/Wind8.wav
+dcdc3a505e0bfe8c33a076fb04efc0966f782905         36460  RTP/Sound/Wind9.wav
+338179612e817a546faa1c6f6f05c3953a1b7b91          2075  RTP/System/System.png
+556c289c0827e7beaf8add724c57fa93c491f1e5          2783  RTP/System/SystemA.png
+0785021400767a6217e00b9432c77e88f5251fe3          3018  RTP/System/SystemB.png
+9aa79d43ffc9cdf72c04bf1e3d6bafce88aecc14          3045  RTP/System/SystemC.png
+4570e5cda355d2ed6fe821841d68bc601f84a799          1437  RTP/System2/System2A.png
+d499d0665b4d4dd384338643edfae6ecfe8fc160          1604  RTP/System2/System2B.png
+ff49d132865e210fc1f7393ac09bbcaa5e322102          1526  RTP/System2/System2C.png
+f8bef79be95f51de35f55cdf59c95df0ad20c25b         57002  RTP/Title/Title1.png
+50d64ad07cf5ece1c1099228a97d67f60838d532         81971  RTP/Title/Title2.png
+8780471dbff49e9d596494d6df76167000877362         67471  RTP/Title/Title3.png
+442b7418a17a4fa30491f54144231e343510da8d         62942  RTP/Title/Title4.png
+41de7221b4470eea8b41f1f9262a60dbd84274a6          2752  Sample/ArcheiaPictureTutorial/Map0001.lmu
+e48738014c4fa4914283f9b9e88b78a1b1e32a73          7469  Sample/ArcheiaPictureTutorial/Map0002.lmu
+08ec3c9c985f771c33a9d747cddb61f7cddd68fd          2414  Sample/ArcheiaPictureTutorial/Map0003.lmu
+b3a36beab92eb1f126d008193658ff5cf961b0db            16  Sample/ArcheiaPictureTutorial/Picture_Tutorial.r3proj
+302d8f15356d2cc0e9606b388a904a2a50a7a01e       1032704  Sample/ArcheiaPictureTutorial/RPG_RT.exe
+4c261dd2da8f2f5ea28ae9fe398b1e5bf63d9f7c            98  Sample/ArcheiaPictureTutorial/RPG_RT.ini
+9b10064a160a55c27ae45c0409fb06b5d40c66c8        374229  Sample/ArcheiaPictureTutorial/RPG_RT.ldb
+86336a7bd45103e700ceb1d830c7dd7933851749           335  Sample/ArcheiaPictureTutorial/RPG_RT.lmt
+1a3eb60b07eaf1fbc20ae609826f30bbb6d6188d        124928  Sample/ArcheiaPictureTutorial/ultimate_rt_eb.dll
+4cba33418b21582f42e64be5a2f9a6aa4d00897b         31898  Sample/ArcheiaPictureTutorial/ChipSet/Dungeon.png
+a1fdb1110110602c6d670fc3439d3aef1e67ae47         37418  Sample/ArcheiaPictureTutorial/ChipSet/Exterior.png
+9431a1aa9554cd8d75c1497c773135eea334f327         55746  Sample/ArcheiaPictureTutorial/ChipSet/Interior.png
+416b69e5206ac1a90850a02f124b7a061c32e443         30723  Sample/ArcheiaPictureTutorial/ChipSet/Ship.png
+09b36e751c847fc2e2709d4c7ee44c9ee58bee85         34930  Sample/ArcheiaPictureTutorial/ChipSet/World.png
+f1958917fe2b5a7bd15ebb25278c1fa4c1ff6f23         27674  Sample/ArcheiaPictureTutorial/FaceSet/Actor1.png
+6578eca61b6b9e436d8e78c24674e328880c6281         28952  Sample/ArcheiaPictureTutorial/FaceSet/Actor2.png
+2cbf2148435d3590ec34ee45f5dae5b53fc4cd0c         24635  Sample/ArcheiaPictureTutorial/FaceSet/Monster.png
+7d7813b931213852e12f3379f2a2d8b5c4f32084         27094  Sample/ArcheiaPictureTutorial/FaceSet/People1.png
+b1ca63c22c74d4e8c507908d641734cee26ecdaa         25982  Sample/ArcheiaPictureTutorial/FaceSet/People2.png
+f1def253b75c535d8f6fab869de40bd24b9d06a3          1111  Sample/ArcheiaPictureTutorial/Picture/INPUTDISPLAY.png
+dd898606e7bd0c860a733af6a5a99535569dc657         17007  Sample/ArcheiaPictureTutorial/Picture/POLAROID.png
+b76e1b1f806aec881ab90ad8621a7320f876fd9e          5845  Sample/ArcheiaPictureTutorial/Picture/RTPHEROES[3, 3].png
+45c2b9f64df1dda61fe7e4e96565682c355108e2         17243  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_1.png
+2e4f71da59ff0719ff060ec9463dc075057e9e0c         17277  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_2.png
+6f23682905ad9e3c02240a4a3375b629b410f5e1         16854  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_3.png
+24849d4f66840daf758155af4d5665e0a00f44d8         16652  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_4.png
+cf90cc40373908ee89eec15edefff1ef23af58ec          1720  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_5.png
+bd7b78748771f9ca49ba7224c172def05e702f20         16734  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_6.png
+fe94e96a4a5aad91fa06f1dfcf336bf7ff4ed51b         17080  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_7.png
+a1a60bba60fc640d28bfca7c95d474929d2641a7         17154  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_8.png
+a468d328595873eca7494144af2953a29957f01f         16708  Sample/ArcheiaPictureTutorial/Picture/RTPHERO_9.png
+80a6d9de28eb63d28ca36176b48c235a90140f58           957  Sample/ArcheiaPictureTutorial/Picture/Zahl0.png
+7111163a47f0212fe3c4a78f57d433f497dc846e           910  Sample/ArcheiaPictureTutorial/Picture/Zahl1.png
+18ac75c9ec36caa671d292b7b2139e875a6b45f3           921  Sample/ArcheiaPictureTutorial/Picture/Zahl2.png
+8263461cea87163ff9f78e75c134739f773aee51           934  Sample/ArcheiaPictureTutorial/Picture/Zahl3.png
+18f62efdb222845073f36ca5f0b6fddf914d5671           927  Sample/ArcheiaPictureTutorial/Picture/Zahl4.png
+2878637c37a7193190f0259a4da8a20c0bbc1347           929  Sample/ArcheiaPictureTutorial/Picture/Zahl5.png
+cd8e8cb1645b5ad15a34206131c786c47b8e12b2           936  Sample/ArcheiaPictureTutorial/Picture/Zahl6.png
+5802006f6684c053e11a9116344655464edc4083           919  Sample/ArcheiaPictureTutorial/Picture/Zahl7.png
+4dc19c791d170b550dccb839e0998c672d57847f           927  Sample/ArcheiaPictureTutorial/Picture/Zahl8.png
+b63df558f4e7ca2c01a4f609054be3b6c80295f1           930  Sample/ArcheiaPictureTutorial/Picture/Zahl9.png
+556a7dfedd3780cd4e5adfd5ec6b7e2ddd835613         54653  Sample/ArcheiaPictureTutorial/Picture/[BONUS]_POLAROID_BASE.psd
+03c3b0ae9a6a01a98c5d134b5f4ea28786b71f71          2294  Sample/ArcheiaPictureTutorial/Picture/magiccircle.png
+338179612e817a546faa1c6f6f05c3953a1b7b91          2075  Sample/ArcheiaPictureTutorial/System/System.png
+556c289c0827e7beaf8add724c57fa93c491f1e5          2783  Sample/ArcheiaPictureTutorial/System/SystemA.png
+b121d8fc644cc157474de8e686f02af116970276          2356  Sample/ArcheiaPictureTutorial/System/SystemB.png
+9aa79d43ffc9cdf72c04bf1e3d6bafce88aecc14          3045  Sample/ArcheiaPictureTutorial/System/SystemC.png
+files 737  bytes 33578445  distinct sha1 731  unreadable 0  excluded 0
