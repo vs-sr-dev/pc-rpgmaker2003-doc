@@ -1,0 +1,19 @@
+=== THE CHECK: git ls-files filtered against the five permitted prefixes ===
+exit=1 (1 means the filter is empty, which is what is wanted)
+
+=== POSITIVE CONTROL: drop .gitignore from the filter and it must fire ===
+.gitignore
+exit=0
+
+=== the four paths that must NOT be tracked ===
+  rpgmaker2003-steam     tracked: 0
+  _pre                   tracked: 0
+  _work                  tracked: 0
+  prompt.txt             tracked: 0
+
+=== counts ===
+tracked files : 635
+docs          : 17
+notes         : 72
+tools         : 544
+branch        : master

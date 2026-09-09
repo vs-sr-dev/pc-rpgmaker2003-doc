@@ -1,0 +1,10 @@
+=== read back from the remote, not from the command that set it ===
+url         : https://github.com/vs-sr-dev/pc-rpgmaker2003-doc
+branch      : master
+description : RPG Maker 2003 (Steam 362870, KADOKAWA GAMES): 737 files copied from a live installation and verified on four axes. Half its 731 hashes are already published by pc-rpgmaker2000-doc. Four LCF map files nobody had opened, a geometry no file declares forced to 20x15, and two databases compared for the first time.
+length      : 311  (under 350 : True)
+topics      : digital-preservation, file-formats, lcf, midi, png, reverse-engineering, rpg-maker, steam
+
+=== the game list, pushed on main ===
+96092d0 Add RPG Maker 2003, the third tool in a row and the first that ships a game
+## main...origin/main
