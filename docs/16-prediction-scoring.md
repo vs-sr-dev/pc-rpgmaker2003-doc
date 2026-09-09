@@ -113,14 +113,14 @@ than *restate* it, and three of the thirty-one restated.
 | C49 | **half** | `constructs` | The third test is written, fires on both round stamps, and the collision test fires on the four Borland files; both controls behave. **But the clause predicted "5 of 9" and the answer is 7 of 9 files** — the same inherited conflation as C09 |
 | C50 | **half** | `nonnumeric` | The list is written, with sha1, size, path, vendor, component and evidence offset, and the neighbours are checked. **The clause asked for sha1, size and *version*, and the tool does not print the version.** It is in `notes/verres.txt` and it is not in the list the clause specified |
 | C51 | **hit** | `nonnumeric` | one paragraph, not re-argued, `--expect 3` firing, the name and copyright and version and date published, and the space spent on the two-addresses fact |
-| C52 | **hit** | `nonnumeric` | checked, still present, stated with the command and the counts, said a second time |
+| C52 | **hit** | `nonnumeric` | checked, found still present, stated with the command and the counts — **and then repaired in the neighbour**, once the owner authorised it, with a check that fails on the commit it replaces |
 | C53 | **hit** | `constructs` | re-run unextended, four classes summing to 42, argparse compared with 23 of 40 — **and it is 23 on all three populations** |
 | C54 | **hit** | `lands` | both databases and all four map files, the claim written before the run, residue 0 on all six with the arithmetic printed, fifth through tenth |
 | C55 | **hit** | `lands` | fifth, exit 0, usage printed, and the mechanism named: no argument selects an action, so `main()` falls through to `print_help()` |
 | C56 | **hit** | `constructs` | 22,422,597 against 22,100,528, +322,069 = +1.4573 %, against the previous object's 0.16 % — and the deduplicated total closing the gap the other way |
 | C57 | **half** | `constructs` | The three counts are delivered and sum — 14 inside, 385 in the RTP, 7 nowhere of 406 — **but the clause said `rtpjoin.py` is pointed at the project, and a new tool was written instead**. The instrument named in the clause was not the instrument used |
 | C58 | **hit** | `nonnumeric` | thirty-two initialisms, four buckets, 6 + 3 + 10 + 13 = 32 |
-| C59 | **hit** | `nonnumeric` | eleven in the pre-briefing including arithmetic, and fourteen of this session's own |
+| C59 | **hit** | `nonnumeric` | eleven in the pre-briefing including arithmetic, and fifteen of this session's own |
 | C60 | **hit** | `nonnumeric` | `Saga` = `RPG Maker`, the `Year` argued from four candidates and named, "What it is" saying it is a tool that ships a game, and `rowlen.py` reading **77 rows, 0 over budget** |
 | C61 | **hit** | `constructs` | nineteen named, 4 + 15 = 19, and two different meanings — plus the 10-of-15 mapping onto resolved references |
 | C62 | **hit** | `lands` | offset 617 in the script, the sixteen bytes on disk, **and 149,405 / 149,417 in `ultimate_eb.dll`**, with what can and cannot be established |

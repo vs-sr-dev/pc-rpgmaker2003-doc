@@ -255,7 +255,7 @@ own positive control to fire.
 | `notes/namecensus.txt`, `notes/ne.txt` | **five absolute paths inside two captured Python tracebacks** — the exact defect the previous session recorded |
 | `tools/pathcheck.py` itself | its own selftest fixtures carried this machine's real directory name |
 
-**The third one is the `redact.py` defect, in a new tool, on its first day.** A
+**The third one is the `redact.py` defect, in a new tool, on its first day** — the same defect that had stood in a published neighbour for two objects and that [12](12-whose-bytes.md) closes. A
 checker that hard-codes the string it looks for publishes that string. Its
 fixtures now use a fictional root, and the needles are given on the command line
 so the list is visible rather than compiled in.

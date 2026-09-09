@@ -207,8 +207,8 @@ tools/redact.py
 **Five address shapes, three of them at reserved or obviously fictional domains
 and two at a real one — the same real address, twice.**
 
-**It has not been fixed.** The file is still tracked, the address is still in it
-twice, and this is the second repository in a row to say so.
+**It had not been fixed.** The file was still tracked, the address was still in
+it twice, and this was the second repository in a row to say so.
 
 This session's copy of `redact.py` is the repaired one and carries the check
 that would have caught it:
@@ -219,8 +219,50 @@ no address in this tool's own source is routable   ok   5 specimens, all reserve
 14 checks, 0 failures
 ```
 
-**The fix is one commit in a repository this session does not own**, and the
-standing instruction is not to modify a published neighbour. So it is recorded a
-second time, with the command, and it will be recorded a third time if it is
-still there. **A collection that notices the same leak twice and acts on it
-never is not being careful; it is keeping a diary about not being careful.**
+### And then it was fixed
+
+The paragraph above was written to say that the fix is one commit in a
+repository this session does not own, that the standing instruction is not to
+modify a published neighbour, and that it would be recorded a third time if it
+were still there. **The owner read that and authorised the commit**, so this
+section reports what happened instead of what would have.
+
+The repair is minimal and its scope is stated: **three fixtures and one
+check**. The two that held the real address, plus the high-byte fixture whose
+`.zz` is fictional but not reserved, now use `.invalid` and `.example` — the
+two top-level domains RFC 2606 reserves so that they can never resolve — and
+the check that this repository's own copy carries was added there too.
+
+**The check is its own positive control, because it fails on the commit it
+replaces:**
+
+```
+address shapes in the OLD tools/redact.py   : 5
+of those, NOT at a reserved domain          : 5
+distinct routable addresses among them      : 4
+the real one appeared                       : 2 times
+
+address shapes now                          : 5
+of those, NOT at a reserved domain          : 0
+
+over all 576 tracked files in that repository :
+   address shapes 5, of those routable 0
+```
+
+`pc-rpgmaker95-doc/notes/redact-leak-repaired.txt` carries both controls and
+**does not itself reproduce the address**, which is a trap this session walked
+into once already: the first draft of that note printed the first character of
+each redacted string and used `grep -oc`, which counts lines and not
+occurrences, and reported "5 of 3".
+
+**What was deliberately not changed is the module docstring.** The rule it
+argues belongs to `pc-rpgmaker95-doc` and to the object it was written for; the
+amendment `pc-rpgmaker2000-doc` added and the second amendment
+[this chapter](#the-tutorials-author-and-this-is-the-case-the-rule-was-not-written-for)
+adds belong to their own documents. **A repaired tool is not a licence to
+rewrite a neighbour's argument.**
+
+**Two repositories noticed it and the third one fixed it**, which is one more
+than "a collection keeping a diary about not being careful" — and the thing
+that closed it was not a better rule. It was somebody reading the sentence and
+saying yes.

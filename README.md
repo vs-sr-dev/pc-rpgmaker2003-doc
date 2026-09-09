@@ -38,7 +38,7 @@ another repository's chapter.
 | the programs | eight Delphi source paths, **Delphi 6**, `Enterbrain` in a registry key, and a hook library whose `Hook_WinHelpA` explains why a program written for WinHelp ships a `.chm` |
 | the project | somebody's unfinished tutorial, **signed in the editor's own About box**, whose fifteen empty directories are the visible trace of references that resolved elsewhere |
 | the clocks | **seven false COFF stamps of nine** where the tool reports none, and a September question whose answer is neither of the two dates offered |
-| the personal data | one man's manual giving two addresses three years apart, a MAC address redacted by program, and **a leak in a published neighbour that is still there** |
+| the personal data | one man's manual giving two addresses three years apart, a MAC address redacted by program, and **a leak two repositories had noticed and none had fixed — repaired here, in the neighbour, with a check that fails on the commit it replaces** |
 | the calibration | inherited **29.50 of 31** against 28.61 predicted; open **30.00 of 32** against 23.31, a term of **−6.69** — the largest negative in five sessions, and **produced on purpose by the prescription in force** |
 
 **The headline is a geometry that nothing states.** Three map files carry no
@@ -90,9 +90,9 @@ subtracted.
 | 09 | [the sample project](docs/09-the-sample-project.md) | 47 files of somebody's work, and the tutorial explaining itself |
 | 10 | [the accounting](docs/10-the-accounting.md) | 67,623 bytes in the wrong bucket, and the two sentences they need |
 | 11 | [the clocks](docs/11-the-clocks.md) | seven false stamps, and neither 13 nor 16 September |
-| 12 | [whose bytes](docs/12-whose-bytes.md) | eleven parties, a redaction by program, and a leak still open |
+| 12 | [whose bytes](docs/12-whose-bytes.md) | eleven parties, a redaction by program, and a leak finally closed |
 | 13 | [the tools](docs/13-the-tools.md) | 544 files, 197 new selftest checks, and a count that would not move |
-| 14 | [corrections](docs/14-corrections.md) | eleven in the pre-briefing, fourteen of this session's own |
+| 14 | [corrections](docs/14-corrections.md) | eleven in the pre-briefing, fifteen of this session's own |
 | 15 | [leftovers](docs/15-leftovers.md) | what is still shut, and 32 initialisms in four buckets |
 | 16 | [prediction scoring](docs/16-prediction-scoring.md) | the verdicts, the three bands, and P11 to P13 |
 
