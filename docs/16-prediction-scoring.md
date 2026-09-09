@@ -126,7 +126,7 @@ thirty-one restated.
 | C56 | **hit** | `constructs` | 22,422,597 against 22,100,528, +322,069 = +1.4573 %, against the previous object's 0.16 % — and the deduplicated total closing the gap the other way |
 | C57 | **half** | `constructs` | The three counts are delivered and sum — 14 inside, 385 in the RTP, 7 nowhere of 406 — **but the clause said `rtpjoin.py` is pointed at the project, and a new tool was written instead**. The instrument named in the clause was not the instrument used |
 | C58 | **hit** | `nonnumeric` | thirty-two initialisms, four buckets, 6 + 3 + 10 + 13 = 32 |
-| C59 | **hit** | `nonnumeric` | eleven in the pre-briefing including arithmetic, and fifteen of this session's own |
+| C59 | **hit** | `nonnumeric` | eleven in the pre-briefing including arithmetic, and sixteen of this session's own |
 | C60 | **hit** | `nonnumeric` | `Saga` = `RPG Maker`, the `Year` argued from four candidates and named, "What it is" saying it is a tool that ships a game, and `rowlen.py` reading **77 rows, 0 over budget** |
 | C61 | **hit** | `constructs` | nineteen named, 4 + 15 = 19, and two different meanings — plus the 10-of-15 mapping onto resolved references |
 | C62 | **hit** | `lands` | offset 617 in the script, the sixteen bytes on disk, **and 149,405 / 149,417 in `ultimate_eb.dll`**, with what can and cannot be established |

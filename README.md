@@ -92,7 +92,7 @@ subtracted.
 | 11 | [the clocks](docs/11-the-clocks.md) | seven false stamps, and neither 13 nor 16 September |
 | 12 | [whose bytes](docs/12-whose-bytes.md) | eleven parties, a redaction by program, and a leak finally closed |
 | 13 | [the tools](docs/13-the-tools.md) | 544 files, 197 new selftest checks, and a count that would not move |
-| 14 | [corrections](docs/14-corrections.md) | eleven in the pre-briefing, fifteen of this session's own |
+| 14 | [corrections](docs/14-corrections.md) | eleven in the pre-briefing, sixteen of this session's own, the last found after publication |
 | 15 | [leftovers](docs/15-leftovers.md) | what is still shut, and 32 initialisms in four buckets |
 | 16 | [prediction scoring](docs/16-prediction-scoring.md) | the verdicts, the three bands, and P11 to P13 |
 

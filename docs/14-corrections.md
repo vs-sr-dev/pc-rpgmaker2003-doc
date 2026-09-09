@@ -1,6 +1,6 @@
-# 14 — corrections: eleven in the pre-briefing, fifteen of this session's own, and five violations of the rule this session declared unbreakable
+# 14 — corrections: eleven in the pre-briefing, sixteen of this session's own, and five violations of the rule this session declared unbreakable
 
-*Measure: every correction below names the command that establishes it. There are **eleven** in the pre-briefing and **fifteen** of this session's own, numbered 1 to 26. The
+*Measure: every correction below names the command that establishes it. There are **eleven** in the pre-briefing and **sixteen** of this session's own, numbered 1 to 27, and the last was found after the repository was published. The
 pre-briefing reported **none of its own**, which is the first time in nine
 objects, so the first section is the result of looking for them rather than of
 being handed them.*
